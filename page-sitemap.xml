@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://anki.wiki</loc>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/shop/%25E5%25A4%258D%25E4%25B9%25A0%25E7%259A%2584%25E6%258A%2580%25E6%259C%25AF/%25E6%259C%25AC%25E5%2591%25A8%25E6%259B%25B4%25E6%2596%25B0.html</loc>
+        <lastmod>2020-04-06T10:26:29.853Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/shop/%25E5%25A4%258D%25E4%25B9%25A0%25E7%259A%2584%25E6%258A%2580%25E6%259C%25AF/%25E8%25AF%25BE%25E7%25A8%258B%25E8%25B5%2584%25E6%2596%2599.html</loc>
+        <lastmod>2020-04-06T08:35:27.593Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/about/%25E5%2585%25B3%25E4%25BA%258E%25E5%258D%259A%25E4%25B8%25BB/%25E5%2585%25B3%25E4%25BA%258E%25E5%258D%259A%25E4%25B8%25BB.html</loc>
+        <lastmod>2020-03-12T03:22:07.692Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/qa/</loc>
+        <lastmod>2020-03-09T18:26:26.622Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/shop/</loc>
+        <lastmod>2019-09-28T12:16:55.788Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/shop/%25E5%25A4%258D%25E4%25B9%25A0%25E7%259A%2584%25E6%258A%2580%25E6%259C%25AF/%25E8%25AF%25BE%25E7%25A8%258B%25E4%25BB%258B%25E7%25BB%258D.html</loc>
+        <lastmod>2019-08-19T08:47:24.632Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/shop/%25E5%25A4%258D%25E4%25B9%25A0%25E7%259A%2584%25E6%258A%2580%25E6%259C%25AF/%25E8%25B4%25AD%25E4%25B9%25B0%25E8%25AF%25BE%25E7%25A8%258B.html</loc>
+        <lastmod>2019-07-30T07:11:19.658Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/shop/%25E5%25A4%258D%25E4%25B9%25A0%25E7%259A%2584%25E6%258A%2580%25E6%259C%25AF/%25E5%25AD%25A6%25E4%25B9%25A0%25E8%25B7%25AF%25E5%25BE%2584.html</loc>
+        <lastmod>2019-06-08T01:05:32.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/shop/%25E8%25AF%25BE%25E7%25A8%258B%25E4%25BB%258B%25E7%25BB%258D-%25E8%25BF%259C%25E7%25A8%258B%25E6%2595%2599%25E5%25AD%25A6%25E4%25B8%258E%25E8%25AF%258A%25E6%2596%25AD%25E5%2592%25A8%25E8%25AF%25A2.html</loc>
+        <lastmod>2019-06-03T12:37:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/shop/%25E8%25AF%25BE%25E7%25A8%258B%25E4%25BB%258B%25E7%25BB%258D-%25E5%259B%25BE%25E5%25BA%258A%25E6%259C%258D%25E5%258A%25A1.html</loc>
+        <lastmod>2019-06-03T12:37:34.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/about/</loc>
+        <lastmod>2019-05-15T02:07:05.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/about/%25E6%2588%2591%25E7%259A%2584%25E5%25B7%25A5%25E5%2585%25B7/%25E6%2588%2591%25E7%259A%2584%25E5%25B7%25A5%25E5%2585%25B7.html</loc>
+        <lastmod>2019-05-10T01:57:06.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/about/%25E6%2588%2591%25E7%259A%2584%25E7%25A4%25BE%25E7%25BE%25A4/%25E6%2588%2591%25E5%2592%258C%25E5%25AD%25A6%25E5%2591%2598%25E4%25BB%25AC%25E7%259A%2584%25E5%25BE%25AE%25E4%25BF%25A1%25E7%25BE%25A4.html</loc>
+        <lastmod>2019-05-10T01:52:49.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/about/%25E6%2588%2591%25E7%259A%2584%25E4%25B9%25A6%25E5%258D%2595/%25E6%2588%2591%25E7%259A%2584%25E4%25B9%25A6%25E5%258D%2595.html</loc>
+        <lastmod>2019-05-09T10:13:40.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/qa/002-bi-jiao-gezhi-zanting-he-biaoji.html</loc>
+        <lastmod>2019-04-24T07:32:13.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/qa/008-kuaisuqiehuantixing-chajian-baocuo-zenmeban%2520-%2520%25E5%2589%25AF%25E6%259C%25AC.html</loc>
+        <lastmod>2019-04-24T07:32:09.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/qa/007-zen-me-she-zhi-fuji-he-ziji-de-jiyiku.html</loc>
+        <lastmod>2019-04-24T07:32:01.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/qa/006-tian-jia-dan-ci-fa-yin-de-chajian-awesometts-bao-cuo.html</loc>
+        <lastmod>2019-04-24T07:31:55.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/qa/005-zen-me-zhi-dao-chu-yi-bu-fen-bi-ji.html</loc>
+        <lastmod>2019-04-24T07:31:48.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/qa/004-qu-na-xia-zai-ankidroid.html</loc>
+        <lastmod>2019-04-24T07:09:42.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/qa/003-bi-jiao-zhengfanmian-he-alternative-zhengfanmian.html</loc>
+        <lastmod>2019-04-24T07:09:30.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/qa/001-bi-jiao-biji-he-kapian.html</loc>
+        <lastmod>2019-04-24T07:09:16.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/categories/</loc>
+        <lastmod>2018-10-04T14:11:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/tags/</loc>
+        <lastmod>2018-10-04T14:11:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://anki.wiki/404.html</loc>
+        <lastmod>2018-10-04T14:11:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+</urlset>
+<!-- XML Sitemap generated by Hexo SEO Friendly Sitemap Generator -->
