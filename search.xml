@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>002 Anki手机版常用格式代码</title>
+    <title>Anki手机版常用格式代码</title>
     <url>/2017/01/09/</url>
     <content><![CDATA[<p>本文接<a href="https://anki.wiki/2018/03/05/index.html">如何在Anki手机版开启强大的编辑功能</a>。</p>
 <p>通过手机输入法的快捷短语，将这些代码置于其中，就可以快速实现Anki手机版的格式编辑。</p>
@@ -45,19 +45,11 @@
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">sub</span>&gt;</span>这里换成需要设置格式的文本<span class="tag">&lt;/<span class="name">sub</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <p>强制换行符</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>暗记教程</category>
-      </categories>
-      <tags>
-        <tag>手机版</tag>
-        <tag>编辑</tag>
-        <tag>格式</tag>
-        <tag>代码</tag>
-      </tags>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br></pre></td></tr></table></figure>
+]]></content>
   </entry>
   <entry>
-    <title>001 如何在Anki手机版开启强大的编辑功能</title>
+    <title>如何在Anki手机版开启强大的编辑功能</title>
     <url>/2017/01/02/</url>
     <content><![CDATA[<p>通过找出常用样式的代码，然后添加到手机输入法的快捷短语里，实现Anki手机版的格式编辑功能。</p>
 <p><img src="http://myself.anki.wiki/mpic/20190508/XiPIDxmCsQ2Y.jpg" alt="mark"></p>
@@ -76,14 +68,5 @@
 <hr>
 <p>常用代码详见<a href="https://anki.wiki/2018/03/06/index.html">Anki手机版常用格式代码</a></p>
 ]]></content>
-      <categories>
-        <category>暗记教程</category>
-      </categories>
-      <tags>
-        <tag>手机版</tag>
-        <tag>编辑</tag>
-        <tag>格式</tag>
-        <tag>代码</tag>
-      </tags>
   </entry>
 </search>
