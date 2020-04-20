@@ -52,14 +52,14 @@
     </url>
 
     <url>
-        <loc>https://anki.wiki/tags/%25E5%25AD%25A6%25E4%25B9%25A0%25E6%2596%25B9%25E6%25B3%2595/</loc>
+        <loc>https://anki.wiki/tags/%25E8%25B0%2583%25E7%25A0%2594/</loc>
         <lastmod>2020-03-18T09:09:29.546Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://anki.wiki/tags/%25E8%25B0%2583%25E7%25A0%2594/</loc>
+        <loc>https://anki.wiki/tags/%25E5%25AD%25A6%25E4%25B9%25A0%25E6%2596%25B9%25E6%25B3%2595/</loc>
         <lastmod>2020-03-18T09:09:29.546Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -108,13 +108,6 @@
     </url>
 
     <url>
-        <loc>https://anki.wiki/tags/%25E7%25AD%259B%25E9%2580%2589/</loc>
-        <lastmod>2020-03-13T14:08:45.421Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://anki.wiki/tags/%25E5%25BC%25BA%25E5%258C%2596%25E5%25AD%25A6%25E4%25B9%25A0/</loc>
         <lastmod>2020-03-13T14:08:45.421Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -137,6 +130,13 @@
 
     <url>
         <loc>https://anki.wiki/tags/%25E7%2586%259F%25E6%2582%2589%25E7%25A8%258B%25E5%25BA%25A6/</loc>
+        <lastmod>2020-03-13T14:08:45.421Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://anki.wiki/tags/%25E7%25AD%259B%25E9%2580%2589/</loc>
         <lastmod>2020-03-13T14:08:45.421Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
