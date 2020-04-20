@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://anki.wiki/qa/</loc>
+        <lastmod>2020-04-20T11:05:53.104Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://anki.wiki/qa/%25E5%25A6%2582%25E4%25BD%2595%25E9%25A2%2584%25E9%2598%25B2%25E7%25AC%2594%25E8%25AE%25B0%25E5%25A0%2586%25E7%25A7%25AF.html</loc>
         <lastmod>2020-04-20T11:03:40.223Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,13 +24,6 @@
     <url>
         <loc>https://anki.wiki/qa/%25E6%25A8%25A1%25E6%259D%25BF%25E4%25B8%258E%25E4%25BD%25BF%25E7%2594%25A8%25E6%2596%25B9%25E6%25B3%2595.html</loc>
         <lastmod>2020-04-20T11:03:30.866Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://anki.wiki/qa/</loc>
-        <lastmod>2020-04-20T10:49:24.765Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
