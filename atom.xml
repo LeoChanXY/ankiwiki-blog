@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>ѧϰ����</title>
+  <title>学习骇客</title>
   
-  <subtitle>�ü���������ѧ����ѧϰ</subtitle>
+  <subtitle>用技术和心理学改善学习</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anki.wiki/"/>
@@ -10,7 +10,7 @@
   <id>https://anki.wiki/</id>
   
   <author>
-    <name>LEO ѧϰ����</name>
+    <name>LEO 学习骇客</name>
     
   </author>
   
