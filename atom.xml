@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anki.wiki/"/>
-  <updated>2020-04-01T14:55:39.507Z</updated>
+  <updated>2020-04-20T08:53:46.372Z</updated>
   <id>https://anki.wiki/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://anki.wiki/2017/03/30/"/>
     <id>https://anki.wiki/2017/03/30/</id>
     <published>2017-03-30T12:10:00.000Z</published>
-    <updated>2020-04-01T14:55:39.507Z</updated>
+    <updated>2020-04-20T08:53:46.372Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="故障1："><a href="#故障1：" class="headerlink" title="故障1："></a>故障1：</h4><p>笔记里含有重复项。</p><h4 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h4><p>先肉眼排查，如果无法确认重复项，可以通过分批增加笔记条目的形式排查。对于确需重复的条目，可以增加一些可有可无的序号、时间或日期在其中。</p><p>排查方法指的是分批增加条目，在哪一步无法识别，就说明问题出在哪一条笔记。</p><p>再就没有其他方法了。</p>]]></content>
+    <content type="html"><![CDATA[<h4 id="故障1："><a href="#故障1：" class="headerlink" title="故障1："></a>故障1：</h4><p>笔记里含有重复项。</p><h4 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h4><p>先肉眼排查，如果无法确认重复项，可以通过分批增加笔记条目的形式排查。对于确需重复的条目，可以增加一些可有可无的序号、时间或日期在其中。</p><p>排查方法指的是分批增加条目，在哪一步无法识别，就说明问题出在哪一条笔记。</p><p>再就没有其他方法了。</p><h4 id="故障2："><a href="#故障2：" class="headerlink" title="故障2："></a>故障2：</h4><p>幕布笔记没有加载完。<br>尤其是当笔记比较多的时候，不要着急导出，先等笔记加载完，再点击导出。<br>如果笔记还没有加载完，导出的文件可能是不完整的或损坏的。</p>]]></content>
     
     <summary type="html">
     
