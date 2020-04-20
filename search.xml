@@ -1,38 +1,201 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>003 如何预防笔记堆积？</title>
-    <url>/2017/01/16/</url>
-    <content><![CDATA[<h4 id="When"><a href="#When" class="headerlink" title="When"></a>When</h4><ol>
-<li>时间太少，例如出差了，或者全家放假外出游玩了；</li>
-<li>笔记太多，例如一时高兴做了很多笔记，或者集中导入了很多笔记。</li>
-</ol>
-<h4 id="How"><a href="#How" class="headerlink" title="How"></a>How</h4><ol>
-<li>提前预防，当我们知道过几天就可能没时间学习复习的时候；</li>
-<li>切换方案，切换成 新学0/复习all 的学习方案。</li>
-</ol>
-<h4 id="What"><a href="#What" class="headerlink" title="What"></a>What</h4><ol>
-<li>新学任务没有了，总的任务量会减少很多；</li>
-<li>复习任务量慢慢也会降下来；</li>
-<li>等到出差或游玩去了时，只需要花费一点点时间就可以把学习任务带着做了。</li>
-</ol>
-<h4 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h4><ol>
-<li>把学习方案改成 新学0/复习0 只是让ANKI不显示，效果相当于“掩耳盗铃；</li>
-<li>我们脑子里该发生的遗忘还是会发生，并且之后仍需要花更多的时间把任务拾起来；</li>
-<li>等打开恢复ANKI里学习方案那一刻，拖延没复习的笔记也会冒出来，任务并没有减少。</li>
-</ol>
-<blockquote>
-<p>“宁可不进步，也不能退步。”是一个很重要的学习原则。</p>
-</blockquote>
+    <title>014 opml2anki的常见故障与排查方法</title>
+    <url>/2017/03/30/</url>
+    <content><![CDATA[<h4 id="故障1："><a href="#故障1：" class="headerlink" title="故障1："></a>故障1：</h4><p>笔记里含有重复项。</p>
+<h4 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h4><p>先肉眼排查，如果无法确认重复项，可以通过分批增加笔记条目的形式排查。对于确需重复的条目，可以增加一些可有可无的序号、时间或日期在其中。</p>
+<p>排查方法指的是分批增加条目，在哪一步无法识别，就说明问题出在哪一条笔记。</p>
+<p>再就没有其他方法了。</p>
+<h4 id="故障2："><a href="#故障2：" class="headerlink" title="故障2："></a>故障2：</h4><p>幕布笔记没有加载完。<br>尤其是当笔记比较多的时候，不要着急导出，先等笔记加载完，再点击导出。<br>如果笔记还没有加载完，导出的文件可能是不完整的或损坏的。</p>
 ]]></content>
       <categories>
         <category>暗记教程</category>
       </categories>
       <tags>
-        <tag>拖延</tag>
-        <tag>假期</tag>
-        <tag>堆积</tag>
-        <tag>复习</tag>
+        <tag>故障</tag>
+        <tag>幕布</tag>
+        <tag>opml2anki</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>013 我为什么要把幕布笔记转写到ANKI？</title>
+    <url>/2017/03/26/</url>
+    <content><![CDATA[<p>通过评论提交：</p>
+<ol>
+<li>我为什么用幕布？</li>
+<li>我为什么用ANKI？</li>
+<li>我为什么用幕布转ANKI的工具？</li>
+<li>我希望幕布能针对ANKI有什么官方层面的改进？</li>
+</ol>
+<hr>
+<p>参考资料：</p>
+<ol>
+<li>幕布转ANKI的方法 <a href="https://mp.weixin.qq.com/s/iadrBR9YCRoUn0ANzm0O2A" target="_blank" rel="noopener" >点击查看</a></li>
+<li>幕布转ANKI的工具 <a href="https://hintsnet.com/tools/opml2anki/" target="_blank" rel="noopener" >点击打开</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>暗记教程</category>
+      </categories>
+      <tags>
+        <tag>学习方法</tag>
+        <tag>调研</tag>
+        <tag>读书笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>012 浏览器点击无反应的拦截解决问题</title>
+    <url>/2017/03/19/</url>
+    <content><![CDATA[<h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><p>当我们点击下载时，常常遇到浏览器无反应的情况，这大多是由于浏览器拦截了弹窗。</p>
+<h4 id="什么是弹窗"><a href="#什么是弹窗" class="headerlink" title="什么是弹窗"></a>什么是弹窗</h4><p>因为下载文件常常要弹出下载窗口，如下图所示</p>
+<p><img src="http://myself.anki.wiki/mpic/20200420/MPgxGfyV7olB.png" alt="mark"></p>
+<h4 id="为什么会被拦截"><a href="#为什么会被拦截" class="headerlink" title="为什么会被拦截"></a>为什么会被拦截</h4><p>有些时候是浏览器默认拦截，因为浏览器把弹窗当成了不该出现的东西，比如影响浏览体验的广告，可能存在安全隐患的网页插件等。</p>
+<p>有时候是安装了广告拦截插件，弹窗被误认为是广告，所以也给拦截了。</p>
+<h4 id="怎么解决"><a href="#怎么解决" class="headerlink" title="怎么解决"></a>怎么解决</h4><p>浏览器比较多，可以在百度里搜索“XX浏览器 弹窗拦截”。</p>
+<p>比如点击查看<a href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=360%20%E6%B5%8F%E8%A7%88%E5%99%A8%20%E5%BC%B9%E7%AA%97%E6%8B%A6%E6%88%AA&rsv_t=8a44F%2BrGl62q0EcSTAZNmCja%2B1s7TbsknVCLQ2p0VG5%2FybB7dreX9Pez64c&rsv_enter=1&rsv_dl=tb&rsv_sug3=9&rsv_sug1=8&rsv_sug7=100&rsv_sug2=0&inputT=5533&rsv_sug4=6077" target="_blank" rel="noopener" >360浏览器弹窗拦截</a></p>
+<p>还可能换Google的Chrome浏览器，点击<a href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=Chrome%20%E6%B5%8F%E8%A7%88%E5%99%A8%20%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E5%8C%85&oq=%2526lt%253B60%2520%25E6%25B5%258F%25E8%25A7%2588%25E5%2599%25A8%2520%25E5%25BC%25B9%25E7%25AA%2597%25E6%258B%25A6%25E6%2588%25AA&rsv_pq=fed094f700135680&rsv_t=38d2xuiwzb0EVvd41PTRK9VyxhqdXfwY3GQNLEHTtTpsK%2FP9zeSNe4K90is&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_sug3=5&rsv_sug1=5&rsv_sug7=100&rsv_sug2=0&inputT=4962&rsv_sug4=4962" target="_blank" rel="noopener" >下载Chrome离线安装包</a></p>
+]]></content>
+      <categories>
+        <category>效率工具</category>
+      </categories>
+      <tags>
+        <tag>浏览器</tag>
+        <tag>拦截</tag>
+        <tag>下载</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>011 心理弹性：学习的支撑条件</title>
+    <url>/2017/03/12/</url>
+    <content><![CDATA[<p>我给大家做咨询比较多，分享一点直接经验和间接经验吧  </p>
+<p>当我们学习不在状态，或者学习没有动力时，这不是一个局部问题，而是一项项系统问题，可以参考斯坦福大学心理健康中心关于【心理弹性】的介绍，从多个方面进行改善。</p>
+<p>例如我们平时知道但却不在乎的『connect with people』和『connect with nature』在疫情期间都显得尤其明显，当我们只有一件事很少得到外界刺激时，心理弹性就很脆弱，很难静下心来，很烦躁。</p>
+<p>「斯坦福大学官网心理弹性」</p>
+<p><a href="http://myself.anki.wiki/mpic/20200314/lVocSyVghn9h.png" target="_blank" rel="noopener">http://myself.anki.wiki/mpic/20200314/lVocSyVghn9h.png</a></p>
+<p>「斯坦福大学心理健康中心」</p>
+<p><a href="https://health.cornell.edu/resources/health-topics/stress-management" target="_blank" rel="noopener">https://health.cornell.edu/resources/health-topics/stress-management</a></p>
+<p>状态不好有很多方法调整，可以通过找榜样，也可以通过打鸡血，但更有效的方法是先让自己做成一两件小事，用“做成事”给自己实实在在的信心，或者不妨从改善学习开始，关注公众号【学习骇客】有一些方法可以试一试</p>
+<p>例如：《anki是如何帮助我们做到专注的？》 <a href="https://mp.weixin.qq.com/s/PkYDGkT6cXGrDjtmvmq6Jw" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/PkYDGkT6cXGrDjtmvmq6Jw</a> </p>
+<p>例如：《改善思考的两个方法》 <a href="https://mp.weixin.qq.com/s/2yhxPVgnmhyV5pEzWNt4yQ" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/2yhxPVgnmhyV5pEzWNt4yQ</a> </p>
+<p>例如：《ANKI公开课：如何用起来？如何用好？》 <a href="https://mp.weixin.qq.com/s/YaDWLF8aAkOdl3LTNkOfkg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/YaDWLF8aAkOdl3LTNkOfkg</a> </p>
+<hr>
+<p>道是无情却有情 ＜(▰˘◡˘▰)  </p>
+]]></content>
+      <categories>
+        <category>学习科学</category>
+      </categories>
+      <tags>
+        <tag>学习方法</tag>
+        <tag>动机</tag>
+        <tag>状态</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>010 Markdown转ANKI常见错误</title>
+    <url>/2017/03/05/</url>
+    <content><![CDATA[<h4 id="不能使用相同字段"><a href="#不能使用相同字段" class="headerlink" title="不能使用相同字段"></a>不能使用相同字段</h4><p><img src="http://myself.anki.wiki/mpic/20200313/CAmlAAhSNX0s.png" alt="mark"></p>
+]]></content>
+      <categories>
+        <category>暗记教程</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>印象笔记</tag>
+        <tag>md2anki</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>009 如何将不同熟悉程度的笔记找出来？</title>
+    <url>/2017/02/26/</url>
+    <content><![CDATA[<p>结合 008 如何使用组合搜索条件，可以进行更自由的搜索筛选。</p>
+<p>未完待续</p>
+]]></content>
+      <categories>
+        <category>暗记教程</category>
+      </categories>
+      <tags>
+        <tag>筛选</tag>
+        <tag>熟悉程度</tag>
+        <tag>困难</tag>
+        <tag>简单</tag>
+        <tag>强化学习</tag>
+        <tag>筛选学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>008 如何使用组合搜索条件？</title>
+    <url>/2017/02/19/</url>
+    <content><![CDATA[<h4 id="进入"><a href="#进入" class="headerlink" title="进入"></a>进入</h4><p>这个不要记，因为不是很频繁，没必要为了一个1分钟的事情再花3分钟去记。</p>
+<p>从电脑版ANKI的“浏览”模块进入。</p>
+<h4 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h4><p>先学会查看单个搜索条件，搜索条件会显示在右侧输入框里。</p>
+<h4 id="寻找"><a href="#寻找" class="headerlink" title="寻找"></a>寻找</h4><ol>
+<li>全部笔记，这个条件其实是没有条件，因此输入框里什么都没有；</li>
+<li>点击左侧记忆库名称，就能看到某个记忆库的搜索条件；</li>
+<li>同样地，点击题型、标签也能找到对应的搜索条件；</li>
+<li>点击中间的“筛选”还有很多种搜索条件。</li>
+</ol>
+<h4 id="且"><a href="#且" class="headerlink" title="且"></a>且</h4><p>如果是同时满足多个条件的搜索，将单个搜索条件粘贴到搜索框，中间用一个空格连接，然后回车即可。</p>
+<h4 id="或"><a href="#或" class="headerlink" title="或"></a>或</h4><p>如果想满足A或B的搜索条件，将搜索条件中间用英文单词<strong>or</strong>连接，然后回车即可。</p>
+]]></content>
+      <categories>
+        <category>暗记教程</category>
+      </categories>
+      <tags>
+        <tag>搜索</tag>
+        <tag>筛选</tag>
+        <tag>组合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>007 记忆库如何排序？</title>
+    <url>/2017/02/12/</url>
+    <content><![CDATA[<p>通过特定的重命名格式进行分组</p>
+<p>如：</p>
+<p>P1 语文</p>
+<p>P2 数学</p>
+<p>P3 英语</p>
+<p>P4 政治</p>
+<p>P5 历史</p>
+<p>P6 地理</p>
+]]></content>
+      <categories>
+        <category>暗记教程</category>
+      </categories>
+      <tags>
+        <tag>记忆库</tag>
+        <tag>排序</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>006 搁置、暂停与标记的区别？</title>
+    <url>/2017/02/06/</url>
+    <content><![CDATA[<h4 id="名词呈现"><a href="#名词呈现" class="headerlink" title="名词呈现"></a>名词呈现</h4><p>搁置：bury<br>暂停：suspend<br>标记：mark</p>
+<h4 id="搁置：bury"><a href="#搁置：bury" class="headerlink" title="搁置：bury"></a>搁置：bury</h4><p>是指暂时不学，第二天或者之后会自动出现。</p>
+<p>适用于什么情况呢？</p>
+<p>比如说我现在学习一个知识点，现在学的话可能比较难，但是如果等明天学了别的东西，有了点基础，再学的话就比较简单了，这个时候就可以选择搁置。</p>
+<h4 id="暂停：suspend"><a href="#暂停：suspend" class="headerlink" title="暂停：suspend"></a>暂停：suspend</h4><p>就是手动设置为不学，让笔记今后都不再主动出现，除非你主动去取消暂停。</p>
+<p>这个适用于什么情况呢？</p>
+<p>有的笔记你不想学了，就可以使用暂停。</p>
+<h4 id="标记：mark"><a href="#标记：mark" class="headerlink" title="标记：mark"></a>标记：mark</h4><p>就是添加一个特殊的标签，方便以后通过浏览窗口把它找出来。</p>
+<p>标记是一个特殊的标签，会在手机上复习的时候，在界面上显示一个五角星，而其他的标签是不显示在复习界面的。</p>
+<h4 id="如何找出这三类笔记"><a href="#如何找出这三类笔记" class="headerlink" title="如何找出这三类笔记"></a>如何找出这三类笔记</h4><p>它们本质上都是一种标签，可以通过搜索标签词，把他们筛选出来。</p>
+<p>其中暂停的搜索词是“is:suspended”；</p>
+<p>标记的搜索词是“tag:marked”；</p>
+<p>搁置的搜索词是“is:buried”；</p>
+<p>在搜索时请注意是否需要添加双引号，如果添加一定得是英文的双引号。</p>
+]]></content>
+      <categories>
+        <category>暗记教程</category>
+      </categories>
+      <tags>
+        <tag>区别</tag>
+        <tag>搁置</tag>
+        <tag>暂停</tag>
+        <tag>标记</tag>
+        <tag>bury</tag>
+        <tag>suspend</tag>
+        <tag>mark</tag>
       </tags>
   </entry>
   <entry>
@@ -100,201 +263,38 @@
       </tags>
   </entry>
   <entry>
-    <title>006 搁置、暂停与标记的区别？</title>
-    <url>/2017/02/06/</url>
-    <content><![CDATA[<h4 id="名词呈现"><a href="#名词呈现" class="headerlink" title="名词呈现"></a>名词呈现</h4><p>搁置：bury<br>暂停：suspend<br>标记：mark</p>
-<h4 id="搁置：bury"><a href="#搁置：bury" class="headerlink" title="搁置：bury"></a>搁置：bury</h4><p>是指暂时不学，第二天或者之后会自动出现。</p>
-<p>适用于什么情况呢？</p>
-<p>比如说我现在学习一个知识点，现在学的话可能比较难，但是如果等明天学了别的东西，有了点基础，再学的话就比较简单了，这个时候就可以选择搁置。</p>
-<h4 id="暂停：suspend"><a href="#暂停：suspend" class="headerlink" title="暂停：suspend"></a>暂停：suspend</h4><p>就是手动设置为不学，让笔记今后都不再主动出现，除非你主动去取消暂停。</p>
-<p>这个适用于什么情况呢？</p>
-<p>有的笔记你不想学了，就可以使用暂停。</p>
-<h4 id="标记：mark"><a href="#标记：mark" class="headerlink" title="标记：mark"></a>标记：mark</h4><p>就是添加一个特殊的标签，方便以后通过浏览窗口把它找出来。</p>
-<p>标记是一个特殊的标签，会在手机上复习的时候，在界面上显示一个五角星，而其他的标签是不显示在复习界面的。</p>
-<h4 id="如何找出这三类笔记"><a href="#如何找出这三类笔记" class="headerlink" title="如何找出这三类笔记"></a>如何找出这三类笔记</h4><p>它们本质上都是一种标签，可以通过搜索标签词，把他们筛选出来。</p>
-<p>其中暂停的搜索词是“is:suspended”；</p>
-<p>标记的搜索词是“tag:marked”；</p>
-<p>搁置的搜索词是“is:buried”；</p>
-<p>在搜索时请注意是否需要添加双引号，如果添加一定得是英文的双引号。</p>
-]]></content>
-      <categories>
-        <category>暗记教程</category>
-      </categories>
-      <tags>
-        <tag>区别</tag>
-        <tag>搁置</tag>
-        <tag>暂停</tag>
-        <tag>标记</tag>
-        <tag>bury</tag>
-        <tag>suspend</tag>
-        <tag>mark</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>008 如何使用组合搜索条件？</title>
-    <url>/2017/02/19/</url>
-    <content><![CDATA[<h4 id="进入"><a href="#进入" class="headerlink" title="进入"></a>进入</h4><p>这个不要记，因为不是很频繁，没必要为了一个1分钟的事情再花3分钟去记。</p>
-<p>从电脑版ANKI的“浏览”模块进入。</p>
-<h4 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h4><p>先学会查看单个搜索条件，搜索条件会显示在右侧输入框里。</p>
-<h4 id="寻找"><a href="#寻找" class="headerlink" title="寻找"></a>寻找</h4><ol>
-<li>全部笔记，这个条件其实是没有条件，因此输入框里什么都没有；</li>
-<li>点击左侧记忆库名称，就能看到某个记忆库的搜索条件；</li>
-<li>同样地，点击题型、标签也能找到对应的搜索条件；</li>
-<li>点击中间的“筛选”还有很多种搜索条件。</li>
+    <title>003 如何预防笔记堆积？</title>
+    <url>/2017/01/16/</url>
+    <content><![CDATA[<h4 id="When"><a href="#When" class="headerlink" title="When"></a>When</h4><ol>
+<li>时间太少，例如出差了，或者全家放假外出游玩了；</li>
+<li>笔记太多，例如一时高兴做了很多笔记，或者集中导入了很多笔记。</li>
 </ol>
-<h4 id="且"><a href="#且" class="headerlink" title="且"></a>且</h4><p>如果是同时满足多个条件的搜索，将单个搜索条件粘贴到搜索框，中间用一个空格连接，然后回车即可。</p>
-<h4 id="或"><a href="#或" class="headerlink" title="或"></a>或</h4><p>如果想满足A或B的搜索条件，将搜索条件中间用英文单词<strong>or</strong>连接，然后回车即可。</p>
-]]></content>
-      <categories>
-        <category>暗记教程</category>
-      </categories>
-      <tags>
-        <tag>搜索</tag>
-        <tag>筛选</tag>
-        <tag>组合</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>009 如何将不同熟悉程度的笔记找出来？</title>
-    <url>/2017/02/26/</url>
-    <content><![CDATA[<p>结合 008 如何使用组合搜索条件，可以进行更自由的搜索筛选。</p>
-<p>未完待续</p>
-]]></content>
-      <categories>
-        <category>暗记教程</category>
-      </categories>
-      <tags>
-        <tag>筛选</tag>
-        <tag>熟悉程度</tag>
-        <tag>困难</tag>
-        <tag>简单</tag>
-        <tag>强化学习</tag>
-        <tag>筛选学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>010 Markdown转ANKI常见错误</title>
-    <url>/2017/03/05/</url>
-    <content><![CDATA[<h4 id="不能使用相同字段"><a href="#不能使用相同字段" class="headerlink" title="不能使用相同字段"></a>不能使用相同字段</h4><p><img src="http://myself.anki.wiki/mpic/20200313/CAmlAAhSNX0s.png" alt="mark"></p>
-]]></content>
-      <categories>
-        <category>暗记教程</category>
-      </categories>
-      <tags>
-        <tag>Markdown</tag>
-        <tag>印象笔记</tag>
-        <tag>md2anki</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>007 记忆库如何排序？</title>
-    <url>/2017/02/12/</url>
-    <content><![CDATA[<p>通过特定的重命名格式进行分组</p>
-<p>如：</p>
-<p>P1 语文</p>
-<p>P2 数学</p>
-<p>P3 英语</p>
-<p>P4 政治</p>
-<p>P5 历史</p>
-<p>P6 地理</p>
-]]></content>
-      <categories>
-        <category>暗记教程</category>
-      </categories>
-      <tags>
-        <tag>记忆库</tag>
-        <tag>排序</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>011 心理弹性：学习的支撑条件</title>
-    <url>/2017/03/12/</url>
-    <content><![CDATA[<p>我给大家做咨询比较多，分享一点直接经验和间接经验吧  </p>
-<p>当我们学习不在状态，或者学习没有动力时，这不是一个局部问题，而是一项项系统问题，可以参考斯坦福大学心理健康中心关于【心理弹性】的介绍，从多个方面进行改善。</p>
-<p>例如我们平时知道但却不在乎的『connect with people』和『connect with nature』在疫情期间都显得尤其明显，当我们只有一件事很少得到外界刺激时，心理弹性就很脆弱，很难静下心来，很烦躁。</p>
-<p>「斯坦福大学官网心理弹性」</p>
-<p><a href="http://myself.anki.wiki/mpic/20200314/lVocSyVghn9h.png" target="_blank" rel="noopener">http://myself.anki.wiki/mpic/20200314/lVocSyVghn9h.png</a></p>
-<p>「斯坦福大学心理健康中心」</p>
-<p><a href="https://health.cornell.edu/resources/health-topics/stress-management" target="_blank" rel="noopener">https://health.cornell.edu/resources/health-topics/stress-management</a></p>
-<p>状态不好有很多方法调整，可以通过找榜样，也可以通过打鸡血，但更有效的方法是先让自己做成一两件小事，用“做成事”给自己实实在在的信心，或者不妨从改善学习开始，关注公众号【学习骇客】有一些方法可以试一试</p>
-<p>例如：《anki是如何帮助我们做到专注的？》 <a href="https://mp.weixin.qq.com/s/PkYDGkT6cXGrDjtmvmq6Jw" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/PkYDGkT6cXGrDjtmvmq6Jw</a> </p>
-<p>例如：《改善思考的两个方法》 <a href="https://mp.weixin.qq.com/s/2yhxPVgnmhyV5pEzWNt4yQ" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/2yhxPVgnmhyV5pEzWNt4yQ</a> </p>
-<p>例如：《ANKI公开课：如何用起来？如何用好？》 <a href="https://mp.weixin.qq.com/s/YaDWLF8aAkOdl3LTNkOfkg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/YaDWLF8aAkOdl3LTNkOfkg</a> </p>
-<hr>
-<p>道是无情却有情 ＜(▰˘◡˘▰)  </p>
-]]></content>
-      <categories>
-        <category>学习科学</category>
-      </categories>
-      <tags>
-        <tag>学习方法</tag>
-        <tag>动机</tag>
-        <tag>状态</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>012 浏览器点击无反应的拦截解决问题</title>
-    <url>/2017/03/19/</url>
-    <content><![CDATA[<h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><p>当我们点击下载时，常常遇到浏览器无反应的情况，这大多是由于浏览器拦截了弹窗。</p>
-<h4 id="什么是弹窗"><a href="#什么是弹窗" class="headerlink" title="什么是弹窗"></a>什么是弹窗</h4><p>因为下载文件常常要弹出下载窗口，如下图所示</p>
-<p><img src="http://myself.anki.wiki/mpic/20200420/MPgxGfyV7olB.png" alt="mark"></p>
-<h4 id="为什么会被拦截"><a href="#为什么会被拦截" class="headerlink" title="为什么会被拦截"></a>为什么会被拦截</h4><p>有些时候是浏览器默认拦截，因为浏览器把弹窗当成了不该出现的东西，比如影响浏览体验的广告，可能存在安全隐患的网页插件等。</p>
-<p>有时候是安装了广告拦截插件，弹窗被误认为是广告，所以也给拦截了。</p>
-<h4 id="怎么解决"><a href="#怎么解决" class="headerlink" title="怎么解决"></a>怎么解决</h4><p>浏览器比较多，可以在百度里搜索“XX浏览器 弹窗拦截”。</p>
-<p>比如点击查看<a href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=360%20%E6%B5%8F%E8%A7%88%E5%99%A8%20%E5%BC%B9%E7%AA%97%E6%8B%A6%E6%88%AA&rsv_t=8a44F%2BrGl62q0EcSTAZNmCja%2B1s7TbsknVCLQ2p0VG5%2FybB7dreX9Pez64c&rsv_enter=1&rsv_dl=tb&rsv_sug3=9&rsv_sug1=8&rsv_sug7=100&rsv_sug2=0&inputT=5533&rsv_sug4=6077" target="_blank" rel="noopener" >360浏览器弹窗拦截</a></p>
-<p>还可能换Google的Chrome浏览器，点击<a href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=Chrome%20%E6%B5%8F%E8%A7%88%E5%99%A8%20%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E5%8C%85&oq=%2526lt%253B60%2520%25E6%25B5%258F%25E8%25A7%2588%25E5%2599%25A8%2520%25E5%25BC%25B9%25E7%25AA%2597%25E6%258B%25A6%25E6%2588%25AA&rsv_pq=fed094f700135680&rsv_t=38d2xuiwzb0EVvd41PTRK9VyxhqdXfwY3GQNLEHTtTpsK%2FP9zeSNe4K90is&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_sug3=5&rsv_sug1=5&rsv_sug7=100&rsv_sug2=0&inputT=4962&rsv_sug4=4962" target="_blank" rel="noopener" >下载Chrome离线安装包</a></p>
-]]></content>
-      <categories>
-        <category>效率工具</category>
-      </categories>
-      <tags>
-        <tag>浏览器</tag>
-        <tag>拦截</tag>
-        <tag>下载</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>014 opml2anki的常见故障与排查方法</title>
-    <url>/2017/03/30/</url>
-    <content><![CDATA[<h4 id="故障1："><a href="#故障1：" class="headerlink" title="故障1："></a>故障1：</h4><p>笔记里含有重复项。</p>
-<h4 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h4><p>先肉眼排查，如果无法确认重复项，可以通过分批增加笔记条目的形式排查。对于确需重复的条目，可以增加一些可有可无的序号、时间或日期在其中。</p>
-<p>排查方法指的是分批增加条目，在哪一步无法识别，就说明问题出在哪一条笔记。</p>
-<p>再就没有其他方法了。</p>
-<h4 id="故障2："><a href="#故障2：" class="headerlink" title="故障2："></a>故障2：</h4><p>幕布笔记没有加载完。<br>尤其是当笔记比较多的时候，不要着急导出，先等笔记加载完，再点击导出。<br>如果笔记还没有加载完，导出的文件可能是不完整的或损坏的。</p>
-]]></content>
-      <categories>
-        <category>暗记教程</category>
-      </categories>
-      <tags>
-        <tag>故障</tag>
-        <tag>幕布</tag>
-        <tag>opml2anki</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>013 我为什么要把幕布笔记转写到ANKI？</title>
-    <url>/2017/03/26/</url>
-    <content><![CDATA[<p>通过评论提交：</p>
-<ol>
-<li>我为什么用幕布？</li>
-<li>我为什么用ANKI？</li>
-<li>我为什么用幕布转ANKI的工具？</li>
-<li>我希望幕布能针对ANKI有什么官方层面的改进？</li>
+<h4 id="How"><a href="#How" class="headerlink" title="How"></a>How</h4><ol>
+<li>提前预防，当我们知道过几天就可能没时间学习复习的时候；</li>
+<li>切换方案，切换成 新学0/复习all 的学习方案。</li>
 </ol>
-<hr>
-<p>参考资料：</p>
-<ol>
-<li>幕布转ANKI的方法 <a href="https://mp.weixin.qq.com/s/iadrBR9YCRoUn0ANzm0O2A" target="_blank" rel="noopener" >点击查看</a></li>
-<li>幕布转ANKI的工具 <a href="https://hintsnet.com/tools/opml2anki/" target="_blank" rel="noopener" >点击打开</a></li>
+<h4 id="What"><a href="#What" class="headerlink" title="What"></a>What</h4><ol>
+<li>新学任务没有了，总的任务量会减少很多；</li>
+<li>复习任务量慢慢也会降下来；</li>
+<li>等到出差或游玩去了时，只需要花费一点点时间就可以把学习任务带着做了。</li>
 </ol>
+<h4 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h4><ol>
+<li>把学习方案改成 新学0/复习0 只是让ANKI不显示，效果相当于“掩耳盗铃；</li>
+<li>我们脑子里该发生的遗忘还是会发生，并且之后仍需要花更多的时间把任务拾起来；</li>
+<li>等打开恢复ANKI里学习方案那一刻，拖延没复习的笔记也会冒出来，任务并没有减少。</li>
+</ol>
+<blockquote>
+<p>“宁可不进步，也不能退步。”是一个很重要的学习原则。</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>暗记教程</category>
       </categories>
       <tags>
-        <tag>学习方法</tag>
-        <tag>调研</tag>
-        <tag>读书笔记</tag>
+        <tag>拖延</tag>
+        <tag>假期</tag>
+        <tag>堆积</tag>
+        <tag>复习</tag>
       </tags>
   </entry>
   <entry>
