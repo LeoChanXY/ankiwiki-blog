@@ -95,7 +95,7 @@
     <published>2020-05-17T12:51:04.000Z</published>
     <updated>2020-05-17T12:51:04.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="提交新问题"><a href="#提交新问题" class="headerlink" title="提交新问题"></a>提交新问题</h2><p><a href="https://support.qq.com/product/155505" target="_blank" rel="noopener">点我</a>进入腾讯兔小巢提交反馈</p><p>在微信中打开，还可以通过微信收到LEO的回复提醒哦。</p><h2 id="常见老问题"><a href="#常见老问题" class="headerlink" title="常见老问题"></a>常见老问题</h2><p>待补充</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="提交新问题"><a href="#提交新问题" class="headerlink" title="提交新问题"></a>提交新问题</h2><p><a href="https://support.qq.com/product/155505" target="_blank" rel="noopener">点我</a>进入腾讯兔小巢提交反馈</p><p>在微信中打开，还可以通过微信收到LEO的回复提醒哦。</p><h2 id="常见老问题"><a href="#常见老问题" class="headerlink" title="常见老问题"></a>常见老问题</h2><h4 id="格式类问题"><a href="#格式类问题" class="headerlink" title="格式类问题"></a>格式类问题</h4><ol><li>空行没有删除，导致上传opml文件到md2anki页面时显示<mark># undefined</mark></li></ol>]]></content>
     
     <summary type="html">
     
