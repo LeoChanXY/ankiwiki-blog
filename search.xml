@@ -420,8 +420,8 @@
 </ol>
 <hr>
 <p><img src="http://myself.anki.wiki/mpic/20200522/J6cm4v9OgQr1.png" alt="mark"></p>
-<h4 id="01"><a href="#01" class="headerlink" title="01"></a><a id="01">01</a></h4><p>空行没有删除，导致上传opml文件到md2anki页面时显示<mark># undefined</mark></p>
-<h4 id="02"><a href="#02" class="headerlink" title="02"></a><a id="02">02</a></h4><p><mark>图片导入后显示失败</mark> 05月21日新情况</p>
+<h4 id="01"><a href="#01" class="headerlink" title="01"></a><a id="01"><a href="#00">01</a></a></h4><p>空行没有删除，导致上传opml文件到md2anki页面时显示<mark># undefined</mark></p>
+<h4 id="02"><a href="#02" class="headerlink" title="02"></a><a id="02"><a href="#00">02</a></a></h4><p><mark>图片导入后显示失败</mark> 05月21日新情况</p>
 <p>原因：幕布代码做了调整</p>
 <p>对策：opml2anki正在适配新调整后的幕布，由于这个工具不是LEO开发的，只能待开发者方便时尽快更新，大家也可以多多呼吁幕布从官方层面支持与ANKI的搭配。</p>
 <p>暂时的办法：</p>
