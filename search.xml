@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>sharexff与ffmpeg动图录制组件</title>
+    <url>/2020/05/26/</url>
+    <content><![CDATA[<h2 id="ShareX的用途"><a href="#ShareX的用途" class="headerlink" title="ShareX的用途"></a>ShareX的用途</h2><p>截图，录制gif动图，功能非常丰富</p>
+<h2 id="下载官网"><a href="#下载官网" class="headerlink" title="下载官网"></a>下载官网</h2><p><a href="https://getsharex.com/" target="_blank" rel="noopener">点我跳转到官网</a></p>
+<h2 id="ffmpeg组件是什么"><a href="#ffmpeg组件是什么" class="headerlink" title="ffmpeg组件是什么"></a>ffmpeg组件是什么</h2><p>这是在ShareX里录制动图的组件，需要额外下载。</p>
+<p>因为有些同学下载不了，这里提供备份，<a href="https://www.jianguoyun.com/p/DcP3wqMQ8LmgBxjsvpwD" target="_blank" rel="noopener">点我</a>进入坚果云网盘下载备用。、</p>
+<p>下载后注意文件名为 <mark>ffmpeg.exe</mark> （尤其是后缀名，如果被篡改了，下载后要改回来！）</p>
+<p>如果在安装ShareX的时候没有改变默认路径，那么下载ffmpeg后应该是放到如下图所示的文件夹中。主要是找到自己的 Documents 文件夹，因为中间的LeoCh为用户名文件夹，每个人的电脑都不一样。</p>
+<p><img src="http://myself.anki.wiki/mpic/20200526/qXcn4aqu2OW3.png" alt="mark"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>ANKI下载：Windows版 Mac版 安卓版</title>
     <url>/2020/05/21/</url>
     <content><![CDATA[<h2 id="Windows版"><a href="#Windows版" class="headerlink" title="Windows版"></a>Windows版</h2><p>2020年05月21日更新</p>
