@@ -1,437 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Anki手机版常用格式代码</title>
-    <url>/2017/01/09/</url>
-    <content><![CDATA[<p>本文接<a href="https://anki.wiki/2017/01/02/index.html">如何在Anki手机版开启强大的编辑功能</a></p>
-<p>通过手机输入法的快捷短语，将这些代码置于其中，就可以快速实现Anki手机版的格式编辑。</p>
-<p>背景色</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">"background:#ff0000;float:left"</span>&gt;</span> 文本放在这里 <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>无序列表</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>分割线</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">hr</span> /&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>超链接</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">“这里换成格式完整的网址”</span>&gt;</span>这里换成网站名可英文可汉字<span class="tag">&lt;/<span class="name">a</span> &gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>加粗</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">b</span>&gt;</span>这里换成需要设置格式的文本<span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>红色</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">"#ff0000"</span>&gt;</span> 这里换成需要设置格式的文本 <span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>咖啡色</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">"#d2691e"</span>&gt;</span>这里换成需要设置格式的文本<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>蓝色</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">"#0000ff"</span>&gt;</span>这里换成需要设置格式的文本<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>紫色</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">"#9400d3"</span>&gt;</span>这里换成需要设置格式的文本<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>更多颜色代码，可以在搜索引擎里搜索“色值”，替换如#9400d3 这些即可。</p>
-<p>大多数格式代码都是成对出现的，一对尖括号&lt;&gt;就表示一边，到anki里使用可以将两边分别添加到两个快捷短语里。</p>
-<p>大部分格式代码是可以组合使用的，例如在加粗代码外面再包裹一圈红色代码，这些留给大家自己尝试。</p>
-<p>填空</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;&#123;c1:: 这里换成需要挖空的文本&#125;&#125;</span><br></pre></td></tr></table></figure>
-
-<p>删除线</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">strike</span>&gt;</span> 这里换成需要设置格式的文本 <span class="tag">&lt;/<span class="name">strike</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>下标</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">sub</span>&gt;</span>这里换成需要设置格式的文本<span class="tag">&lt;/<span class="name">sub</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>强制换行符</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-  </entry>
-  <entry>
-    <title>为什么不爱学习的学生看起来更聪明</title>
-    <url>/2017/10/21/</url>
-    <content><![CDATA[<h4 id="聪明的同学"><a href="#聪明的同学" class="headerlink" title="聪明的同学"></a>聪明的同学</h4><p>初中的时候，虽然我在班里成绩比较好，但其实很多成绩差、不爱学习的同学都比我聪明。而我要获得好成绩，就必须认真听课、勤做作业，而那些调皮捣蛋的同学偶尔灵光一闪也能在课堂上抢一回风头，如果他们能持之以恒，我在班里的排名起码要后退5位或10位。  </p>
-<p>后来大学期间，因为对高等数学不敏感，所以上课的时候总得非常聚精会神地听，生怕自己错过了重要信息，或者听不懂。而经常跟我坐在一起的G同学却经常在课上找身边人聊天，也不怎么听，可最后考试却能考个八九十分，而我辛辛苦苦却只能考到七十多分。</p>
-<h4 id="情感的作用"><a href="#情感的作用" class="headerlink" title="情感的作用"></a>情感的作用</h4><p>我一直在想，凭什么认真、努力却没有那些吊儿郎当的同学反应更快？</p>
-<p>最近在阅读《教育心理学》时，我隐约发现自己好像找到了答案。我的效率不高，可能恰恰是由于我的“认真、努力”。</p>
-<p>书中如是说：</p>
-<blockquote>
-<p>实验告诉我们，恐惧、焦虑、抑郁、嫉妒、敌意、冲动等负性情绪是一种破坏性的情感，一般来说会降低学习的效果。在负面情绪的背景下，学生的认知水平被压抑扭曲，原本能够进行的认知加工无法进行。适当的中性情绪的唤醒有利于提高学习效果，但是这种情绪唤醒的水平过高，也会对学习效果产生阻碍作用。</p>
-</blockquote>
-<p>以前那些“聪明”的同学，恰恰因为对学习无所谓，这种轻松的心态使得他们的认知水平偶尔也会超过我。</p>
-<p>我虽然谈不上焦虑、压抑，但相比玩的时间，我在学习时真的无法做的精神放松，甚至有时会陷入一个循环“越在意、越做不好、做容易出错，就越在意”。过于在意，反而让自己陷入负面情绪，而负面情绪让自己的努力打了折扣。</p>
-<p>相反的，曾经也有一次体验。我记得初二有一次物理考试，就在考前邻桌递给我一封信，是一封来自我小学时最好的朋友的信，当时别提有多高兴了，后来我的那场物理考试考了满分。我很诧异，因为平时考试不是这错一点就是那错一点，但从来就没考过满分。那封信却恰巧在考前激发了我的正面情绪，而正面情绪大大提升了我的认知水平。  </p>
-<p>但美好体验总是很少，“认真、努力”掩盖下的负面情感一直影响了我十多年，我也一直尝试改变。每当我学习的时候，我就先用自己的理智去控制自己的情绪，告诉自己：要开始学习了，你要认真起来，你要调动起全部精力去完成当前的任务。</p>
-<h4 id="控制情感"><a href="#控制情感" class="headerlink" title="控制情感"></a>控制情感</h4><p>一直试图控制自己的情感，好让自己更加放松、更加积极。但是在读了《象与骑象人》这本书后我发现，人无法用理智控制自己的情感。人的自我就是一个控制化的系统，用比喻来说就是一名骑在大象背上的骑象人，指的就是理智，有意识、控制后的思考；除此以外的，包括内心感觉、本能反应、情绪、直觉……等等就是大象。作者的结论是：所谓的自我就是骑象人与大象的组合体，骑象人并不能完全控制大象。</p>
-<h4 id="改变风格"><a href="#改变风格" class="headerlink" title="改变风格"></a>改变风格</h4><p>至此，我试图改变的计划证明不可行，我确实无法通过理智调动自己的情绪。要改变自己的情感风格，有三种方法，一直都是在用却忽视的方法。  </p>
-<p>第一种，药物疗法：百忧解。我在研究生阶段的心理学导师曾经告诫我，不管是自己接受心理咨询还是给来访者做咨询，都要慎用药物，所以这里暂时不考虑了。  </p>
-<p>第二种，冥想。我用了七八年的郭怀慈老师的冥想训练，她的冥想录音有4套，我主要用“全身扫描放松法”帮助自己短暂休息。还有一些，例如“生命之河冥想法”“中脉七轮冥想放松法”“大自然冥想放松法”，以后要多在清醒的时候用这些音频引导自己进行冥想，以改变自己的情感风格。  </p>
-<p>第三种，写作。我写文字的初衷一直都是刘未鹏在他的博客里说的那句话“写作是为了更好地思考”，往往停留在知识层面，没有深入到分析情感的层面。其实我更应该多表达自己的情感，然后在自己看得见的情况下去分辨哪些合理哪些不合理，以改变自己的情感风格。</p>
-<h4 id="换个方式"><a href="#换个方式" class="headerlink" title="换个方式"></a>换个方式</h4><p>改变情绪 -&gt; 改变认知。</p>
-<p>道理似乎很简单，但冰冻三尺非一日之寒，改变情感风格还要长期刻意练习。</p>
-<hr>
-<p>本文由微信公众号“学习骇客”写于2017年10月21日</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>如何在Anki手机版开启强大的编辑功能</title>
-    <url>/2017/01/02/</url>
-    <content><![CDATA[<p>通过找出常用样式的代码，然后添加到手机输入法的快捷短语里，实现Anki手机版的格式编辑功能。</p>
-<p><img src="http://myself.anki.wiki/mpic/20190508/XiPIDxmCsQ2Y.jpg" alt="mark"></p>
-<p>1.现在电脑上编辑一种格式，例如“红色”。只编辑一种格式，是为了方便做A/B对比测试，找出某段代码的真正功能。</p>
-<p><img src="http://myself.anki.wiki/mpic/20190508/FmE7XmkryuqL.jpg" alt="mark"></p>
-<p>2.点击<strong>edit</strong> 编辑，就可以进入这个界面了。安卓版在这里就直接能看到格式代码了，iOS版还要再点击右上角 &lt;/&gt;按钮才会显示代码。<strong>iOS代码隐藏，需要再次点击&lt; &gt; ，安卓直接显示代码在编辑框</strong>。</p>
-<p><img src="http://myself.anki.wiki/mpic/20190508/oeUkgv8W9Ouq.jpg" alt="mark"></p>
-<p>3.这里就能看到红色格式的代码了，其他格式的代码用此方法也可以查看。</p>
-<p><img src="http://myself.anki.wiki/mpic/20190508/9Ds8l2FNrpXs.jpg" alt="mark"></p>
-<p>4.这里列举了一些我的快捷短语，设置如下</p>
-<p><img src="http://myself.anki.wiki/mpic/20190508/7XWJAmGT5AXo.jpg" alt="mark"></p>
-<p>5.比如，我想设置hs表示红色，然后打出来红色对应的代码。只需要在 输入法里填写“hs”，在短语里填写“<font color="#ff0000"> </font>”</p>
-<p><img src="http://myself.anki.wiki/mpic/20190508/jX2n2CuDM3Ab.jpg" alt="mark"></p>
-<p>6.下次再通过输入法打“hs”时，键盘上就会出现红色的格式代码了，点击即可上屏。</p>
-<p>以上。</p>
-<hr>
-<p>常用代码详见<a href="https://anki.wiki/2018/03/06/index.html">Anki手机版常用格式代码</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>大多数人为了避免真正的思考，愿意做任何事</title>
-    <url>/2017/11/20/</url>
-    <content><![CDATA[<p>高三的时候，听说我们年级理科班有个同学数学经常考满分，据他们班同学说：“人家三套题做一遍，他把一套题做三遍。”</p>
-<p>2014年考研复习那会，我自己把考研英语一的真题阅读部分也做了3遍，英语二的成绩最后定格在81分，其实中间还有10~12三个多月完全没碰过英语。</p>
-<p>读大学那会练听力，成天找美剧、刷美剧，但几年下来，自己的听力还是介于听不懂和跟不上之间。</p>
-<p>2015年考研之后的那个暑假，我闲来无事用aboboo电脑版练了两周的听力，居然能听懂简单的句子了。</p>
-<p>以上事例，一个间接经历、两个亲身经历，我想谈谈后两个的学习过程。</p>
-<h4 id="考研英语复习"><a href="#考研英语复习" class="headerlink" title="考研英语复习"></a>考研英语复习</h4><p>和很多人一样，我最初准备考研英语时，也想过买“同源期刊”，也试着背过“新概念英语”，更听过英语老师的讲题课，但这些一直都只能算徘徊在考研英语的外围。</p>
-<p><strong>只要没开始碰真题，一切努力都是臆想。</strong></p>
-<p>读一本同源期刊，会让人感觉成就满满，学两个月新概念，也会让人觉得很充实，但是这两件事情上，自己的深度思考都很少很少，更不要提听老师讲课了。</p>
-<p>发展心理学上有个“最近发展区”概念，可以用来解释听老师讲课的作用。</p>
-<p>假设一个人自学能达到的水平是1，如果老师点拨的话能达到1.2，那么这个0.2的差距就叫最近发展区，老师的作用就在于帮助学生在自学的水平上更上一个台阶。但是考研英语的视频讲解课，很多人听得很嗨，而自己却没有动脑，直接结果就是轮到自己做题时照错不误。这就像你跟朋友的车去一个陌生的地方，不管走了两趟还是三趟，你都不知道路，但是哪天你自己勉勉强强走了一遍之后，立马就知道路了。</p>
-<p>所以老师明白跟你自己明白这是两码事，当很多人反应过来的时候宝贵的七八九月已经结束了。</p>
-<p>考研英语的复习上，6月底背完单词，我就自己开始做真题了。刚开始的时候很痛苦，单词都认识可就是句子看着费劲，甚至一篇阅读5道题能错3、4道，但是每一篇我都认认真真地去做。</p>
-<p><strong>第一步</strong>，先做题再对答案，期间不查字典不看解析，逼着自己把不明白的地方想明白。</p>
-<p><strong>第二步</strong>，翻译正文、题目和选项，逐字逐句的直译，不给自己忽悠自己的机会。</p>
-<p><strong>第三步</strong>，寻找题干和选项，甚至是错误选项的出处，分析错误选项的错误类型（例如，以偏概全，偷梁换柱等等）。</p>
-<p>就这样，做了第三遍的时候，我就能通过直觉判断哪一句话会在题目里挖坑等我了。因为第一遍两个月，第二遍一个月，难度很大，所以不存在连续做几遍记住答案的顾虑。而且我会刻意要求自己去按图索骥找到实在证据，而不是凭对答案的记忆。</p>
-<p>期间没有碰任何模拟题，后来在讯飞工作接触到教研室的老师才知道模拟题和真题的区别在哪——通常一道题4个选项，1个正确，其余3个错误。在真题里，这3个错误选项都是命题人在精心分析做题人的知识结构后，针对可能存在的知识漏洞和推理错误给出的相对应的陷阱，可是很多模拟题的错误选项就是随便给的错误答案。所以，模拟题不仅仅是出题不严谨，还不利于训练真正的做题思维。</p>
-<p>对比大量刷模拟题、大量浅阅读英文文章，研读真题的不同在于，凡是碰到认知障碍都会跟自己死磕直到解决，而在刷题和浅阅读时这些都被我们放过去了，但恰恰是这些被放过去的地方才是我们真正值得提高的地方。所以相比刷题和浅阅读，把真题研读三遍，带给我更多收获。</p>
-<h4 id="练听力"><a href="#练听力" class="headerlink" title="练听力"></a>练听力</h4><p>用aboboo练听力，aboboo.com电脑版稍复杂，但网站有说明书，新出的iOS手机版在操作上也简单很多。</p>
-<p>以前练听力都是看电影或者做听力题，前者较轻松，后者稍显认真。看电影时，很少有人会把听不懂的地方反复听，所以几乎听得懂的还是听得懂，听不懂的仍然听不懂。练听力题的基本形式都是用个播放器播放，在不懂的地方多听几遍，大多数不懂的地方最后也都会听懂。</p>
-<p>用aboboo软件来练听力，它会自动把材料断句，会自动呈现声波，所以你在听写时不用去花大量时间快进快退，不用专门去定位没听懂的地方，直接就可以选中某个部分重新听一次。</p>
-<p>在确认自己是否真的听明白这件事上，aboboo是让用户自己用键盘打出来，而且是一个词一个空的打出来，反复听还听不出来可以按快捷键获得提示。就算你按照提示应付完了，最后还可以把不是自己独立完成的部分再听一遍。</p>
-<p>和刷三遍真题类似，这种死磕自己的方式，真正的把自己薄弱的地方补上了，<strong>而不是漫不经心听两三个小时用时间来彰显自己的努力程度</strong>。</p>
-<p>回到anki上，我常常会在教完anki学员之后叮嘱他们——先小范围试用一下，养成习惯之后再应用到学科知识中去。</p>
-<p>在做笔记时，一定要先学习、再做ANKI笔记，再当天复习，不可拖延。</p>
-<p>可以学得慢一点，甚至是少学一点，但是一定要学一点是一点。</p>
-<p>跟很多“一日千里”的学习习惯不同，一旦开始用anki，你就要跟自己死磕，把不会的知识点掌握，把已经掌握的笔记维持在长时记忆里。</p>
-<p>也正是anki这种死磕自己的态度，让学习得以扎实落地，而不是通过坐在自习室的时间判断自己的努力程度。</p>
-<p>如果读者也希望有所改变，分享刘一男老师曾经说过的话给大家——Perfect practice makes perfect. </p>
-<p>对，不是众所周知的”Practice makes perfect.”</p>
-<p>后来我才知道，这也叫“刻意练习”。</p>
-<hr>
-<p>本文由微信公众号“学习骇客”写于2017年11月02日</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>图床资料页</title>
-    <url>/2020/05/11/</url>
-    <content><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>包括图床的介绍，自建图床的方法，以及LEO提供的一站式图床服务。</p>
-<h4 id="1-学习骇客的图床服务"><a href="#1-学习骇客的图床服务" class="headerlink" title="1.学习骇客的图床服务"></a>1.<a href="https://item.taobao.com/item.htm?id=584615515920" target="_blank" rel="noopener">学习骇客的图床服务</a></h4><h4 id="2-关于图床的几类常见问题"><a href="#2-关于图床的几类常见问题" class="headerlink" title="2. 关于图床的几类常见问题"></a>2. <a href="https://mp.weixin.qq.com/s/TTDVcNm4uyhV59XHThwLGg" target="_blank" rel="noopener">关于图床的几类常见问题</a></h4><h4 id="3-自建图床服务的专辑文章-微信打开"><a href="#3-自建图床服务的专辑文章-微信打开" class="headerlink" title="3.自建图床服务的专辑文章(微信打开)"></a>3.<a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU2NDI1Mzg2NQ==&action=getalbum&album_id=1332468348789096451&subscene=7&scenenote=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3Fsubscene%3D19%26__biz%3DMzU2NDI1Mzg2NQ%3D%3D%26mid%3D2247484521%26idx%3D1%26sn%3D6ae075da9adad368e8d7e45a895d5c92%26chksm%3Dfc4c81afcb3b08b9fb3149f619f918f406bceedb3ee1e0486748b3f351eb57c25af70ce95f12%26scene%3D7%26clicktime%3D1589172767%26enterid%3D1589172767%26ascene%3D65%26devicetype%3DiOS13.4.1%26version%3D17000c2d%26nettype%3DWIFI%26abtest_cookie%3DAAACAA%253D%253D%26lang%3Dzh_CN%26fontScale%3D100%26exportkey%3DASy5ypuECwv1EM6DfFs7O6g%253D%26pass_ticket%3DaC5OWmRwVRB755%252Fj3%252BGL9VPsBJirURze4hoYo0p%252FAxk%253D%26wx_header%3D1#wechat_redirect" target="_blank" rel="noopener">自建图床服务的专辑文章(微信打开)</a></h4><h2 id="图床工具"><a href="#图床工具" class="headerlink" title="图床工具"></a>图床工具</h2><p>推荐的工具是用户比较多、评价比较好的，如果有不称手的地方，学有余力的同学也可以自行摸索其他工具。工具较多，难以面面俱到，因此其他工具不在帮助范围内，还请理解。</p>
-<h4 id="1-Windows版图床工具MPic体验"><a href="#1-Windows版图床工具MPic体验" class="headerlink" title="1. Windows版图床工具MPic体验"></a>1. <a href="https://www.jianguoyun.com/p/DdPNQSsQ4sjQBxjPmZED" target="_blank" rel="noopener">Windows版图床工具MPic体验</a></h4><h4 id="2-图床工具PicGo的官网-适用Win和Mac双平台"><a href="#2-图床工具PicGo的官网-适用Win和Mac双平台" class="headerlink" title="2.图床工具PicGo的官网(适用Win和Mac双平台)"></a>2.<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">图床工具PicGo的官网(适用Win和Mac双平台)</a></h4><h4 id="3-图床工具uPic的官网-适用Mac平台"><a href="#3-图床工具uPic的官网-适用Mac平台" class="headerlink" title="3.图床工具uPic的官网(适用Mac平台)"></a>3.<a href="https://github.com/gee1k/uPic/releases" target="_blank" rel="noopener">图床工具uPic的官网(适用Mac平台)</a></h4><h4 id="4-LEO提供的图床工具备份下载-坚果云网盘"><a href="#4-LEO提供的图床工具备份下载-坚果云网盘" class="headerlink" title="4.LEO提供的图床工具备份下载(坚果云网盘)"></a>4.<a href="https://www.jianguoyun.com/p/DQH1bOgQ4sjQBxjsjpYD" target="_blank" rel="noopener">LEO提供的图床工具备份下载(坚果云网盘)</a></h4><h2 id="配套工具"><a href="#配套工具" class="headerlink" title="配套工具"></a>配套工具</h2><p>推荐的工具是用户比较多、评价比较好的，如果有不称手的地方，学有余力的同学也可以自行摸索其他工具。工具较多，难以面面俱到，因此其他工具不在帮助范围内，还请理解。</p>
-<h4 id="1-截图工具Snipaste-Win和Mac双平台"><a href="#1-截图工具Snipaste-Win和Mac双平台" class="headerlink" title="1.截图工具Snipaste Win和Mac双平台"></a>1.<a href="https://zh.snipaste.com" target="_blank" rel="noopener">截图工具Snipaste Win和Mac双平台</a></h4><h4 id="2-动图录制工具LICEcap-Win和Mac双平台"><a href="#2-动图录制工具LICEcap-Win和Mac双平台" class="headerlink" title="2.动图录制工具LICEcap Win和Mac双平台"></a>2.<a href="https://www.cockos.com/licecap/" target="_blank" rel="noopener">动图录制工具LICEcap Win和Mac双平台</a></h4><h4 id="3-动图录制工具GifCam-Win平台"><a href="#3-动图录制工具GifCam-Win平台" class="headerlink" title="3.动图录制工具GifCam Win平台"></a>3.<a href="https://gifcam.en.softonic.com/download" target="_blank" rel="noopener">动图录制工具GifCam Win平台</a></h4><hr>
-<h2 id="问题补充"><a href="#问题补充" class="headerlink" title="问题补充"></a>问题补充</h2><p>大家在使用中碰到什么请反馈给LEO，之后会在这里呈现。</p>
-<hr>
-]]></content>
-  </entry>
-  <entry>
-    <title>学习骇客公众号文章列表</title>
-    <url>/2020/05/12/</url>
-    <content><![CDATA[<blockquote>
-<p>感谢微信ID 雷火火 同学的辛苦整理！</p>
-</blockquote>
-<p>最后更新于 2020年05月13日</p>
-<ol>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247485052&idx=1&sn=945faabd14ac5f8fb52e0cc0981036ca&chksm=fc4c83bacb3b0aac4c795a1d19c4b9f02d5891182ad2aac4a8f2b15ed791514489d30cd72cf4#rd" target="_blank" rel="noopener">我们为什么要记笔记？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484978&idx=1&sn=94437fd8984ff62591c8093771148603&chksm=fc4c83f4cb3b0ae2b1c55246d1ec0bd5362a56a239acbe44997edc379e3eaa8dc33993340844#rd" target="_blank" rel="noopener">经验分享：与时间有关的几组学习策略 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484974&idx=1&sn=4ba8ba0238c40806098a545cb7f7d4e5&chksm=fc4c83e8cb3b0afe4551a52523800f39e5bf1c423aa4082cc417762fea10703b8eea36f8855d#rd" target="_blank" rel="noopener">ANKI与图床，九类常见问题集中解答 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484967&idx=1&sn=8173ced1f59822177cc6ea5f1cb966ac&chksm=fc4c83e1cb3b0af7109e9af3ff37e7958f51f69ac49a263d564290927cb239a9e240ebf68a90#rd" target="_blank" rel="noopener">以用户体验的要素为例，再谈做笔记的思路 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484956&idx=1&sn=5a0c5dcae0d3d9b9d88dcd7c0ade586f&chksm=fc4c83dacb3b0acc33db8ebaed0d2584a6bb7d6d8854c8a1cb2c5d41b89d335e105223a61e75#rd" target="_blank" rel="noopener">英语备考中的ANKI使用建议 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484936&idx=1&sn=044de7af2b1701fa099e0215467bc035&chksm=fc4c83cecb3b0ad8ef78bb1d3a744372b12ba78c8fdefbe8ad7df20b0ca6f8936c4cc1f18ad1#rd" target="_blank" rel="noopener">ANKI公开课：如何用起来？如何用好？含视频音频 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484927&idx=1&sn=86a4f73a151bfb1b2d111cac2be00ea2&chksm=fc4c8039cb3b092fc853ce771f0835f1a9e9a1b65038ce7537e32cfcb4f7ab5a509d2bff10e3#rd" target="_blank" rel="noopener">复习过程中，LEO如何处理自己的ANKI笔记？ </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484922&idx=1&sn=adfe92bf7cf843cf866fa24461876443&chksm=fc4c803ccb3b092a0cf99fc88e057106b190a0581fea434b4255b678d3b75603aac04ece2a99#rd" target="_blank" rel="noopener">使用MarginNote和思维导图时，我们需要注意什么？ </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484910&idx=1&sn=2e043a359a375bb7be76fcfc1b3a0047&chksm=fc4c8028cb3b093eed9c95973f9f85d11d3ad2dc889ef70502e6f8a5d196e7717deaebcc6fc5#rd" target="_blank" rel="noopener">为什么有些人很早就开始备考，最后还是没有考好？ </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484904&idx=1&sn=aef995a8c89036b0ff61f4814ec88c44&chksm=fc4c802ecb3b09387d1879d6bf26d0c7995878408e84e7d863a0350a986863e5cbb8d3483fcc#rd" target="_blank" rel="noopener">如何通过修改ANKI模板，从被动式学习转向主动式学习？ </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484895&idx=1&sn=a394e41d661f7668a262c96009114c24&chksm=fc4c8019cb3b090f71e292939bcc5bee10affbe65a1223e49a9635306c212b4d3db4b3f17be3#rd" target="_blank" rel="noopener">康奈尔大学医疗健康中心：渐进式肌肉放松法等四种放松技术 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484883&idx=1&sn=76ddab18ec0ed3f59f0b56f13e8d2d3d&chksm=fc4c8015cb3b0903ca428240ff060422194becc0d1bbcc6c26391c063dc46834903a11c7d0fc#rd" target="_blank" rel="noopener">康奈尔大学学习策略中心：压力管理 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484866&idx=1&sn=c63e8300619f03bd9b7bd96216ce1a15&chksm=fc4c8004cb3b0912efe957862a93d008f1fdcc254478dd9ceb7402bebcb0c08a72128ad9702c#rd" target="_blank" rel="noopener">康奈尔大学学习策略中心：康奈尔笔记系统 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484841&idx=1&sn=a9f503045b44a5f23a198edf7b36919c&chksm=fc4c806fcb3b09797d263e468121700c2e0b519e898e155724486a8988c51f927f92ff332ce2#rd" target="_blank" rel="noopener">康奈尔大学学习策略中心：理解学业焦虑 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484836&idx=1&sn=4ab489c594429283451497169552f8a7&chksm=fc4c8062cb3b0974c9f18c314317e4f1349bb669ecc6cf8dcdb77c10d1746d38d59755ea18e3#rd" target="_blank" rel="noopener">20秒，将幕布笔记转换为ANKI笔记的方法 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484824&idx=1&sn=7344f24219ea216aab8e9e84b21448fa&chksm=fc4c805ecb3b0948a4ffa58e246e3e131d6151de68a1eb862463f2fac9134c995be458e5753d#rd" target="_blank" rel="noopener">转述的方法，如何把书读厚？ </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484819&idx=1&sn=d9865964cd819543a026952d3c65981d&chksm=fc4c8055cb3b0943cefcf4c96e7c1bf2a06e8a4e635a9eb4657efd1792dac0582586def4a0c2#rd" target="_blank" rel="noopener">改善ANKI使用的8条实用建议 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484814&idx=1&sn=5c97698de22e4d5f1aca13fe21fde952&chksm=fc4c8048cb3b095eb2f78508b3207745d1dd0fa343b972717e0550cbea1aee8aab0efebdff8c#rd" target="_blank" rel="noopener">学习方法的误区 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484809&idx=1&sn=4065f722696bda059552a9eb8167acb8&chksm=fc4c804fcb3b0959f7c416072e76129b17a5bbc5f07fe675fe3551ede4a1c03ed16d72eda02e#rd" target="_blank" rel="noopener">复习后期，ANKI用法汇总 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484800&idx=1&sn=652d7bfe623e091f88a4233078809743&chksm=fc4c8046cb3b0950c27a3061be0d52b6a09d03235635792f75717afa0b22da80ad0168ffc04b#rd" target="_blank" rel="noopener">怎么才能少走弯路？那就抓住Anki的本质吧 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484791&idx=1&sn=482008a4e197eaaa956627011e2a344e&chksm=fc4c80b1cb3b09a70bc42746150a1d8748d6f2c0775e94298e5151a9f95b2678897905d42dc3#rd" target="_blank" rel="noopener">用ANKI三年，考上了非全，薪资涨了三倍 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484785&idx=1&sn=8fba98fb62848918a4d2060b2d2c4a68&chksm=fc4c80b7cb3b09a1a05ca5b19a78615680c8ab82e51b8813c8866afcdb66218d6ba6d82ae3bc#rd" target="_blank" rel="noopener">压力大时，怎么轻松地学习？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484780&idx=1&sn=56c70018c59b36f20d61730f62d4ac3e&chksm=fc4c80aacb3b09bc2d7a5466251d0252941f540833c8e820bbb8660d9443091c183c52689c40#rd" target="_blank" rel="noopener">学习的边界：如何找到复习的重点，让努力事半功倍 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484773&idx=1&sn=8ff3956ac4513369473d0f409ab5ebdd&chksm=fc4c80a3cb3b09b50739e1cab17976fa09ed72885a67b8a204c9250cc81f2523891e83e36e3b#rd" target="_blank" rel="noopener">iOS版ANKI的中文视频解读 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484771&idx=1&sn=8fcca66b7ccc16f055504c66b2264d99&chksm=fc4c80a5cb3b09b300587a2303cc10c027a2a6aad839d46810ab2f2e671b6cd91e044916e112#rd" target="_blank" rel="noopener">15秒，将一篇存储性质的传统笔记转换成学习性质的ANKI笔记 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484734&idx=1&sn=c842b7db7428b42f2648448c2ca3b253&chksm=fc4c80f8cb3b09ee5e1e51b890bf54fc280da01542469c8e154e556318b9f90d66c6b687a521#rd" target="_blank" rel="noopener">如何通过“问题扩展”解决知识点琐碎的问题？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484716&idx=1&sn=24d273c7116cfe29bc4d39edaf36727d&chksm=fc4c80eacb3b09fc1a6ed8f2ffa556be5e8baaf35f3d3d6d7ea865ed70e5cc71d78079d13e28#rd" target="_blank" rel="noopener">如何用ANKI考上北京大学研究生？一名双非二本的普通学生 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484704&idx=1&sn=0365e9e5b1246572c6c9c29df2d04ab8&chksm=fc4c80e6cb3b09f00d5b9edc69ce512bcb023adfdee98b1c7f35ebc9c13acd781cf5bca956d9#rd" target="_blank" rel="noopener">如何运用郭怀慈的全身扫描放松法 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484698&idx=1&sn=4e7c6d181c90dc9e4e08aba042432a9f&chksm=fc4c80dccb3b09ca7dfd76cce9fd62da2931c2d445d79712834393f36fd48860b791a2250a4e#rd" target="_blank" rel="noopener">新课预订 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484687&idx=1&sn=237409663353bc64df926d8c2dba47dd&chksm=fc4c80c9cb3b09df987942b0e671d69d047d1d4b577e497dd7f6f6c8917727049e32357f5348#rd" target="_blank" rel="noopener">李笑来：为什么把编程当作自学的入口？附LEO用Anki学习编程的经验</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484675&idx=1&sn=e62596ea9fe69c3df5b003c3183f7ed9&chksm=fc4c80c5cb3b09d3c0e2962f06d78666b24f558534b8c3cc096afe3af41f309b1d2872a5cc7f#rd" target="_blank" rel="noopener">先分后总，斯坦福也在用的扩展式练习技术 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484670&idx=1&sn=b996f3fabe640d89b79b54c9e8b8ad2c&chksm=fc4c8138cb3b082efd2ea838ebdad331e11a4a2ea30d7a9517d3c834d13618461983ef07400d#rd" target="_blank" rel="noopener">如何让大脑听话？来自Head First 书系的学习建议 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484665&idx=1&sn=cdb8a94c05628cbd4f135e55a73d8d53&chksm=fc4c813fcb3b0829e975d49fafe29260809a94cb977aa89ca81509deceacd8ba3b01b4f73f49#rd" target="_blank" rel="noopener">“奖励”为什么能促进学习？还有哪些可用因素？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484648&idx=1&sn=5462daf65403a6226e69319676290220&chksm=fc4c812ecb3b08382038099867112cd6504ae651e7bfa789ffe160560dc812c4378ed689f75f#rd" target="_blank" rel="noopener">Anki之后，继续优化学习的方向在哪里？ </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484642&idx=1&sn=4ee191eef385c8128daadbb13583150d&chksm=fc4c8124cb3b083231b2e817c17ea1ee73f250f30c76a2206ed03e07b5928a50701850963a12#rd" target="_blank" rel="noopener">学外语的看过来–&gt;&gt; tts插件添加发音问题多，推荐看看在线发音模板</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484639&idx=1&sn=39a6b7af7f4920f3652e53dde27d45d3&chksm=fc4c8119cb3b080fb2ac23b1d4a9ca154fd8f1a884d4f7f81b19e6cebe8e09fc8a0e8595b957#rd" target="_blank" rel="noopener">怎么用好Anki？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484628&idx=1&sn=32228ed1bb7ac418360715f1c26c5d86&chksm=fc4c8112cb3b0804f7ced449c7e5e27823d9cb9b4a36e55143fb606ba7e4b9542fd9c3a7aa3e#rd" target="_blank" rel="noopener">有一种学习叫“游手好闲地学习”</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484623&idx=1&sn=8005ef40354b781fd1852ea6ba3bc263&chksm=fc4c8109cb3b081fbfa49a57923d372f9d7972f3603d1f2d4302a8fe07d9354e120c468e09f9#rd" target="_blank" rel="noopener">笔记的作用在哪里？用了Anki还要不要做纸质笔记？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484603&idx=1&sn=0531c2057ea8572f912c59ca37e15314&chksm=fc4c817dcb3b086b1f7fdee7e61372ca223fafcb2c700a0c412c176e56f3dda328eca122bbea#rd" target="_blank" rel="noopener">上手Anki，怎么才能不让英文难住？ </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484600&idx=1&sn=f0339945c92ecdf46a45f4a939e75602&chksm=fc4c817ecb3b08682f7c4bf8e20014545413129040bde6efce7bd30619c6e2b67f7016d26a44#rd" target="_blank" rel="noopener">Gif+Anki 学习复杂软件从此不再犯难 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484589&idx=1&sn=abc3722689d4a990e48a824e17e93529&chksm=fc4c816bcb3b087d83a78085e9c8cbca38f6b3e6915fe60b37a40884c8660c190c61868f524e#rd" target="_blank" rel="noopener">改善Anki同步的总体思路 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484563&idx=1&sn=a164248fce6e28745984158b59706806&chksm=fc4c8155cb3b084322deaa776b52ebf78063b0393403326c9d0935fb830c1d3e065d3a21f6c6#rd" target="_blank" rel="noopener">不想复习的假期，该怎么处理笔记？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484554&idx=1&sn=d7d398379489d550b8493e3677d41f00&chksm=fc4c814ccb3b085ad43322db79c1065527451419d46c6a0d4d83beb4cdfd2a17b00fa5ff1d10#rd" target="_blank" rel="noopener">过年礼物想好了吗？不妨试试Windows上的这款笔记输入黑科技</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484534&idx=1&sn=80473503462f8fa1140dc383d53467bd&chksm=fc4c81b0cb3b08a6145c2c752e9ea85c732187c5c47fee6e03053c4e14827e34ccf1b9f561a0#rd" target="_blank" rel="noopener">终于！我们找到了告别“机械学习”的方法 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484529&idx=1&sn=5f01a9357db744b81af25a1cc54f322b&chksm=fc4c81b7cb3b08a1e583b2f09b89cd7f43e4b272f92f5842de330fbbd8dcf6f098bdfb2c0bab#rd" target="_blank" rel="noopener">怎么获取七牛云图床的参数 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484521&idx=1&sn=6ae075da9adad368e8d7e45a895d5c92&chksm=fc4c81afcb3b08b9fb3149f619f918f406bceedb3ee1e0486748b3f351eb57c25af70ce95f12#rd" target="_blank" rel="noopener">1/4 “一图胜千言”在Anki中的最佳实现 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484521&idx=2&sn=1ad54b5f79336393535e35b4f3826577&chksm=fc4c81afcb3b08b9af68641adc0d15cf13a339c0ed38d2ca776133d4433c5ee1b85e27122ca7#rd" target="_blank" rel="noopener">2/4 如何在Windows平台使用图床为Anki添加图片素材？ </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484521&idx=3&sn=d7098992cc7b81d88d89b0d79de55551&chksm=fc4c81afcb3b08b9f6bddb205f4e83782208cf8ce3764f4a6608dcbc112fb7926146aa151322#rd" target="_blank" rel="noopener">3/4 如何在Mac平台使用图床为Anki添加图片素材？ </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484521&idx=4&sn=66f0a792955a5627d468d2cc22e15844&chksm=fc4c81afcb3b08b90718b2a1c12060a39adfbb0c2d251d0d8207db5169b23c7137b3e43bfeca#rd" target="_blank" rel="noopener">4/4 如何在iOS平台使用图床为Anki添加图片素材？ </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484509&idx=1&sn=b88b0bc9330866f7b77bc80e21adfcac&chksm=fc4c819bcb3b088d0f5dcb46088f74ff4d1d8fdd66150c24d456aad616c6e48c0d062fd8a928#rd" target="_blank" rel="noopener">笔记诊断系列01 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484505&idx=1&sn=3772de3099e355c3d6bca287bf2e7b35&chksm=fc4c819fcb3b0889831b08e3bd7a628195c62d1457321dc0a618119bd2e3269c0eb8490a86ec#rd" target="_blank" rel="noopener">163元的iOS版Anki太贵？其实你也可以不用花钱 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484501&idx=1&sn=29051350f8842419ee6d09a3531ae439&chksm=fc4c8193cb3b08850d6c7f387470afe95a31d6729e6f00160be6e48cf8319e2e875f9e130cd8#rd" target="_blank" rel="noopener">用了8年的高效放松方法 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484497&idx=1&sn=db36d1c074840911989d1b459c276484&chksm=fc4c8197cb3b08817e70784fe3ac18671c38501d6eaf0f9470876309e47ff930e748f53a712f#rd" target="_blank" rel="noopener">如何唤醒沉睡的大学生？ </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484489&idx=1&sn=9241208e21a5e1da75bde7d583ccbd33&chksm=fc4c818fcb3b0899f966beaefcb12f5f211263882ba39e2b0ba6800cb4b83e04ffd8cff6ca21#rd" target="_blank" rel="noopener">为什么看到问题却想不起来答案？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484484&idx=1&sn=89658497a1e88d17a1e4427bacda0206&chksm=fc4c8182cb3b0894480e417b55acedac16f4b9513d635782c35d7b6a530f30dc583e71c7809f#rd" target="_blank" rel="noopener">为什么你越到考前越“笨”？ </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484467&idx=1&sn=f0332fe64681fa7343fd0b6deef875f6&chksm=fc4c81f5cb3b08e32274baa0d0aefa321da3690fb966ff610b58478bd910231a5f843069ba92#rd" target="_blank" rel="noopener">?如果有一天，你的Anki笔记全丢了 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484454&idx=1&sn=024c2d0dfca6b14e38d1d327f0ecb787&chksm=fc4c81e0cb3b08f6202bad173fd301bd1b3ba1996146e80f4d41aed6ce8f6203809dca65d484#rd" target="_blank" rel="noopener">安卓手机，可以这样快速添加Anki笔记 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484403&idx=1&sn=f0468f37fe24859670e77aec279cfafb&chksm=fc4c8635cb3b0f23e7b8a7b91cbd024625c47df8dd101e92411d3dac01dd9a8b18865c8d28f1#rd" target="_blank" rel="noopener">二轮复习，这样用Anki复习效果会更好 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484398&idx=1&sn=7658a4387958d7150f31bd439d9cef66&chksm=fc4c8628cb3b0f3e004d0988a85dc1118eac5933b80394748f564b57a4f184170c9ea251aea8#rd" target="_blank" rel="noopener">如何利用iOS12的捷径，在Anki里使用图床？ </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484391&idx=1&sn=cdb97be3a9f45e5fd04845dca95067c3&chksm=fc4c8621cb3b0f371df9dbc46c5269fb217d6eb2e06d7d10482c42b6735017ee581666c92591#rd" target="_blank" rel="noopener">复习过程中，如何用Anki进行查漏补缺？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484375&idx=1&sn=9b97991f0ce98ba635cb8b3e91642501&chksm=fc4c8611cb3b0f07fe6c0b8474ce38b24580ac4490fd3edf7ea70949d94a9b07b978ac5569b0#rd" target="_blank" rel="noopener">Anki for Android on Kindle</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484369&idx=1&sn=29b93a2cf3e633bc9b6eb130cac7d3f5&chksm=fc4c8617cb3b0f01c0c371ddd30c1867e2568360ca6893cb8a15c4a0ae9e19af9db59e11cf81#rd" target="_blank" rel="noopener">备考进入下半场，为什么感觉自己还不如之前？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484292&idx=1&sn=028cb4dded0d4dbeff0662aec73d04fc&chksm=fc4c8642cb3b0f54050c5f6553a73983bdee921ec18aea8fdf1c5a17136b734c5a1cf1cbf91c#rd" target="_blank" rel="noopener">记不住！怎么办？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484285&idx=1&sn=fa212e0290c6feda5975a60f1f4a6d1f&chksm=fc4c86bbcb3b0fad635285153d721a09ac66007df464b3f7e07a76aa121fc3979121c606e129#rd" target="_blank" rel="noopener">改善思考的两个方法 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484279&idx=1&sn=c6ed0b99a8fa8e277bac0937d8c75121&chksm=fc4c86b1cb3b0fa7ce62eb0b0b1f8784e99f3f637b080ec6d660ac61c5f9c889c417bfb6eded#rd" target="_blank" rel="noopener">彩云小译——沉浸式网页翻译，查外语资料的好帮手 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484273&idx=1&sn=eb449a5391d17b934feb6790b81dcf37&chksm=fc4c86b7cb3b0fa1f2d5b8b5a4af4ae92efb94d7354d3f69bb4cb93c412ebc37a5f34218fd96#rd" target="_blank" rel="noopener">从新手成长为专家的三个学习建议 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484269&idx=1&sn=4e1327ee7a7f331888d39d3ce8c81292&chksm=fc4c86abcb3b0fbdcad41b7187587735a3c867029bdd8ce2f26e186255e502db98ca892b731e#rd" target="_blank" rel="noopener">收藏的文章没时间看？或许你可以试试这个工具</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484263&idx=1&sn=32d7fb96513a1cc8a82d8097b9e7d7e4&chksm=fc4c86a1cb3b0fb71c05ba09aed6fa502ef6af498de8dab3efebcb75424de19b570e88ff36a8#rd" target="_blank" rel="noopener">这些微信里的效率工具我已经用了很多年 </a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484257&idx=1&sn=31bc08b44948b0c069375e25bede9322&chksm=fc4c86a7cb3b0fb1773b0674dbcf7131d2ef423cdc28024165ab12f35be8f7e8196891909645#rd" target="_blank" rel="noopener">1/4 给考研人的效率提升建议</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484257&idx=2&sn=5bbf827085db8643197170ec45204310&chksm=fc4c86a7cb3b0fb15db467a67a2b7adb8815228d32ff49b4be9b4fe4220e528559bf6e9a95cf#rd" target="_blank" rel="noopener">2/4 给考研人的专业课复习建议</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484257&idx=3&sn=821640763fc2c36cb2e7c11caa4b31c8&chksm=fc4c86a7cb3b0fb1fdec3d361312aa625ef28bf1dc9ac59b1836fa3cb5056f0c13670840af95#rd" target="_blank" rel="noopener">3/4 给考研人的政治复习建议</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484257&idx=4&sn=5ef295ce3967703fcb1ceb1e86a5e603&chksm=fc4c86a7cb3b0fb1aa9b506b609abb19159b7ed3baa283c42ab323c08811319488fd1bf78447#rd" target="_blank" rel="noopener">4/4 给考研人的英语复习建议</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484235&idx=1&sn=9ba1f119b2d3f74c0676d2b5028c5b9e&chksm=fc4c868dcb3b0f9b17c2c6a8d3d6642be9efaa0e5634ed5f5d9ee8746f26491efcb3e2bc06b8#rd" target="_blank" rel="noopener">Anki同步经常出错的解决办法</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484234&idx=1&sn=545317aea37d26e5c7d214e09876b8aa&chksm=fc4c868ccb3b0f9af5e45d1e7119a675eeaccbcb640d28362d5b2ab7fc5f3bb1fc6dfce3ac09#rd" target="_blank" rel="noopener">读书笔记怎么做？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484214&idx=1&sn=a978f24200be2c467a2a07cf2391a87f&chksm=fc4c86f0cb3b0fe6e2b5c2554d6a5017adcf6c8f313c26b1381afe882acb880d84f927e27fa7#rd" target="_blank" rel="noopener">用图片替代文字？这样用Anki你可能要三思</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484199&idx=1&sn=42190b9e17db846285330732a5149c6c&chksm=fc4c86e1cb3b0ff7d8d173598a0d57f84d3e3895ee9676f69ff4aa34fcf50dc426b90eac663b#rd" target="_blank" rel="noopener">Anki上的填空题，可能没你想得那么简单</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484189&idx=1&sn=83fe2854714bf427b5b63c6a1ef3f7c4&chksm=fc4c86dbcb3b0fcd388f28616c06ea77959970e0a8cc19de2d3c6d106c60d279f3e72f0dfee8#rd" target="_blank" rel="noopener">音频多，同步难，可以和Anki说再见了</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484174&idx=1&sn=3d2916b2a350cc1e018651bba1e0a756&chksm=fc4c86c8cb3b0fde374c3f96eb613449bfa546d3268e2f6b32a3625d3913ddd3469ec56ecc75#rd" target="_blank" rel="noopener">想要更愉快地做笔记，怎么离得开双拼呢？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484107&idx=1&sn=01c8a819ec04ba9da474f8e001bdaa90&chksm=fc4c870dcb3b0e1bed029f786c47ce0c3b31d5d633cc3cdfd26b78596d18e0e2f67499c63960#rd" target="_blank" rel="noopener">使用workflow随手向Anki里快速添加问答题</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484103&idx=1&sn=9e3120cc943c23cb1692818cdd90d066&chksm=fc4c8701cb3b0e1751b8be952cc49b94bf23b05478cd217b964e76a25e19247cf3352f318d2d#rd" target="_blank" rel="noopener">你总是在权衡利弊，却不肯用尽全力</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484099&idx=1&sn=7d52e77b86dfd07798fcb9a900cc641e&chksm=fc4c8705cb3b0e13595403d251121843dbf15be809fbe2724080605aa049a51c147499a16780#rd" target="_blank" rel="noopener">1000种Anki模板</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484062&idx=1&sn=bb128e26996e74d5f3ad5405d8040880&chksm=fc4c8758cb3b0e4e05002a68bf1362b8258f8cf1366838c00f6d171950afc63de0ecf39f8ec8#rd" target="_blank" rel="noopener">?小白一看就懂的Anki模板修改方法</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484058&idx=1&sn=f8e9a20423fc5471567732bb3f9c94ea&chksm=fc4c875ccb3b0e4ac294c48152c9d1769084319328b11356f3449a8817e915a4e01a4a70cba4#rd" target="_blank" rel="noopener">?批量导入Anki卡片的几种方法</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484053&idx=1&sn=79f5faae87ad57d2500cc4a9d0013d43&chksm=fc4c8753cb3b0e45e0c1de906b3fc9a7f914aa6a0849bede2a3fddc534c8d2aec8c69c70cb6a#rd" target="_blank" rel="noopener">效率工具第一篇，截图利器Snipaste</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484041&idx=1&sn=1ff7a59d3baf774482512d2fdc3e39c7&chksm=fc4c874fcb3b0e59f7877c49ee7aaae1b3500d53de65c86ef3760a1fdbf55609b371f352f893#rd" target="_blank" rel="noopener">用Anki时，能不能用别人的记忆库？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484032&idx=1&sn=d7a92b0648270575ccc5d8cb9ff8a9c2&chksm=fc4c8746cb3b0e5096465d24d504c25ba82e31bbb34f6b7ecc01033efb54b6325ecffdb61e48#rd" target="_blank" rel="noopener">写在2017年考研结束的今天，谈谈我是怎么用Anki考上研究生的</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483960&idx=1&sn=5c648e7b6e564837e268fb193e76dfc7&chksm=fc4c87fecb3b0ee891aab3f3ef5e3c5333e12b08337049e775bd9b37cd68eb5dd3a6a7326bd7#rd" target="_blank" rel="noopener">这不是一个天道酬勤的世界</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483917&idx=1&sn=237d9ca3bce2c84472ca94775c415561&chksm=fc4c87cbcb3b0edde44668992d6c0558c7388d3808686f2a4449017bdb3983ac343fd5af78ea#rd" target="_blank" rel="noopener">你学习是为了考试还是为了提升自己？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483906&idx=1&sn=cd46b6e16c77d74ec7ebf86c6ec2385e&chksm=fc4c87c4cb3b0ed2b799dd4e9df6b6b81706c15bcd3c92166ca8b5566fd789de191c69ec8dc3#rd" target="_blank" rel="noopener">想让Anki变成无处不在的摘抄本？这个方法可以帮你实现</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483881&idx=1&sn=75cdcea73e0d3216bda04a0c137fd17c&chksm=fc4c842fcb3b0d391dd0d9726a8a1147865a508d6a0fb14ed4d34237f2bb4efcf53514c1a0e8#rd" target="_blank" rel="noopener">想把Anki里的卡片打印出来？No problem</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483871&idx=1&sn=c359675ae38f1cc8aadcf96d7f2f7966&chksm=fc4c8419cb3b0d0fa2cc6e7d23541fbf2ebeae7a1127b14c438974df9446a7e3c021d4ff64bd#rd" target="_blank" rel="noopener">SuperMemo给Anki使用者的有效学习建议</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483865&idx=1&sn=c41b2e452d85a2870aa03b6e83a4f4ef&chksm=fc4c841fcb3b0d09595c669907703377569adcacf8e1ffe00ff36c0ff2035864af948cee082a#rd" target="_blank" rel="noopener">电影《头号玩家》带给我们学习上的启示</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483856&idx=1&sn=7b136f9e613c0dc8b2708c0baa8c79bd&chksm=fc4c8416cb3b0d00ac5aff2c7fdcbea8135250a6b045ff500a8d0b056a6462eac6cc886e2f53#rd" target="_blank" rel="noopener">除了用Anki，我们还能如何管理自己的知识？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483853&idx=1&sn=3bf96e44edd166aa1a4815b1a3c9f5c4&chksm=fc4c840bcb3b0d1d587677ab166360db8efdb1cf22874e7deea6414fb5173189005b916a995a#rd" target="_blank" rel="noopener">如何在Anki手机版上开启强大的编辑功能</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483842&idx=1&sn=4d49bca936f8faed93f60df3a487d2cc&chksm=fc4c8404cb3b0d12606c589a2f667ddf3f3af2c16fe173d9057d8fa1fb38a9030c1f494cf72b#rd" target="_blank" rel="noopener">Anki是如何帮助我们做到专注的？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483837&idx=1&sn=04c93f7adf026a7a6618c6759105d16c&chksm=fc4c847bcb3b0d6d8b0cc4e3b0ed875cb6f59b81c3a75ced5c9c67e3b080110f310adcfd01a7#rd" target="_blank" rel="noopener">分享精心制作的Anki记忆库</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483826&idx=1&sn=7d24ec0114bdbab2204bd1ad5adda372&chksm=fc4c8474cb3b0d62a73bde502799edd725424db7a2dd41ef262ebcc2a5969e1b8e674071bfdb#rd" target="_blank" rel="noopener">时间管理的方法与工具</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483819&idx=1&sn=1993d8b988053dc5829ad3d3fdaec71b&chksm=fc4c846dcb3b0d7b0a8ca9a89d37d7e2db1757055a3753d6d3ca99b1f5871a85452573b05b0b#rd" target="_blank" rel="noopener">在PQ4R读书法中使用Anki</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483814&idx=1&sn=2af7e3a9cd1c90b9c39d1a05e9927929&chksm=fc4c8460cb3b0d767b3494b3b25cf657a8d66a0a47449d5ae595fa9b5b0a1efeb2f8cb57e2e7#rd" target="_blank" rel="noopener">Anki如何提升使用者的智力？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483803&idx=1&sn=ce257837c5437ec08dce5827f2376f85&chksm=fc4c845dcb3b0d4b0f034c08400bbea07f889193f962a73216bc006e9f1fc0dfcc639b923d20#rd" target="_blank" rel="noopener">Anki在数学、英语以及文科中的应用</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483777&idx=1&sn=0391598768cb71a164401f9ee9bfb47a&chksm=fc4c8447cb3b0d51a7edc81a2b1617ebaa303181971fbe7fed2e6e5888118c19cd5537da5980#rd" target="_blank" rel="noopener">大学生如何用Anki学习专业课</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483772&idx=1&sn=03a52eac118036503f56b0c8f8248cc1&chksm=fc4c84bacb3b0dacbab2700c2a845c2291e51a0242123f553fcccdfc8965f198ad4c9e763abe#rd" target="_blank" rel="noopener">上班族如何用Anki提升自己</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483764&idx=1&sn=59144426b1751559aad291875d36e3d5&chksm=fc4c84b2cb3b0da4d73ff4084f730b518a95734fe820b34494b0349a002d64479e43ac2ef04a#rd" target="_blank" rel="noopener">复习anki时，什么时候才能放过这张卡片？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483749&idx=1&sn=9845538886adacbc4f7cf15f80eda6cc&chksm=fc4c84a3cb3b0db559b5410b3358b05c2e0e657c5ad0fd6b78cbe486657505d3df88f9eb8397#rd" target="_blank" rel="noopener">提高Anki使用效率的几点建议</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483745&idx=1&sn=a33a8b9ed110a87eb3b96e10c16cc1b1&chksm=fc4c84a7cb3b0db1d5018fe94ad7b19c0985319a0209460c499e71c032373208ad6a11de1100#rd" target="_blank" rel="noopener">同样用anki，但很多细节可能导致使用效果相差巨大</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483744&idx=1&sn=b877a2f6656d8acd301ea2fb0dda9030&chksm=fc4c84a6cb3b0db0d209ead1bc4a512079c342c329f3d8b5e06288fba24b770f5d086a9d7d4a#rd" target="_blank" rel="noopener">最后一轮复习，Anki怎么用？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483734&idx=1&sn=caf37040323c57078d3840da0191aaed&chksm=fc4c8490cb3b0d86939dd936c708c41af351b7c434dbcb8f16be94d0d6a3b22be797b59cfeb8#rd" target="_blank" rel="noopener">Anki的四大块功能</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483710&idx=1&sn=56757c08de4781320ab6e79f52f2b0f8&chksm=fc4c84f8cb3b0dee951128fb9baff8e9f81630bd74619bc6a6c9cbdff82b993d96091e36c73c#rd" target="_blank" rel="noopener">为什么建议考试的你多去看看真题？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483709&idx=1&sn=0a8e4585291ae81687902f1013b9f903&chksm=fc4c84fbcb3b0ded0f627ec140b0a45f280786c79e91b871bf2663ab80cfd76beac9b9adea65#rd" target="_blank" rel="noopener">大多数人为了避免真正的思考，愿意做任何事</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483689&idx=1&sn=d697f33ef61b706084508163d1b50e49&chksm=fc4c84efcb3b0df947131788e4c9ef2dcc4a529252024b17442e57c87bc426e7fdf1d423f2c2#rd" target="_blank" rel="noopener">考研政治为什么不建议用Anki复习？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483685&idx=1&sn=27a21e45439c1bf091ec2065517f299d&chksm=fc4c84e3cb3b0df5ffb014681f0f44325b403850a521ff7214b988e2153708648b799b0e5c7b#rd" target="_blank" rel="noopener">3分钟看懂学习软件Anki是什么</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483677&idx=1&sn=9a80e89f9768e5a21fcf50562545faf4&chksm=fc4c84dbcb3b0dcd81edf9a04eeec45460312c4e0c1f7fe93bbafb2760de8f998bfebae40e07#rd" target="_blank" rel="noopener">为什么不爱学习的学生看起来更聪明？</a></li>
-<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483660&idx=1&sn=527709750d5802354b5e3189d2fdb2dc&chksm=fc4c84cacb3b0ddce85efc7f734310510fbec44407f74e884ef6e6b6cfe60d6e7dd8ca404e05#rd" target="_blank" rel="noopener">Anki逢考必过的护身符</a></li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>珍贵史料：LEO的真题分析</title>
-    <url>/2020/05/13/</url>
-    <content><![CDATA[<h4 id="01"><a href="#01" class="headerlink" title="01"></a>01</h4><p><img src="http://myself.anki.wiki/mpic/20200513/8DVXkH02ganu.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="02"><a href="#02" class="headerlink" title="02"></a>02</h4><p><img src="http://myself.anki.wiki/mpic/20200513/rmMdnsSmsy51.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="03"><a href="#03" class="headerlink" title="03"></a>03</h4><p><img src="http://myself.anki.wiki/mpic/20200513/gdiu5RJzDLIi.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="04"><a href="#04" class="headerlink" title="04"></a>04</h4><p><img src="http://myself.anki.wiki/mpic/20200513/LxsFDkKLiwYx.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="05"><a href="#05" class="headerlink" title="05"></a>05</h4><p><img src="http://myself.anki.wiki/mpic/20200513/t5rCxtyXD90j.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="06"><a href="#06" class="headerlink" title="06"></a>06</h4><p><img src="http://myself.anki.wiki/mpic/20200513/ROVUGRnxSaNu.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="07"><a href="#07" class="headerlink" title="07"></a>07</h4><p><img src="http://myself.anki.wiki/mpic/20200513/7wDsIToVDLUC.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="08"><a href="#08" class="headerlink" title="08"></a>08</h4><p><img src="http://myself.anki.wiki/mpic/20200513/fTiLqwLs5Ifk.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="09"><a href="#09" class="headerlink" title="09"></a>09</h4><p><img src="http://myself.anki.wiki/mpic/20200513/u1EgHj4h1q3o.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="10"><a href="#10" class="headerlink" title="10"></a>10</h4><p><img src="http://myself.anki.wiki/mpic/20200513/bKrqVv6BKR9B.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="11"><a href="#11" class="headerlink" title="11"></a>11</h4><p><img src="http://myself.anki.wiki/mpic/20200513/nA0OdQVnPM78.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="12"><a href="#12" class="headerlink" title="12"></a>12</h4><p><img src="http://myself.anki.wiki/mpic/20200513/SpvtDthhge5d.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="13"><a href="#13" class="headerlink" title="13"></a>13</h4><p><img src="http://myself.anki.wiki/mpic/20200513/hp095WGvuVQd.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="14"><a href="#14" class="headerlink" title="14"></a>14</h4><p><img src="http://myself.anki.wiki/mpic/20200513/Itz8JvdPHpoc.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="15"><a href="#15" class="headerlink" title="15"></a>15</h4><p><img src="http://myself.anki.wiki/mpic/20200513/jnEWwufb8v1l.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="16"><a href="#16" class="headerlink" title="16"></a>16</h4><p><img src="http://myself.anki.wiki/mpic/20200513/qD9mAhFJjmYm.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="17"><a href="#17" class="headerlink" title="17"></a>17</h4><p><img src="http://myself.anki.wiki/mpic/20200513/AbmeSvHgk1mo.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="18"><a href="#18" class="headerlink" title="18"></a>18</h4><p><img src="http://myself.anki.wiki/mpic/20200513/0g6aOY00N717.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="19"><a href="#19" class="headerlink" title="19"></a>19</h4><p><img src="http://myself.anki.wiki/mpic/20200513/2cffmtHJBLVF.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-<h4 id="20"><a href="#20" class="headerlink" title="20"></a>20</h4><p><img src="http://myself.anki.wiki/mpic/20200513/Ft02WGcpYUGY.jpg" alt="mark"></p>
-<blockquote>
-<p>评：</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>BookxNote重复导入的问题</title>
-    <url>/2020/05/15/</url>
-    <content><![CDATA[<p>待补充</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>查看课程更新介绍和提交更新建议</title>
-    <url>/2020/05/14/</url>
-    <content><![CDATA[<p>待更新</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>md2anki问题汇总</title>
-    <url>/2020/05/16/</url>
-    <content><![CDATA[<h2 id="提交新问题"><a href="#提交新问题" class="headerlink" title="提交新问题"></a>提交新问题</h2><p><a href="https://support.qq.com/product/155505" target="_blank" rel="noopener">点我</a>进入腾讯兔小巢提交反馈</p>
-<p>在微信中打开，还可以通过微信收到LEO的回复提醒哦。</p>
-<h2 id="常见老问题"><a href="#常见老问题" class="headerlink" title="常见老问题"></a>常见老问题</h2><p>待补充</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>课程已更新 内容</title>
-    <url>/2020/05/19/</url>
-    <content><![CDATA[<p><mark>用最短的学习路径<strong>学会</strong>，用最周到的服务<strong>学好</strong>。</mark></p>
-<p>更新于：2020年05月18日</p>
-<hr>
-<h4 id="电脑：实用版"><a href="#电脑：实用版" class="headerlink" title="电脑：实用版"></a>电脑：实用版</h4><p>00.01 年前总结与分享<br>00.02 如何用好这门课<br>01.01 关于暗记<br>01.02 关于课程<br>01.03 再版说明<br>02.01 学习建议<br>02.02 课程使用建议<br>03.01 极速简版-基本设置<br>03.02 极速简版-添加笔记<br>03.03 极速简版-使用插件 v2<br>03.04 极速简版-学习方案<br>03.05 极速简版-浏览笔记<br>04.01 下载安装与常用网址<br>04.02 注册登录与同步<br>04.03 Mac版与Win版对比<br>05.01 用户配置<br>05.02 导入导出与常见问题处理<br>05.03 笔记数据的优化v3<br>05.04 常用设置的细致解读（首选项）<br>06.01 添加界面与异常处理<br>11.01 关于插件必须知道的20条基本知识<br>11.02 表格的添加和学习<br>11.03 在复习界面修改笔记<br>11.04 接上期补充<br>12.01 设计符合需要的字段<br>12.02 标签可视化与应用<br>12.03 标签可视化与样式</p>
-<h2 id="电脑：探索版"><a href="#电脑：探索版" class="headerlink" title="电脑：探索版"></a>电脑：探索版</h2><p>含前 电脑：实用版 的内容</p>
-<p>15.01 15秒，将一篇传统笔记转换为多张ANKI卡片v3<br>15.02 截图工具Snipaste与ANKI<br>15.03 从幕布笔记到ANKI的转换方法<br>15.04 如何使用幕布和印象笔记的方法导入填空题<br>15.05 幕布笔记法的补充<br>15.06 用图床改善ANKI<br>15.07 阅读器BookxNote（Win版的Marginnote）v2<br>15.08 将实体图片批量转换成图床图片<br>16.01 先分后总<br>16.02 转述之把书读厚<br>16.03 记笔记的思路</p>
-<h2 id="手机：苹果版"><a href="#手机：苹果版" class="headerlink" title="手机：苹果版"></a>手机：苹果版</h2><p>01.01 界面速览<br>01.02 快速上手<br>01.03 快捷工具<br>01.04 手势操作<br>03.01 快捷指令-问答题<br>03.02 快捷指令-保存到印象笔记<br>03.03 快捷指令-填空题<br>03.04 用Siri快速记录</p>
-<h2 id="手机：安卓版"><a href="#手机：安卓版" class="headerlink" title="手机：安卓版"></a>手机：安卓版</h2><p>01.01 全流程解读<br>01.02 手势操作<br>02.01 如何进行查漏补缺<br>03.01 多账号登陆</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>opml2anki问题汇总</title>
-    <url>/2020/05/17/</url>
-    <content><![CDATA[<h2 id="提交新问题"><a href="#提交新问题" class="headerlink" title="提交新问题"></a>提交新问题</h2><p><a href="https://support.qq.com/product/155505" target="_blank" rel="noopener">点我</a>进入腾讯兔小巢提交反馈</p>
-<p>在微信中打开，还可以通过微信收到LEO的回复提醒哦</p>
-<h2 id="常见老问题（快速导航）"><a href="#常见老问题（快速导航）" class="headerlink" title="常见老问题（快速导航）"></a><a id="00">常见老问题（快速导航）</a></h2><ol>
-<li><a href="#01">显示 #undefined</a></li>
-<li><a href="#02">ANKI里图片裂了</a></li>
-<li><a href="#03">粘贴时幕布网页版弹出窗口</a></li>
-</ol>
-<hr>
-<p><img src="http://myself.anki.wiki/mpic/20200522/J6cm4v9OgQr1.png" alt="mark"></p>
-<h4 id="01"><a href="#01" class="headerlink" title="01"></a><a id="01"><a href="#00">01</a></a></h4><p>空行没有删除，导致上传opml文件到md2anki页面时显示<mark># undefined</mark></p>
-<h4 id="02"><a href="#02" class="headerlink" title="02"></a><a id="02"><a href="#00">02</a></a></h4><p><mark>图片导入后显示失败</mark> 05月21日新情况</p>
-<p>原因：幕布代码做了调整</p>
-<p>对策：opml2anki正在适配新调整后的幕布，由于这个工具不是LEO开发的，只能待开发者方便时尽快更新，大家也可以多多呼吁幕布从官方层面支持与ANKI的搭配。</p>
-<p>暂时的办法：</p>
-<ol>
-<li><p>进入笔记的HTML模式查看，是否如下图所示<br> <img src="http://myself.anki.wiki/mpic/20200522/74nMUxV4thNB.png" alt="mark"></p>
-</li>
-<li><p>如果是，则使用ANKI 浏览 中的 替换为 功能，删除多余的符号，具体如下：</p>
-<ol>
-<li><p>先找到今天导入的笔记</p>
-<p><img src="http://myself.anki.wiki/mpic/20200522/3RL1a3rssguP.png" alt="mark"></p>
-</li>
-<li><p>然后全选</p>
-<p><img src="http://myself.anki.wiki/mpic/20200522/06aRDF9NzyBm.png" alt="mark"></p>
-</li>
-<li><p>再通过右键选择 替换为</p>
-<p><img src="http://myself.anki.wiki/mpic/20200522/5rHokG0bTfxP.png" alt="mark"></p>
-</li>
-<li><p>最后把 <code>&lt;img src=&quot;&lt;/span&gt;</code> 替换为 <code>&lt;img src=&quot;</code> 从而实现删除功能，注意后面只少了一个<code>&lt;/span&gt;</code>，不要漏了引号</p>
-<p><img src="http://myself.anki.wiki/mpic/20200522/sn5tJ8LJH0mO.png" alt="mark"></p>
-</li>
-<li><p>还有个细节，如何二次打开HTML代码查看，会发现<code>&lt;img src=&quot;&lt;/span&gt;</code>里的<code>&lt;/span&gt;</code>变成了如下图所示的样子</p>
-<p><img src="http://myself.anki.wiki/mpic/20200522/DhtQ0D1BV6cV.png" alt="mark"></p>
-</li>
-<li><p>那就选中它，仍然使用 替换为 的功能，将它替换为 无 （就是什么都不填）</p>
-<p><img src="http://myself.anki.wiki/mpic/20200522/2rBhOBBI2Snb.png" alt="mark"></p>
-</li>
-</ol>
-</li>
-</ol>
-<h4 id="03"><a href="#03" class="headerlink" title="03"></a><a id="03"><a href="#00">03</a></a></h4><p><mark>使用网页版幕布粘贴图床链接时弹出上传图片窗口</mark></p>
-<p>情况如下图所示<br><img src="http://myself.anki.wiki/mpic/20200522/mSqwLhD6vK9k.png" alt="mark"></p>
-<p>原因分析：可能误碰了上传图片的快捷键<br>解决办法：使用Chrome浏览器（经测试正常）</p>
+    <title>ShareX与ffmpeg动图录制组件</title>
+    <url>/2020/05/26/</url>
+    <content><![CDATA[<h2 id="ShareX的用途"><a href="#ShareX的用途" class="headerlink" title="ShareX的用途"></a>ShareX的用途</h2><p>截图，录制gif动图，功能非常丰富</p>
+<h2 id="下载官网"><a href="#下载官网" class="headerlink" title="下载官网"></a>下载官网</h2><p><a href="https://getsharex.com/" target="_blank" rel="noopener">点我跳转到官网</a></p>
+<h2 id="ffmpeg组件是什么"><a href="#ffmpeg组件是什么" class="headerlink" title="ffmpeg组件是什么"></a>ffmpeg组件是什么</h2><p>这是在ShareX里录制动图的组件，需要额外下载。</p>
+<p>因为有些同学下载不了，这里提供备份，<a href="https://www.jianguoyun.com/p/DcP3wqMQ8LmgBxjsvpwD" target="_blank" rel="noopener">点我</a>进入坚果云网盘下载备用。、</p>
+<p>下载后注意文件名为 <mark>ffmpeg.exe</mark> （尤其是后缀名，如果被篡改了，下载后要改回来！）</p>
+<p>如果在安装ShareX的时候没有改变默认路径，那么下载ffmpeg后应该是放到如下图所示的文件夹中。主要是找到自己的 Documents 文件夹，因为中间的LeoCh为用户名文件夹，每个人的电脑都不一样。</p>
+<p><img src="http://myself.anki.wiki/mpic/20200526/qXcn4aqu2OW3.png" alt="mark"></p>
 ]]></content>
   </entry>
   <entry>
@@ -824,6 +402,19 @@
 ]]></content>
   </entry>
   <entry>
+    <title>课程已更新 内容</title>
+    <url>/2020/05/19/</url>
+    <content><![CDATA[<p><mark>用最短的学习路径<strong>学会</strong>，用最周到的服务<strong>学好</strong>。</mark></p>
+<p>更新于：2020年05月18日</p>
+<hr>
+<h4 id="电脑：实用版"><a href="#电脑：实用版" class="headerlink" title="电脑：实用版"></a>电脑：实用版</h4><p>00.01 年前总结与分享<br>00.02 如何用好这门课<br>01.01 关于暗记<br>01.02 关于课程<br>01.03 再版说明<br>02.01 学习建议<br>02.02 课程使用建议<br>03.01 极速简版-基本设置<br>03.02 极速简版-添加笔记<br>03.03 极速简版-使用插件 v2<br>03.04 极速简版-学习方案<br>03.05 极速简版-浏览笔记<br>04.01 下载安装与常用网址<br>04.02 注册登录与同步<br>04.03 Mac版与Win版对比<br>05.01 用户配置<br>05.02 导入导出与常见问题处理<br>05.03 笔记数据的优化v3<br>05.04 常用设置的细致解读（首选项）<br>06.01 添加界面与异常处理<br>11.01 关于插件必须知道的20条基本知识<br>11.02 表格的添加和学习<br>11.03 在复习界面修改笔记<br>11.04 接上期补充<br>12.01 设计符合需要的字段<br>12.02 标签可视化与应用<br>12.03 标签可视化与样式</p>
+<h2 id="电脑：探索版"><a href="#电脑：探索版" class="headerlink" title="电脑：探索版"></a>电脑：探索版</h2><p>含前 电脑：实用版 的内容</p>
+<p>15.01 15秒，将一篇传统笔记转换为多张ANKI卡片v3<br>15.02 截图工具Snipaste与ANKI<br>15.03 从幕布笔记到ANKI的转换方法<br>15.04 如何使用幕布和印象笔记的方法导入填空题<br>15.05 幕布笔记法的补充<br>15.06 用图床改善ANKI<br>15.07 阅读器BookxNote（Win版的Marginnote）v2<br>15.08 将实体图片批量转换成图床图片<br>16.01 先分后总<br>16.02 转述之把书读厚<br>16.03 记笔记的思路</p>
+<h2 id="手机：苹果版"><a href="#手机：苹果版" class="headerlink" title="手机：苹果版"></a>手机：苹果版</h2><p>01.01 界面速览<br>01.02 快速上手<br>01.03 快捷工具<br>01.04 手势操作<br>03.01 快捷指令-问答题<br>03.02 快捷指令-保存到印象笔记<br>03.03 快捷指令-填空题<br>03.04 用Siri快速记录</p>
+<h2 id="手机：安卓版"><a href="#手机：安卓版" class="headerlink" title="手机：安卓版"></a>手机：安卓版</h2><p>01.01 全流程解读<br>01.02 手势操作<br>02.01 如何进行查漏补缺<br>03.01 多账号登陆</p>
+]]></content>
+  </entry>
+  <entry>
     <title>新版课程播放器下载</title>
     <url>/2020/05/18/</url>
     <content><![CDATA[<p>为了尽可能保护版权，保证课程的长期可持续更新，LEO选择了特殊的播放器，这可能会导致某些方面体验变差，但是这些都可以解决，谢谢您给予耐心和理解。</p>
@@ -868,761 +459,424 @@
 ]]></content>
   </entry>
   <entry>
-    <title>ShareX与ffmpeg动图录制组件</title>
-    <url>/2020/05/26/</url>
-    <content><![CDATA[<h2 id="ShareX的用途"><a href="#ShareX的用途" class="headerlink" title="ShareX的用途"></a>ShareX的用途</h2><p>截图，录制gif动图，功能非常丰富</p>
-<h2 id="下载官网"><a href="#下载官网" class="headerlink" title="下载官网"></a>下载官网</h2><p><a href="https://getsharex.com/" target="_blank" rel="noopener">点我跳转到官网</a></p>
-<h2 id="ffmpeg组件是什么"><a href="#ffmpeg组件是什么" class="headerlink" title="ffmpeg组件是什么"></a>ffmpeg组件是什么</h2><p>这是在ShareX里录制动图的组件，需要额外下载。</p>
-<p>因为有些同学下载不了，这里提供备份，<a href="https://www.jianguoyun.com/p/DcP3wqMQ8LmgBxjsvpwD" target="_blank" rel="noopener">点我</a>进入坚果云网盘下载备用。、</p>
-<p>下载后注意文件名为 <mark>ffmpeg.exe</mark> （尤其是后缀名，如果被篡改了，下载后要改回来！）</p>
-<p>如果在安装ShareX的时候没有改变默认路径，那么下载ffmpeg后应该是放到如下图所示的文件夹中。主要是找到自己的 Documents 文件夹，因为中间的LeoCh为用户名文件夹，每个人的电脑都不一样。</p>
-<p><img src="http://myself.anki.wiki/mpic/20200526/qXcn4aqu2OW3.png" alt="mark"></p>
+    <title>opml2anki问题汇总</title>
+    <url>/2020/05/17/</url>
+    <content><![CDATA[<h2 id="提交新问题"><a href="#提交新问题" class="headerlink" title="提交新问题"></a>提交新问题</h2><p><a href="https://support.qq.com/product/155505" target="_blank" rel="noopener">点我</a>进入腾讯兔小巢提交反馈</p>
+<p>在微信中打开，还可以通过微信收到LEO的回复提醒哦</p>
+<h2 id="常见老问题（快速导航）"><a href="#常见老问题（快速导航）" class="headerlink" title="常见老问题（快速导航）"></a><a id="00">常见老问题（快速导航）</a></h2><ol>
+<li><a href="#01">显示 #undefined</a></li>
+<li><a href="#02">ANKI里图片裂了</a></li>
+<li><a href="#03">粘贴时幕布网页版弹出窗口</a></li>
+</ol>
+<hr>
+<p><img src="http://myself.anki.wiki/mpic/20200522/J6cm4v9OgQr1.png" alt="mark"></p>
+<h4 id="01"><a href="#01" class="headerlink" title="01"></a><a id="01"><a href="#00">01</a></a></h4><p>空行没有删除，导致上传opml文件到md2anki页面时显示<mark># undefined</mark></p>
+<h4 id="02"><a href="#02" class="headerlink" title="02"></a><a id="02"><a href="#00">02</a></a></h4><p><mark>图片导入后显示失败</mark> 05月21日新情况</p>
+<p>原因：幕布代码做了调整</p>
+<p>对策：opml2anki正在适配新调整后的幕布，由于这个工具不是LEO开发的，只能待开发者方便时尽快更新，大家也可以多多呼吁幕布从官方层面支持与ANKI的搭配。</p>
+<p>暂时的办法：</p>
+<ol>
+<li><p>进入笔记的HTML模式查看，是否如下图所示<br> <img src="http://myself.anki.wiki/mpic/20200522/74nMUxV4thNB.png" alt="mark"></p>
+</li>
+<li><p>如果是，则使用ANKI 浏览 中的 替换为 功能，删除多余的符号，具体如下：</p>
+<ol>
+<li><p>先找到今天导入的笔记</p>
+<p><img src="http://myself.anki.wiki/mpic/20200522/3RL1a3rssguP.png" alt="mark"></p>
+</li>
+<li><p>然后全选</p>
+<p><img src="http://myself.anki.wiki/mpic/20200522/06aRDF9NzyBm.png" alt="mark"></p>
+</li>
+<li><p>再通过右键选择 替换为</p>
+<p><img src="http://myself.anki.wiki/mpic/20200522/5rHokG0bTfxP.png" alt="mark"></p>
+</li>
+<li><p>最后把 <code>&lt;img src=&quot;&lt;/span&gt;</code> 替换为 <code>&lt;img src=&quot;</code> 从而实现删除功能，注意后面只少了一个<code>&lt;/span&gt;</code>，不要漏了引号</p>
+<p><img src="http://myself.anki.wiki/mpic/20200522/sn5tJ8LJH0mO.png" alt="mark"></p>
+</li>
+<li><p>还有个细节，如何二次打开HTML代码查看，会发现<code>&lt;img src=&quot;&lt;/span&gt;</code>里的<code>&lt;/span&gt;</code>变成了如下图所示的样子</p>
+<p><img src="http://myself.anki.wiki/mpic/20200522/DhtQ0D1BV6cV.png" alt="mark"></p>
+</li>
+<li><p>那就选中它，仍然使用 替换为 的功能，将它替换为 无 （就是什么都不填）</p>
+<p><img src="http://myself.anki.wiki/mpic/20200522/2rBhOBBI2Snb.png" alt="mark"></p>
+</li>
+</ol>
+</li>
+</ol>
+<h4 id="03"><a href="#03" class="headerlink" title="03"></a><a id="03"><a href="#00">03</a></a></h4><p><mark>使用网页版幕布粘贴图床链接时弹出上传图片窗口</mark></p>
+<p>情况如下图所示<br><img src="http://myself.anki.wiki/mpic/20200522/mSqwLhD6vK9k.png" alt="mark"></p>
+<p>原因分析：可能误碰了上传图片的快捷键<br>解决办法：使用Chrome浏览器（经测试正常）</p>
 ]]></content>
   </entry>
   <entry>
-    <title>读书笔记-R2A-2020年05月28日</title>
-    <url>/2020/05/28/</url>
-    <content><![CDATA[<!doctype html>
-<html>
-<head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>R2A 2020年05月28日</title><link href='https://fonts.loli.net/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
-html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
-iframe { margin: auto; }
-a.url { word-break: break-all; }
-a:active, a:hover { outline: 0px; }
-.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
-#write.first-line-indent p { text-indent: 2em; }
-#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
-#write.first-line-indent li { margin-left: 2em; }
-.for-image #write { padding-left: 8px; padding-right: 8px; }
-body.typora-export { padding-left: 30px; padding-right: 30px; }
-.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
-@media screen and (max-width: 500px) {
-  body.typora-export { padding-left: 0px; padding-right: 0px; }
-  #write { padding-left: 20px; padding-right: 20px; }
-  .CodeMirror-sizer { margin-left: 0px !important; }
-  .CodeMirror-gutters { display: none !important; }
-}
-#write li > figure:last-child { margin-bottom: 0.5rem; }
-#write ol, #write ul { position: relative; }
-img { max-width: 100%; vertical-align: middle; }
-button, input, select, textarea { color: inherit; font: inherit; }
-input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
-*, ::after, ::before { box-sizing: border-box; }
-#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
-#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
-p { line-height: inherit; }
-h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
-p { orphans: 4; }
-h1 { font-size: 2rem; }
-h2 { font-size: 1.8rem; }
-h3 { font-size: 1.6rem; }
-h4 { font-size: 1.4rem; }
-h5 { font-size: 1.2rem; }
-h6 { font-size: 1rem; }
-.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
-.hidden { display: none; }
-.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
-a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
-sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
-#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
-figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
-figure > table { margin: 0px !important; }
-tr { break-inside: avoid; break-after: auto; }
-thead { display: table-header-group; }
-table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
-table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
-.CodeMirror-linenumber { user-select: none; }
-.CodeMirror { text-align: left; }
-.CodeMirror-placeholder { opacity: 0.3; }
-.CodeMirror pre { padding: 0px 4px; }
-.CodeMirror-lines { padding: 0px; }
-div.hr:focus { cursor: none; }
-#write pre { white-space: pre-wrap; }
-#write.fences-no-line-wrapping pre { white-space: pre; }
-#write pre.ty-contain-cm { white-space: normal; }
-.CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
-.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
-#write .md-fences.mock-cm { white-space: pre-wrap; }
-.md-fences.md-fences-with-lineno { padding-left: 0px; }
-#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
-.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
-.CodeMirror-line, twitterwidget { break-inside: avoid; }
-.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
-.footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
-li div { padding-top: 0px; }
-blockquote { margin: 1rem 0px; }
-li .mathjax-block, li p { margin: 0.5rem 0px; }
-li { margin: 0px; position: relative; }
-blockquote > :last-child { margin-bottom: 0px; }
-blockquote > :first-child, li > :first-child { margin-top: 0px; }
-.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
-#write .footnote-line { white-space: pre-wrap; }
-@media print {
-  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
-  html.blink-to-pdf { font-size: 13px; }
-  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
-  .typora-export #write::after { height: 0px; }
-}
-.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
-a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
-p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
-#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
-p > .md-image:only-child { display: inline-block; width: 100%; }
-#write .MathJax_Display { margin: 0.8em 0px 0px; }
-.md-math-block { width: 100%; }
-.md-math-block:not(:empty)::after { display: none; }
-[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
-.md-task-list-item { position: relative; list-style-type: none; }
-.task-list-item.md-task-list-item { padding-left: 0px; }
-.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
-.math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
-.md-toc-content { position: relative; margin-left: 0px; }
-.md-toc-content::after, .md-toc::after { display: none; }
-.md-toc-item { display: block; color: rgb(65, 131, 196); }
-.md-toc-item a { text-decoration: none; }
-.md-toc-inner:hover { text-decoration: underline; }
-.md-toc-inner { display: inline-block; cursor: pointer; }
-.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
-.md-toc-h2 .md-toc-inner { margin-left: 2em; }
-.md-toc-h3 .md-toc-inner { margin-left: 4em; }
-.md-toc-h4 .md-toc-inner { margin-left: 6em; }
-.md-toc-h5 .md-toc-inner { margin-left: 8em; }
-.md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) {
-  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
-  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
-  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
-  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
-}
-a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
-.footnote-line a:not(.reversefootnote) { color: inherit; }
-.md-attr { display: none; }
-.md-fn-count::after { content: "."; }
-code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
-.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
-code { text-align: left; vertical-align: initial; }
-a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
-.md-inline-math .MathJax_SVG .noError { display: none !important; }
-.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
-.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
-.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
-.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
-.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
-.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
-.MathJax_SVG * { transition: none 0s ease 0s; }
-.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
-.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
-.md-diagram-panel > svg { max-width: 100%; }
-[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
-[lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom: 0px; }
-video { max-width: 100%; display: block; margin: 0px auto; }
-iframe { max-width: 100%; width: 100%; border: none; }
-.highlight td, .highlight tr { border: 0px; }
-svg[id^="mermaidChart"] { line-height: 1em; }
-mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
-.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
-mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
-
-
-/* meyer reset -- http://meyerweb.com/eric/tools/css/reset/ , v2.0 | 20110126 | License: none (public domain) */
-
-@include-when-export url(https://fonts.loli.net/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext);
-
-/* =========== */
-
-:root {
-	--active-file-bg-color: #dadada;
-	--active-file-bg-color: rgba(32, 43, 51, 0.63);
-	--active-file-text-color: white;
-	--bg-color: #f3f2ee;
-	--text-color: #1f0909;
-	--control-text-color: #444;
-	--rawblock-edit-panel-bd: #e5e5e5;
-
-	--select-text-bg-color: rgba(32, 43, 51, 0.63);
-  --select-text-font-color: white;
-}
-
-pre {
-	--select-text-bg-color: #36284e;
-	--select-text-font-color: #fff;
-}
-
-html {
-	font-size: 16px;
-}
-
-html, body {
-	background-color: #f3f2ee;
-	font-family: "PT Serif", 'Times New Roman', Times, serif;
-	color: #1f0909;
-	line-height: 1.5em;
-}
-
-/*#write {
-	overflow-x: auto;
-    max-width: initial;
-	padding-left: calc(50% - 17em);
-    padding-right: calc(50% - 17em);
-}
-
-@media (max-width: 36em) {
- 	#write {
- 		padding-left: 1em;
-    	padding-right: 1em;
- 	}
-}*/
-
-#write {
-	max-width: 40em;
-}
-
-@media only screen and (min-width: 1400px) {
-	#write {
-			max-width: 914px;
-	}
-}
-
-ol li {
-	list-style-type: decimal;
-	list-style-position: outside;
-}
-ul li {
-	list-style-type: disc;
-	list-style-position: outside;
-}
-
-ol,
-ul {
-	list-style: none;
-}
-
-blockquote,
-q {
-	quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* styles */
-
-/* ====== */
-
-/* headings */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-weight: bold;
-}
-h1 {
-	font-size: 1.875em;
-	/*30 / 16*/
-	line-height: 1.6em;
-	/* 48 / 30*/
-	margin-top: 2em;
-	background-color: #ea4335;
-	font-weight: bolder;
-}
-h2,
-h3 {
-	font-size: 1.3125em;
-	/*21 / 16*/
-	line-height: 1.15;
-	/*24 / 21*/
-	margin-top: 2.285714em;
-	/*48 / 21*/
-	margin-bottom: 1.15em;
-	/*24 / 21*/
-	background-color: #fbbc03;
-	font-weight: bolder;
-}
-h3 {
-	font-weight: normal;
-	background-color: #0084ff !important;
-}
-h4 {
-	color: #ea4335;
-	font-size: 1.125em;
-	/*18 / 16*/
-	margin-top: 2.67em;
-	/*48 / 18*/
-}
-h5,
-h6 {
-	font-size: 1em;
-	/*16*/
-}
-h1 {
-	border-bottom: 1px solid;
-	margin-bottom: 1.875em;
-	padding-bottom: 0.8125em;
-}
-/* links */
-
-a {
-	text-decoration: none;
-	color: #065588;
-}
-a:hover,
-a:active {
-	text-decoration: underline;
-}
-/* block spacing */
-
-p,
-blockquote,
-.md-fences {
-	margin-bottom: 1.5em;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin-bottom: 1.5em;
-}
-/* blockquote */
-
-blockquote {
-	font-style: italic;
-	border-left: 5px solid;
-	margin-left: 2em;
-	padding-left: 1em;
-}
-/* lists */
-
-ul,
-ol {
-	margin: 0 0 1.5em 1.5em;
-}
-/* tables */
-.md-meta,.md-before, .md-after {
-	color:#999;
-}
-
-table {
-	margin-bottom: 1.5em;
-	/*24 / 16*/
-	font-size: 1em;
-	/* width: 100%; */
-}
-thead th,
-tfoot th {
-	padding: .25em .25em .25em .4em;
-	text-transform: uppercase;
-}
-th {
-	text-align: left;
-}
-td {
-	vertical-align: top;
-	padding: .25em .25em .25em .4em;
-}
-
-code,
-.md-fences {
-	background-color: #dadada;
-}
-
-code {
-	padding-left: 2px;
-	padding-right: 2px;
-}
-
-.md-fences {
-	margin-left: 2em;
-	margin-bottom: 3em;
-	padding-left: 1ch;
-	padding-right: 1ch;
-}
-
-pre,
-code,
-tt {
-	font-size: .875em;
-	line-height: 1.714285em;
-}
-/* some fixes */
-
-h1 {
-	line-height: 1.3em;
-	font-weight: normal;
-	margin-bottom: 0.5em;
-}
-
-p + ul,
-p + ol{
-	margin-top: .5em;
-}
-
-h3 + ul,
-h4 + ul,
-h5 + ul,
-h6 + ul,
-h3 + ol,
-h4 + ol,
-h5 + ol,
-h6 + ol {
-	margin-top: .5em;
-}
-
-li > ul,
-li > ol {
-	margin-top: inherit;
-	margin-bottom: 0;
-}
-
-li ol>li {
-	list-style-type: lower-alpha;
-}
-
-li li ol>li{
-	list-style-type: lower-roman;
-}
-
-h2,
-h3 {
-	margin-bottom: .75em;
-}
-hr {
-	border-top: none;
-	border-right: none;
-	border-bottom: 1px solid;
-	border-left: none;
-}
-h1 {
-	border-color: #c5c5c5;
-}
-blockquote {
-	border-color: #bababa;
-	color: #656565;
-}
-
-blockquote ul,
-blockquote ol {
-	margin-left:0;
-}
-
-.ty-table-edit {
-	background-color: transparent;
-}
-thead {
-	background-color: #dadada;
-}
-tr:nth-child(even) {
-	background: #e8e7e7;
-}
-hr {
-	border-color: #c5c5c5;
-}
-.task-list{
-	padding-left: 1rem;
-}
-
-.md-task-list-item {
-	padding-left: 1.5rem;
-	list-style-type: none;
-}
-
-.md-task-list-item > input:before {
-	content: '\221A';
-	display: inline-block;
-	width: 1.25rem;
-  	height: 1.6rem;
-	vertical-align: middle;
-	text-align: center;
-	color: #ddd;
-	background-color: #F3F2EE;
-}
-
-.md-task-list-item > input:checked:before,
-.md-task-list-item > input[checked]:before{
-	color: inherit;
-}
-
-#write pre.md-meta-block {
-	min-height: 1.875rem;
-	color: #555;
-	border: 0px;
-	background: transparent;
-	margin-top: -4px;
-	margin-left: 1em;
-	margin-top: 1em;
-}
-
-.md-image>.md-meta {
-	color: #9B5146;
-}
-
-.md-image>.md-meta{
-	font-family: Menlo, 'Ubuntu Mono', Consolas, 'Courier New', 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', serif;
-}
-
-
-#write>h3.md-focus:before{
-	left: -1.5rem;
-	color:#999;
-	border-color:#999;
-}
-#write>h4.md-focus:before{
-	left: -1.5rem;
-	top: .25rem;
-	color:#999;
-	border-color:#999;
-}
-#write>h5.md-focus:before{
-	left: -1.5rem;
-	top: .0.3125rem;
-	color:#999;
-	border-color:#999;
-}
-#write>h6.md-focus:before{
-	left: -1.5rem;
-	top: 0.3125rem;
-	color:#999;
-	border-color:#999;
-}
-
-.md-toc:focus .md-toc-content{
-	margin-top: 19px;
-}
-
-.md-toc-content:empty:before{
-	color: #065588;
-}
-.md-toc-item {
-	color: #065588;
-}
-#write div.md-toc-tooltip {
-	background-color: #f3f2ee;
-}
-
-#typora-sidebar {
-	background-color: #f3f2ee;
-	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.375);
-  	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.375);
-}
-
-.pin-outline #typora-sidebar {
-	background: inherit;
-	box-shadow: none;
-	border-right: 1px dashed;
-}
-
-.pin-outline #typora-sidebar:hover .outline-title-wrapper {
-	border-left:1px dashed;
-}
-
-.outline-item:hover {
-  background-color: #dadada;
-  border-left: 28px solid #dadada;
-  border-right: 18px solid #dadada;
-}
-
-.typora-node .outline-item:hover {
-  	border-right: 28px solid #dadada;
-}
-
-.outline-expander:before {
-  content: "\f0da";
-  font-family: FontAwesome;
-  font-size:14px;
-  top: 1px;
-}
-
-.outline-expander:hover:before,
-.outline-item-open>.outline-item>.outline-expander:before {
-  content: "\f0d7";
-}
-
-.modal-content {
-	background-color: #f3f2ee;
-}
-
-.auto-suggest-container ul li {
-	list-style-type: none;
-}
-
-/** UI for electron */
-
-.megamenu-menu,
-#top-titlebar, #top-titlebar *,
-.megamenu-content {
-	background: #f3f2ee;
-	color: #1f0909;
-}
-
-.megamenu-menu-header {
-	border-bottom: 1px dashed #202B33;
-}
-
-.megamenu-menu {
-	box-shadow: none;
-	border-right: 1px dashed;
-}
-
-header, .context-menu, .megamenu-content, footer {
-	font-family: "PT Serif", 'Times New Roman', Times, serif;
-    color: #1f0909;
-}
-
-#megamenu-back-btn {
-	color: #1f0909;
-	border-color: #1f0909;
-}
-
-.megamenu-menu-header #megamenu-menu-header-title:before {
-	color: #1f0909;
-}
-
-.megamenu-menu-list li a:hover, .megamenu-menu-list li a.active {
-	color: inherit;
-	background-color: #e8e7df;
-}
-
-.long-btn:hover {
-	background-color: #e8e7df;
-}
-
-#recent-file-panel tbody tr:nth-child(2n-1) {
-    background-color: transparent !important;
-}
-
-.megamenu-menu-panel tbody tr:hover td:nth-child(2) {
-    color: inherit;
-}
-
-.megamenu-menu-panel .btn {
-	background-color: #D2D1D1;
-}
-
-.btn-default {
-	background-color: transparent;
-}
-
-.typora-sourceview-on #toggle-sourceview-btn,
-.ty-show-word-count #footer-word-count {
-	background: #c7c5c5;
-}
-
-#typora-quick-open {
-    background-color: inherit;
-}
-
-.md-diagram-panel {
-	margin-top: 8px;
-}
-
-.file-list-item-file-name {
-	font-weight: initial;
-}
-
-.file-list-item-summary {
-	opacity: 1;
-}
-
-.file-list-item {
-	color: #777;
-}
-
-.file-list-item.active {
-	background-color: inherit;
-	color: black;
-}
-
-.ty-side-sort-btn.active {
-	background-color: inherit;
-}
-
-.file-list-item.active .file-list-item-file-name  {
-	font-weight: bold;
-}
-
-.file-list-item{
-    opacity:1 !important;
-}
-
-.file-library-node.active>.file-node-background{
-	background-color: rgba(32, 43, 51, 0.63);
-	background-color: var(--active-file-bg-color);
-}
-
-.file-tree-node.active>.file-node-content{
-	color: white;
-	color: var(--active-file-text-color);
-}
-
-.md-task-list-item>input {
-	margin-left: -1.7em;
-	margin-top: calc(1rem - 12px);
-}
-
-input {
-	border: 1px solid #aaa;
-}
-
-.megamenu-menu-header #megamenu-menu-header-title,
-.megamenu-menu-header:hover, 
-.megamenu-menu-header:focus {
-	color: inherit;
-}
-
-.dropdown-menu .divider {
-	border-color: #e5e5e5;
-}
-
-/* https://github.com/typora/typora-issues/issues/2046 */
-.os-windows-7 strong,
-.os-windows-7 strong  {
-	font-weight: 760;
-}
-
-.ty-preferences .btn-default {
-	background: transparent;
-}
-
-.ty-preferences .window-header {
-	border-bottom: 1px dashed #202B33;
-	box-shadow: none;
-}
-
-#sidebar-loading-template, #sidebar-loading-template.file-list-item {
-	color: #777;
-}
-
-
-</style>
-<meta name="generator" content="Hexo 4.2.0"></head>
-<body class='typora-export os-windows' >
-<div  id='write'  class = 'is-node'><h1><a name="r2a" class="md-header-anchor"></a><span>R2A</span></h1><h2><a name="javascript正则表达式迷你书" class="md-header-anchor"></a><span>JavaScript正则表达式迷你书</span></h2><h3><a name="存疑笔记" class="md-header-anchor"></a><span>存疑笔记</span></h3><h4><a name="什么是span-classhighlight分组引用span和span-classhighlight反向引用span" class="md-header-anchor"></a><span>什么是</span><span class="highlight"><span>分组引用</span></span><span>和</span><span class="highlight"><span>反向引用</span></span><span>？</span></h4><h3><a name="结构笔记" class="md-header-anchor"></a><span>结构笔记</span></h3><h4><a name="span-classpagereference正则表达式span迷你书侧重于哪方面的span-classpagereference正则表达式spanp4" class="md-header-anchor"></a><span class="pagereference"><span>正则表达式</span></span><span>迷你书，侧重于哪方面的</span><span class="pagereference"><span>正则表达式</span></span><span>？P4</span></h4><h5><a name="span-classpagereferencejavascriptspan" class="md-header-anchor"></a><span class="pagereference"><span>JavaScript</span></span></h5><h4><a name="span-classpagereference正则表达式span有哪两种span-classpagereference匹配方式spanp4" class="md-header-anchor"></a><span class="pagereference"><span>正则表达式</span></span><span>有哪两种</span><span class="pagereference"><span>匹配方式</span></span><span>？P4</span></h4><h5><a name="span-classpagereference字符匹配span第一章）和span-classpagereference位置匹配span第二章）" class="md-header-anchor"></a><span class="pagereference"><span>字符匹配</span></span><span>（第一章）和</span><span class="pagereference"><span>位置匹配</span></span><span>（第二章）</span></h5><h4><a name="在正则中span-classpagereference括号span第三章）的作用是什么p4" class="md-header-anchor"></a><span>在正则中，</span><span class="pagereference"><span>括号</span></span><span>（第三章）的作用是什么？P4</span></h4><h5><a name="捕获数据" class="md-header-anchor"></a><span>捕获数据</span></h5><h4><a name="第5章-span-classpagereference正则表达式span的拆分-与-第6章-span-classpagereference正则表达式span的构建分别是从什么角度写的p5" class="md-header-anchor"></a><span>第5章 </span><span class="pagereference"><span>正则表达式</span></span><span>的拆分 与 第6章 </span><span class="pagereference"><span>正则表达式</span></span><span>的构建，分别是从什么角度写的？P5</span></h4><h5><a name="拆分从span-classbold读span的角度" class="md-header-anchor"></a><span>拆分：从</span><span class="bold"><span>读</span></span><span>的角度</span></h5><h5><a name="构建从span-classbold写span的角度" class="md-header-anchor"></a><span>构建：从</span><span class="bold"><span>写</span></span><span>的角度</span></h5><h4><a name="为什么觉得span-classpagereference正则表达式span的学习很乱p6" class="md-header-anchor"></a><span>为什么觉得</span><span class="pagereference"><span>正则表达式</span></span><span>的学习很乱？P6</span></h4><h5><a name="因为元字符太多了看起来没有系统性不好记" class="md-header-anchor"></a><span>因为元字符太多了，看起来没有系统性，不好记</span></h5><h3><a name="概念笔记" class="md-header-anchor"></a><span>概念笔记</span></h3><h4><a name="span-classhighlightvar-regexspan-中的span-classpagereferenceregexspan是什么意思p6" class="md-header-anchor"></a><span class="highlight"><span>var regex</span></span><span> 中的</span><span class="pagereference"><span>regex</span></span><span>是什么意思？P6</span></h4><h5><a name="regular-expression常简写为-regexregexp或re" class="md-header-anchor"></a><span>Regular Expression，常简写为 regex、regexp或RE</span></h5><h5><a name="markhttpmyselfankiwikimpic202005286pj90pwu2pkopng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/6pJ90PWu2pKo.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="一个正则可以匹配的字符串的span-classpagereference长度span可以用什么表示p6" class="md-header-anchor"></a><span>一个正则可以匹配的字符串的</span><span class="pagereference"><span>长度</span></span><span>，可以用什么表示？P6</span></h4><h5><a name="markhttpmyselfankiwikimpic202005287pvnqktyrl21png" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/7PVnqKTyrL21.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference定义span正则表达式用什么格式p6" class="md-header-anchor"></a><span class="pagereference"><span>定义</span></span><span>正则表达式用什么格式？P6</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528cb88qqleyjlppng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/cb88QQleyjLp.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference斜杠span在span-classpagereference定义span正则过程中的作用是什么p6" class="md-header-anchor"></a><span class="pagereference"><span>斜杠</span></span><span>在</span><span class="pagereference"><span>定义</span></span><span>正则过程中的作用是什么？P6</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528cb88qqleyjlppng-n142" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/cb88QQleyjLp.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="正则中的span-classpagereferencegspan是什么意思p7" class="md-header-anchor"></a><span>正则中的</span><span class="pagereference"><span>g</span></span><span>是什么意思？P7</span></h4><h5><a name="g表示span-classpagereference全局匹配span强调的是所有而不是第一个" class="md-header-anchor"></a><span>g表示</span><span class="pagereference"><span>全局匹配</span></span><span>，强调的是所有，而不是第一个</span></h5><h5><a name="g是span-classpagereferenceglobalspan的意思" class="md-header-anchor"></a><span>g是</span><span class="pagereference"><span>global</span></span><span>的意思</span></h5><h5><a name="markhttpmyselfankiwikimpic20200528d1qkw76tdglbpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/D1Qkw76TDGlb.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="正则中span-classhighlightvar-xxxspan表示什么意思p7" class="md-header-anchor"></a><span>正则中</span><span class="highlight"><span>var xxx</span></span><span>表示什么意思？P7</span></h4><h5><a name="表示定义一个名称为xxx的span-classpagereference变量span" class="md-header-anchor"></a><span>表示定义一个名称为xxx的</span><span class="pagereference"><span>变量</span></span></h5><h5><a name="var-span-classpagereferenceregexspan-就是定义一个名为regex正则表达式）的变量" class="md-header-anchor"></a><span>var </span><span class="pagereference"><span>regex</span></span><span> 就是定义一个名为regex（正则表达式）的变量</span></h5><h5><a name="var-span-classpagereferencestringspan-就是定义一个名为string字符串）的变量" class="md-header-anchor"></a><span>var </span><span class="pagereference"><span>string</span></span><span> 就是定义一个名为string（字符串）的变量</span></h5><h5><a name="markhttpmyselfankiwikimpic20200528vvpxdwheayh2png" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/vvPXDWHeAYh2.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="当进行span-classpagereference模糊匹配span时具体到某一位字符时怎么表示不确定的字符p7" class="md-header-anchor"></a><span>当进行</span><span class="pagereference"><span>模糊匹配</span></span><span>时，具体到某一位字符时，怎么表示不确定的字符？P7</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528kkpmtifbh0dzpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/kkPmTIFBh0dz.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="正则中的花括号和方括号分别表示什么p7" class="md-header-anchor"></a><span>正则中的花括号和方括号分别表示什么？P7</span></h4><h5><a name="花括号表示横向span-classpagereference模糊匹配span长度）" class="md-header-anchor"></a><span>花括号表示横向</span><span class="pagereference"><span>模糊匹配</span></span><span>（长度）</span></h5><h5><a name="方括号表示纵向span-classpagereference模糊匹配span某个不确定的字符）" class="md-header-anchor"></a><span>方括号表示纵向</span><span class="pagereference"><span>模糊匹配</span></span><span>（某个不确定的字符）</span></h5><h5><a name="markhttpmyselfankiwikimpic20200528oeyxcown88dhpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/oEyXcoWn88dH.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="正则中横向span-classpagereference模糊匹配span用什么表示p7" class="md-header-anchor"></a><span>正则中横向</span><span class="pagereference"><span>模糊匹配</span></span><span>用什么表示？P7</span></h4><h5><a name="花括号表示span-classpagereference横向模糊匹配span长度）span-classbold编码花花肠子）span" class="md-header-anchor"></a><span>花括号表示</span><span class="pagereference"><span>横向模糊匹配</span></span><span>（长度）</span><span class="bold"><span>（编码：花花肠子）</span></span></h5><h5><a name="markhttpmyselfankiwikimpic20200528oeyxcown88dhpng-n160" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/oEyXcoWn88dH.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="正则中纵向span-classpagereference模糊匹配span用什么表示p7" class="md-header-anchor"></a><span>正则中纵向</span><span class="pagereference"><span>模糊匹配</span></span><span>用什么表示？P7</span></h4><h5><a name="方括号表示span-classpagereference纵向模糊匹配span具体到某一位字符时可以是多个字符中的某一个）span-classbold编码放纵很多回）span" class="md-header-anchor"></a><span>方括号表示</span><span class="pagereference"><span>纵向模糊匹配</span></span><span>（具体到某一位字符时，可以是多个字符中的某一个）</span><span class="bold"><span>（编码：放纵很多回）</span></span></h5><h5><a name="markhttpmyselfankiwikimpic20200528ukrbf8vdwlj0png" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/uKRBf8vdWlj0.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference横向模糊匹配span中的花括号-与-span-classpagereference纵向模糊匹配span中的方括号内部有什么区别p7" class="md-header-anchor"></a><span class="pagereference"><span>横向模糊匹配</span></span><span>中的花括号 与 </span><span class="pagereference"><span>纵向模糊匹配</span></span><span>中的方括号，内部有什么区别？P7</span></h4><h5><a name="横向模糊花括号两个值中间逗号表示范围从a到bspan-classbold编码花肚兜）span" class="md-header-anchor"></a><span>横向模糊：花括号：两个值，中间逗号，表示范围从a到b</span><span class="bold"><span>（编码：花肚兜）</span></span></h5><h5><a name="纵向模糊方括号多个值中间没符号表示abc中的某一个" class="md-header-anchor"></a><span>纵向模糊：方括号：多个值，中间没符号，表示abc中的某一个</span></h5><h5><a name="markhttpmyselfankiwikimpic20200528u7xddk0b9oyypng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/U7xDDk0B9oYy.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference模糊匹配span有哪两种p7" class="md-header-anchor"></a><span class="pagereference"><span>模糊匹配</span></span><span>有哪两种？P7</span></h4><h5><a name="横向和纵向" class="md-header-anchor"></a><span>横向和纵向</span></h5><h5><a name="markhttpmyselfankiwikimpic20200528u7xddk0b9oyypng-n170" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/U7xDDk0B9oYy.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="如果字符串特别多怎么表示一个span-classpagereference范围spanp8" class="md-header-anchor"></a><span>如果字符串特别多，怎么表示一个</span><span class="pagereference"><span>范围</span></span><span>？P8</span></h4><h5><a name="用连字符表示" class="md-header-anchor"></a><span>用连字符表示</span></h5><h5><a name="markhttpmyselfankiwikimpic20200528xfsnglxw05bapng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/XfsNGLxW05ba.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="在span-classpagereference纵向模糊匹配span中如何将span-classpagereference连字符span也作为匹配对象" class="md-header-anchor"></a><span>在</span><span class="pagereference"><span>纵向模糊匹配</span></span><span>中，如何将</span><span class="pagereference"><span>连字符</span></span><span>也作为匹配对象？</span></h4><h5><a name="因为连字符表示范围所以默认会被引擎给忽略" class="md-header-anchor"></a><span>因为连字符表示范围，所以默认会被引擎给忽略</span></h5><h5><a name="markhttpmyselfankiwikimpic20200528xfsnglxw05bapng-n176" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/XfsNGLxW05ba.png" referrerpolicy="no-referrer" alt="mark"></h5><h5><a name="如果要让连字符成为匹配的对象只有三种方法markhttpmyselfankiwikimpic202005284zmrdopoeopwpng" class="md-header-anchor"></a><span>如果要让连字符成为匹配的对象，只有三种方法</span><img src="http://myself.anki.wiki/mpic/20200528/4zmrDopOeOpw.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="如何区别span-classpagereference斜杠span与span-classpagereference反斜杠span" class="md-header-anchor"></a><span>如何区别</span><span class="pagereference"><span>斜杠</span></span><span>与</span><span class="pagereference"><span>反斜杠</span></span><span>？</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528fq7j0d7k9nyjpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/Fq7J0D7k9NYJ.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference斜杠span与span-classpagereference反斜杠span的各自用途是什么" class="md-header-anchor"></a><span class="pagereference"><span>斜杠</span></span><span>与</span><span class="pagereference"><span>反斜杠</span></span><span>的各自用途是什么？</span></h4><h5><a name="反斜杠电脑领域" class="md-header-anchor"></a><span>反斜杠：电脑领域</span></h5><h5><a name="斜杠其他" class="md-header-anchor"></a><span>斜杠：其他</span></h5><h5><a name="markhttpmyselfankiwikimpic20200528aoyek2hlmurwpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/aoyeK2HlmUrW.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="在表示范围的时候如何区分什么是正span-classpagereference斜杠span反斜杠到底是用正斜杠还是span-classpagereference反斜杠span呢" class="md-header-anchor"></a><span>在表示范围的时候，如何区分什么是正</span><span class="pagereference"><span>斜杠</span></span><span>反斜杠，到底是用正斜杠还是</span><span class="pagereference"><span>反斜杠</span></span><span>呢？</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528kekqesih4yszpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/KekqESIh4ySz.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference排除字符span用什么符号" class="md-header-anchor"></a><span class="pagereference"><span>排除字符</span></span><span>用什么符号？</span></h4><h5><a name="span-classpagereference脱字符span" class="md-header-anchor"></a><span class="pagereference"><span>脱字符</span></span></h5><h5><a name="markhttpmyselfankiwikimpic20200528x0uzpjqbixv0png" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/x0UzpjqBIXV0.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写之一位span-classhighlightspan-classpagereference数字spanspan的表示方法" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写之一位</span><span class="highlight"><span class="pagereference"><span>数字</span></span></span><span>的表示方法？</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528xxh8bm0ohftjpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/Xxh8Bm0ohFTj.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写之除span-classhighlightspan-classpagereference数字以外spanspan的任意字符的表示方法" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写之除</span><span class="highlight"><span class="pagereference"><span>数字以外</span></span></span><span>的任意字符的表示方法？</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528ubwi2obgajv8png" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/uBwI2ObGajv8.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写之span-classhighlightspan-classpagereference单词字符spanspan数字大小写字母和下划线）的表示方法" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写之</span><span class="highlight"><span class="pagereference"><span>单词字符</span></span></span><span>（数字、大小写字母和下划线）的表示方法？</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528jae1txe9zr9bpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/jAe1Txe9zR9b.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写之span-classhighlightspan-classpagereference非单词字符spanspan的表示方法" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写之</span><span class="highlight"><span class="pagereference"><span>非单词字符</span></span></span><span>的表示方法？</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528emkbr883naxhpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/EmKbR883nAxh.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写之span-classhighlightspan-classpagereference空白符spanspan空格水平制表符垂直制表符换行符回车符换页符）的表示方法" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写之</span><span class="highlight"><span class="pagereference"><span>空白符</span></span></span><span>（空格、水平制表符、垂直制表符、换行符、回车符、换页符）的表示方法？</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528ydbuw0mtdnaapng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/yDBuW0MtdNaa.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写之span-classhighlightspan-classpagereference非空白符spanspan的表示方法" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写之</span><span class="highlight"><span class="pagereference"><span>非空白符</span></span></span><span>的表示方法？</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528l1ag3jenbyelpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/L1Ag3jEnbyel.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写之span-classhighlightspan-classpagereference通配符spanspan几乎任意字符）除了换行符回车符行分隔符段分隔符）的表示方法" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写之</span><span class="highlight"><span class="pagereference"><span>通配符</span></span></span><span>（几乎任意字符）（除了换行符、回车符、行分隔符、段分隔符）的表示方法？</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528q2ige8i4bfojpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/q2igE8I4BfOJ.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写之主要有哪几种" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写之主要有哪几种？</span></h4><h5><a name="数字-与-数字以外" class="md-header-anchor"></a><span>数字 与 数字以外</span></h5><h5><a name="单词-与-非单词" class="md-header-anchor"></a><span>单词 与 非单词</span></h5><h5><a name="空白符-与-非空白符" class="md-header-anchor"></a><span>空白符 与 非空白符</span></h5><h5><a name="通配符" class="md-header-anchor"></a><span>通配符</span></h5><h5><a name="markhttpmyselfankiwikimpic20200528rdgam9dqg6jtpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/rdGAm9Dqg6jt.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写之-span-classhighlightspan-classpagereference数字spanspan-与-span-classhighlightspan-classpagereference非数字spanspan-的表示方法" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写之 </span><span class="highlight"><span class="pagereference"><span>数字</span></span></span><span> 与 </span><span class="highlight"><span class="pagereference"><span>非数字</span></span></span><span> 的表示方法？</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528nanobvpwy5jjpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/nanOBvPwY5JJ.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写之-span-classhighlightspan-classpagereference单词字符spanspan-与-span-classhighlightspan-classpagereference非单词字符spanspan-的表示方法" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写之 </span><span class="highlight"><span class="pagereference"><span>单词字符</span></span></span><span> 与 </span><span class="highlight"><span class="pagereference"><span>非单词字符</span></span></span><span> 的表示方法？</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528pdll95ios5pcpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/PDLl95IOS5pC.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写之-span-classhighlightspan-classpagereference空白符spanspan-与-span-classhighlightspan-classpagereference非空白符spanspan的表示方法" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写之 </span><span class="highlight"><span class="pagereference"><span>空白符</span></span></span><span> 与 </span><span class="highlight"><span class="pagereference"><span>非空白符</span></span></span><span>的表示方法？</span></h4><h5><a name="markhttpmyselfankiwikimpic20200528hdfxmmto0qsmpng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/HdFXmmto0qSM.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写之-span-classhighlightspan-classpagereference通配符spanspan-可以表示任意字符吗" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写之 </span><span class="highlight"><span class="pagereference"><span>通配符</span></span></span><span> 可以表示任意字符吗？</span></h4><h5><a name="不可以" class="md-header-anchor"></a><span>不可以</span></h5><h5><a name="通配符只表示除了-换行符回车符行分隔符和段分隔符以外的其他字符" class="md-header-anchor"></a><span>通配符只表示除了 换行符、回车符、行分隔符和段分隔符以外的其他字符</span></h5><h5><a name="markhttpmyselfankiwikimpic202005287v3xgczsbxkypng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/7V3xgCzSBxkY.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写之-如果要匹配span-classhighlightspan-classpagereference任意字符spanspan怎么办有几种方法" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写之 如果要匹配</span><span class="highlight"><span class="pagereference"><span>任意字符</span></span></span><span>怎么办？有几种方法？</span></h4><h5><a name="四种方法数字单词空白符脱字符" class="md-header-anchor"></a><span>四种方法：数字、单词、空白符、脱字符</span></h5><h5><a name="markhttpmyselfankiwikimpic20200528p3gunjbtmzl0png" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/P3GuNjbTmzl0.png" referrerpolicy="no-referrer" alt="mark"></h5><h4><a name="span-classpagereference字符组span简写技巧之-数字单词空白符" class="md-header-anchor"></a><span class="pagereference"><span>字符组</span></span><span>简写技巧之 数字、单词、空白符？</span></h4><h5><a name="数字-digit" class="md-header-anchor"></a><span>数字 digit</span></h5><h5><a name="单词-word" class="md-header-anchor"></a><span>单词 word</span></h5><h5><a name="空白符-space" class="md-header-anchor"></a><span>空白符 space</span></h5><h5><a name="markhttpmyselfankiwikimpic20200528p6l20olujokopng" class="md-header-anchor"></a><img src="http://myself.anki.wiki/mpic/20200528/P6l20olujoko.png" referrerpolicy="no-referrer" alt="mark"></h5><h3><a name="辩证笔记" class="md-header-anchor"></a><span>辩证笔记</span></h3></div>
-</body>
-</html>]]></content>
+    <title>md2anki问题汇总</title>
+    <url>/2020/05/16/</url>
+    <content><![CDATA[<h2 id="提交新问题"><a href="#提交新问题" class="headerlink" title="提交新问题"></a>提交新问题</h2><p><a href="https://support.qq.com/product/155505" target="_blank" rel="noopener">点我</a>进入腾讯兔小巢提交反馈</p>
+<p>在微信中打开，还可以通过微信收到LEO的回复提醒哦。</p>
+<h2 id="常见老问题"><a href="#常见老问题" class="headerlink" title="常见老问题"></a>常见老问题</h2><p>待补充</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>BookxNote重复导入的问题</title>
+    <url>/2020/05/15/</url>
+    <content><![CDATA[<p>待补充</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>查看课程更新介绍和提交更新建议</title>
+    <url>/2020/05/14/</url>
+    <content><![CDATA[<p>待更新</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>珍贵史料：LEO的真题分析</title>
+    <url>/2020/05/13/</url>
+    <content><![CDATA[<h4 id="01"><a href="#01" class="headerlink" title="01"></a>01</h4><p><img src="http://myself.anki.wiki/mpic/20200513/8DVXkH02ganu.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="02"><a href="#02" class="headerlink" title="02"></a>02</h4><p><img src="http://myself.anki.wiki/mpic/20200513/rmMdnsSmsy51.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="03"><a href="#03" class="headerlink" title="03"></a>03</h4><p><img src="http://myself.anki.wiki/mpic/20200513/gdiu5RJzDLIi.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="04"><a href="#04" class="headerlink" title="04"></a>04</h4><p><img src="http://myself.anki.wiki/mpic/20200513/LxsFDkKLiwYx.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="05"><a href="#05" class="headerlink" title="05"></a>05</h4><p><img src="http://myself.anki.wiki/mpic/20200513/t5rCxtyXD90j.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="06"><a href="#06" class="headerlink" title="06"></a>06</h4><p><img src="http://myself.anki.wiki/mpic/20200513/ROVUGRnxSaNu.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="07"><a href="#07" class="headerlink" title="07"></a>07</h4><p><img src="http://myself.anki.wiki/mpic/20200513/7wDsIToVDLUC.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="08"><a href="#08" class="headerlink" title="08"></a>08</h4><p><img src="http://myself.anki.wiki/mpic/20200513/fTiLqwLs5Ifk.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="09"><a href="#09" class="headerlink" title="09"></a>09</h4><p><img src="http://myself.anki.wiki/mpic/20200513/u1EgHj4h1q3o.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="10"><a href="#10" class="headerlink" title="10"></a>10</h4><p><img src="http://myself.anki.wiki/mpic/20200513/bKrqVv6BKR9B.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="11"><a href="#11" class="headerlink" title="11"></a>11</h4><p><img src="http://myself.anki.wiki/mpic/20200513/nA0OdQVnPM78.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="12"><a href="#12" class="headerlink" title="12"></a>12</h4><p><img src="http://myself.anki.wiki/mpic/20200513/SpvtDthhge5d.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="13"><a href="#13" class="headerlink" title="13"></a>13</h4><p><img src="http://myself.anki.wiki/mpic/20200513/hp095WGvuVQd.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="14"><a href="#14" class="headerlink" title="14"></a>14</h4><p><img src="http://myself.anki.wiki/mpic/20200513/Itz8JvdPHpoc.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="15"><a href="#15" class="headerlink" title="15"></a>15</h4><p><img src="http://myself.anki.wiki/mpic/20200513/jnEWwufb8v1l.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="16"><a href="#16" class="headerlink" title="16"></a>16</h4><p><img src="http://myself.anki.wiki/mpic/20200513/qD9mAhFJjmYm.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="17"><a href="#17" class="headerlink" title="17"></a>17</h4><p><img src="http://myself.anki.wiki/mpic/20200513/AbmeSvHgk1mo.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="18"><a href="#18" class="headerlink" title="18"></a>18</h4><p><img src="http://myself.anki.wiki/mpic/20200513/0g6aOY00N717.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="19"><a href="#19" class="headerlink" title="19"></a>19</h4><p><img src="http://myself.anki.wiki/mpic/20200513/2cffmtHJBLVF.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+<h4 id="20"><a href="#20" class="headerlink" title="20"></a>20</h4><p><img src="http://myself.anki.wiki/mpic/20200513/Ft02WGcpYUGY.jpg" alt="mark"></p>
+<blockquote>
+<p>评：</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>学习骇客公众号文章列表</title>
+    <url>/2020/05/12/</url>
+    <content><![CDATA[<blockquote>
+<p>感谢微信ID 雷火火 同学的辛苦整理！</p>
+</blockquote>
+<p>最后更新于 2020年05月13日</p>
+<ol>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247485052&idx=1&sn=945faabd14ac5f8fb52e0cc0981036ca&chksm=fc4c83bacb3b0aac4c795a1d19c4b9f02d5891182ad2aac4a8f2b15ed791514489d30cd72cf4#rd" target="_blank" rel="noopener">我们为什么要记笔记？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484978&idx=1&sn=94437fd8984ff62591c8093771148603&chksm=fc4c83f4cb3b0ae2b1c55246d1ec0bd5362a56a239acbe44997edc379e3eaa8dc33993340844#rd" target="_blank" rel="noopener">经验分享：与时间有关的几组学习策略 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484974&idx=1&sn=4ba8ba0238c40806098a545cb7f7d4e5&chksm=fc4c83e8cb3b0afe4551a52523800f39e5bf1c423aa4082cc417762fea10703b8eea36f8855d#rd" target="_blank" rel="noopener">ANKI与图床，九类常见问题集中解答 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484967&idx=1&sn=8173ced1f59822177cc6ea5f1cb966ac&chksm=fc4c83e1cb3b0af7109e9af3ff37e7958f51f69ac49a263d564290927cb239a9e240ebf68a90#rd" target="_blank" rel="noopener">以用户体验的要素为例，再谈做笔记的思路 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484956&idx=1&sn=5a0c5dcae0d3d9b9d88dcd7c0ade586f&chksm=fc4c83dacb3b0acc33db8ebaed0d2584a6bb7d6d8854c8a1cb2c5d41b89d335e105223a61e75#rd" target="_blank" rel="noopener">英语备考中的ANKI使用建议 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484936&idx=1&sn=044de7af2b1701fa099e0215467bc035&chksm=fc4c83cecb3b0ad8ef78bb1d3a744372b12ba78c8fdefbe8ad7df20b0ca6f8936c4cc1f18ad1#rd" target="_blank" rel="noopener">ANKI公开课：如何用起来？如何用好？含视频音频 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484927&idx=1&sn=86a4f73a151bfb1b2d111cac2be00ea2&chksm=fc4c8039cb3b092fc853ce771f0835f1a9e9a1b65038ce7537e32cfcb4f7ab5a509d2bff10e3#rd" target="_blank" rel="noopener">复习过程中，LEO如何处理自己的ANKI笔记？ </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484922&idx=1&sn=adfe92bf7cf843cf866fa24461876443&chksm=fc4c803ccb3b092a0cf99fc88e057106b190a0581fea434b4255b678d3b75603aac04ece2a99#rd" target="_blank" rel="noopener">使用MarginNote和思维导图时，我们需要注意什么？ </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484910&idx=1&sn=2e043a359a375bb7be76fcfc1b3a0047&chksm=fc4c8028cb3b093eed9c95973f9f85d11d3ad2dc889ef70502e6f8a5d196e7717deaebcc6fc5#rd" target="_blank" rel="noopener">为什么有些人很早就开始备考，最后还是没有考好？ </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484904&idx=1&sn=aef995a8c89036b0ff61f4814ec88c44&chksm=fc4c802ecb3b09387d1879d6bf26d0c7995878408e84e7d863a0350a986863e5cbb8d3483fcc#rd" target="_blank" rel="noopener">如何通过修改ANKI模板，从被动式学习转向主动式学习？ </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484895&idx=1&sn=a394e41d661f7668a262c96009114c24&chksm=fc4c8019cb3b090f71e292939bcc5bee10affbe65a1223e49a9635306c212b4d3db4b3f17be3#rd" target="_blank" rel="noopener">康奈尔大学医疗健康中心：渐进式肌肉放松法等四种放松技术 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484883&idx=1&sn=76ddab18ec0ed3f59f0b56f13e8d2d3d&chksm=fc4c8015cb3b0903ca428240ff060422194becc0d1bbcc6c26391c063dc46834903a11c7d0fc#rd" target="_blank" rel="noopener">康奈尔大学学习策略中心：压力管理 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484866&idx=1&sn=c63e8300619f03bd9b7bd96216ce1a15&chksm=fc4c8004cb3b0912efe957862a93d008f1fdcc254478dd9ceb7402bebcb0c08a72128ad9702c#rd" target="_blank" rel="noopener">康奈尔大学学习策略中心：康奈尔笔记系统 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484841&idx=1&sn=a9f503045b44a5f23a198edf7b36919c&chksm=fc4c806fcb3b09797d263e468121700c2e0b519e898e155724486a8988c51f927f92ff332ce2#rd" target="_blank" rel="noopener">康奈尔大学学习策略中心：理解学业焦虑 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484836&idx=1&sn=4ab489c594429283451497169552f8a7&chksm=fc4c8062cb3b0974c9f18c314317e4f1349bb669ecc6cf8dcdb77c10d1746d38d59755ea18e3#rd" target="_blank" rel="noopener">20秒，将幕布笔记转换为ANKI笔记的方法 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484824&idx=1&sn=7344f24219ea216aab8e9e84b21448fa&chksm=fc4c805ecb3b0948a4ffa58e246e3e131d6151de68a1eb862463f2fac9134c995be458e5753d#rd" target="_blank" rel="noopener">转述的方法，如何把书读厚？ </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484819&idx=1&sn=d9865964cd819543a026952d3c65981d&chksm=fc4c8055cb3b0943cefcf4c96e7c1bf2a06e8a4e635a9eb4657efd1792dac0582586def4a0c2#rd" target="_blank" rel="noopener">改善ANKI使用的8条实用建议 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484814&idx=1&sn=5c97698de22e4d5f1aca13fe21fde952&chksm=fc4c8048cb3b095eb2f78508b3207745d1dd0fa343b972717e0550cbea1aee8aab0efebdff8c#rd" target="_blank" rel="noopener">学习方法的误区 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484809&idx=1&sn=4065f722696bda059552a9eb8167acb8&chksm=fc4c804fcb3b0959f7c416072e76129b17a5bbc5f07fe675fe3551ede4a1c03ed16d72eda02e#rd" target="_blank" rel="noopener">复习后期，ANKI用法汇总 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484800&idx=1&sn=652d7bfe623e091f88a4233078809743&chksm=fc4c8046cb3b0950c27a3061be0d52b6a09d03235635792f75717afa0b22da80ad0168ffc04b#rd" target="_blank" rel="noopener">怎么才能少走弯路？那就抓住Anki的本质吧 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484791&idx=1&sn=482008a4e197eaaa956627011e2a344e&chksm=fc4c80b1cb3b09a70bc42746150a1d8748d6f2c0775e94298e5151a9f95b2678897905d42dc3#rd" target="_blank" rel="noopener">用ANKI三年，考上了非全，薪资涨了三倍 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484785&idx=1&sn=8fba98fb62848918a4d2060b2d2c4a68&chksm=fc4c80b7cb3b09a1a05ca5b19a78615680c8ab82e51b8813c8866afcdb66218d6ba6d82ae3bc#rd" target="_blank" rel="noopener">压力大时，怎么轻松地学习？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484780&idx=1&sn=56c70018c59b36f20d61730f62d4ac3e&chksm=fc4c80aacb3b09bc2d7a5466251d0252941f540833c8e820bbb8660d9443091c183c52689c40#rd" target="_blank" rel="noopener">学习的边界：如何找到复习的重点，让努力事半功倍 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484773&idx=1&sn=8ff3956ac4513369473d0f409ab5ebdd&chksm=fc4c80a3cb3b09b50739e1cab17976fa09ed72885a67b8a204c9250cc81f2523891e83e36e3b#rd" target="_blank" rel="noopener">iOS版ANKI的中文视频解读 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484771&idx=1&sn=8fcca66b7ccc16f055504c66b2264d99&chksm=fc4c80a5cb3b09b300587a2303cc10c027a2a6aad839d46810ab2f2e671b6cd91e044916e112#rd" target="_blank" rel="noopener">15秒，将一篇存储性质的传统笔记转换成学习性质的ANKI笔记 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484734&idx=1&sn=c842b7db7428b42f2648448c2ca3b253&chksm=fc4c80f8cb3b09ee5e1e51b890bf54fc280da01542469c8e154e556318b9f90d66c6b687a521#rd" target="_blank" rel="noopener">如何通过“问题扩展”解决知识点琐碎的问题？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484716&idx=1&sn=24d273c7116cfe29bc4d39edaf36727d&chksm=fc4c80eacb3b09fc1a6ed8f2ffa556be5e8baaf35f3d3d6d7ea865ed70e5cc71d78079d13e28#rd" target="_blank" rel="noopener">如何用ANKI考上北京大学研究生？一名双非二本的普通学生 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484704&idx=1&sn=0365e9e5b1246572c6c9c29df2d04ab8&chksm=fc4c80e6cb3b09f00d5b9edc69ce512bcb023adfdee98b1c7f35ebc9c13acd781cf5bca956d9#rd" target="_blank" rel="noopener">如何运用郭怀慈的全身扫描放松法 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484698&idx=1&sn=4e7c6d181c90dc9e4e08aba042432a9f&chksm=fc4c80dccb3b09ca7dfd76cce9fd62da2931c2d445d79712834393f36fd48860b791a2250a4e#rd" target="_blank" rel="noopener">新课预订 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484687&idx=1&sn=237409663353bc64df926d8c2dba47dd&chksm=fc4c80c9cb3b09df987942b0e671d69d047d1d4b577e497dd7f6f6c8917727049e32357f5348#rd" target="_blank" rel="noopener">李笑来：为什么把编程当作自学的入口？附LEO用Anki学习编程的经验</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484675&idx=1&sn=e62596ea9fe69c3df5b003c3183f7ed9&chksm=fc4c80c5cb3b09d3c0e2962f06d78666b24f558534b8c3cc096afe3af41f309b1d2872a5cc7f#rd" target="_blank" rel="noopener">先分后总，斯坦福也在用的扩展式练习技术 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484670&idx=1&sn=b996f3fabe640d89b79b54c9e8b8ad2c&chksm=fc4c8138cb3b082efd2ea838ebdad331e11a4a2ea30d7a9517d3c834d13618461983ef07400d#rd" target="_blank" rel="noopener">如何让大脑听话？来自Head First 书系的学习建议 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484665&idx=1&sn=cdb8a94c05628cbd4f135e55a73d8d53&chksm=fc4c813fcb3b0829e975d49fafe29260809a94cb977aa89ca81509deceacd8ba3b01b4f73f49#rd" target="_blank" rel="noopener">“奖励”为什么能促进学习？还有哪些可用因素？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484648&idx=1&sn=5462daf65403a6226e69319676290220&chksm=fc4c812ecb3b08382038099867112cd6504ae651e7bfa789ffe160560dc812c4378ed689f75f#rd" target="_blank" rel="noopener">Anki之后，继续优化学习的方向在哪里？ </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484642&idx=1&sn=4ee191eef385c8128daadbb13583150d&chksm=fc4c8124cb3b083231b2e817c17ea1ee73f250f30c76a2206ed03e07b5928a50701850963a12#rd" target="_blank" rel="noopener">学外语的看过来–&gt;&gt; tts插件添加发音问题多，推荐看看在线发音模板</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484639&idx=1&sn=39a6b7af7f4920f3652e53dde27d45d3&chksm=fc4c8119cb3b080fb2ac23b1d4a9ca154fd8f1a884d4f7f81b19e6cebe8e09fc8a0e8595b957#rd" target="_blank" rel="noopener">怎么用好Anki？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484628&idx=1&sn=32228ed1bb7ac418360715f1c26c5d86&chksm=fc4c8112cb3b0804f7ced449c7e5e27823d9cb9b4a36e55143fb606ba7e4b9542fd9c3a7aa3e#rd" target="_blank" rel="noopener">有一种学习叫“游手好闲地学习”</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484623&idx=1&sn=8005ef40354b781fd1852ea6ba3bc263&chksm=fc4c8109cb3b081fbfa49a57923d372f9d7972f3603d1f2d4302a8fe07d9354e120c468e09f9#rd" target="_blank" rel="noopener">笔记的作用在哪里？用了Anki还要不要做纸质笔记？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484603&idx=1&sn=0531c2057ea8572f912c59ca37e15314&chksm=fc4c817dcb3b086b1f7fdee7e61372ca223fafcb2c700a0c412c176e56f3dda328eca122bbea#rd" target="_blank" rel="noopener">上手Anki，怎么才能不让英文难住？ </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484600&idx=1&sn=f0339945c92ecdf46a45f4a939e75602&chksm=fc4c817ecb3b08682f7c4bf8e20014545413129040bde6efce7bd30619c6e2b67f7016d26a44#rd" target="_blank" rel="noopener">Gif+Anki 学习复杂软件从此不再犯难 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484589&idx=1&sn=abc3722689d4a990e48a824e17e93529&chksm=fc4c816bcb3b087d83a78085e9c8cbca38f6b3e6915fe60b37a40884c8660c190c61868f524e#rd" target="_blank" rel="noopener">改善Anki同步的总体思路 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484563&idx=1&sn=a164248fce6e28745984158b59706806&chksm=fc4c8155cb3b084322deaa776b52ebf78063b0393403326c9d0935fb830c1d3e065d3a21f6c6#rd" target="_blank" rel="noopener">不想复习的假期，该怎么处理笔记？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484554&idx=1&sn=d7d398379489d550b8493e3677d41f00&chksm=fc4c814ccb3b085ad43322db79c1065527451419d46c6a0d4d83beb4cdfd2a17b00fa5ff1d10#rd" target="_blank" rel="noopener">过年礼物想好了吗？不妨试试Windows上的这款笔记输入黑科技</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484534&idx=1&sn=80473503462f8fa1140dc383d53467bd&chksm=fc4c81b0cb3b08a6145c2c752e9ea85c732187c5c47fee6e03053c4e14827e34ccf1b9f561a0#rd" target="_blank" rel="noopener">终于！我们找到了告别“机械学习”的方法 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484529&idx=1&sn=5f01a9357db744b81af25a1cc54f322b&chksm=fc4c81b7cb3b08a1e583b2f09b89cd7f43e4b272f92f5842de330fbbd8dcf6f098bdfb2c0bab#rd" target="_blank" rel="noopener">怎么获取七牛云图床的参数 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484521&idx=1&sn=6ae075da9adad368e8d7e45a895d5c92&chksm=fc4c81afcb3b08b9fb3149f619f918f406bceedb3ee1e0486748b3f351eb57c25af70ce95f12#rd" target="_blank" rel="noopener">1/4 “一图胜千言”在Anki中的最佳实现 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484521&idx=2&sn=1ad54b5f79336393535e35b4f3826577&chksm=fc4c81afcb3b08b9af68641adc0d15cf13a339c0ed38d2ca776133d4433c5ee1b85e27122ca7#rd" target="_blank" rel="noopener">2/4 如何在Windows平台使用图床为Anki添加图片素材？ </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484521&idx=3&sn=d7098992cc7b81d88d89b0d79de55551&chksm=fc4c81afcb3b08b9f6bddb205f4e83782208cf8ce3764f4a6608dcbc112fb7926146aa151322#rd" target="_blank" rel="noopener">3/4 如何在Mac平台使用图床为Anki添加图片素材？ </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484521&idx=4&sn=66f0a792955a5627d468d2cc22e15844&chksm=fc4c81afcb3b08b90718b2a1c12060a39adfbb0c2d251d0d8207db5169b23c7137b3e43bfeca#rd" target="_blank" rel="noopener">4/4 如何在iOS平台使用图床为Anki添加图片素材？ </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484509&idx=1&sn=b88b0bc9330866f7b77bc80e21adfcac&chksm=fc4c819bcb3b088d0f5dcb46088f74ff4d1d8fdd66150c24d456aad616c6e48c0d062fd8a928#rd" target="_blank" rel="noopener">笔记诊断系列01 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484505&idx=1&sn=3772de3099e355c3d6bca287bf2e7b35&chksm=fc4c819fcb3b0889831b08e3bd7a628195c62d1457321dc0a618119bd2e3269c0eb8490a86ec#rd" target="_blank" rel="noopener">163元的iOS版Anki太贵？其实你也可以不用花钱 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484501&idx=1&sn=29051350f8842419ee6d09a3531ae439&chksm=fc4c8193cb3b08850d6c7f387470afe95a31d6729e6f00160be6e48cf8319e2e875f9e130cd8#rd" target="_blank" rel="noopener">用了8年的高效放松方法 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484497&idx=1&sn=db36d1c074840911989d1b459c276484&chksm=fc4c8197cb3b08817e70784fe3ac18671c38501d6eaf0f9470876309e47ff930e748f53a712f#rd" target="_blank" rel="noopener">如何唤醒沉睡的大学生？ </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484489&idx=1&sn=9241208e21a5e1da75bde7d583ccbd33&chksm=fc4c818fcb3b0899f966beaefcb12f5f211263882ba39e2b0ba6800cb4b83e04ffd8cff6ca21#rd" target="_blank" rel="noopener">为什么看到问题却想不起来答案？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484484&idx=1&sn=89658497a1e88d17a1e4427bacda0206&chksm=fc4c8182cb3b0894480e417b55acedac16f4b9513d635782c35d7b6a530f30dc583e71c7809f#rd" target="_blank" rel="noopener">为什么你越到考前越“笨”？ </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484467&idx=1&sn=f0332fe64681fa7343fd0b6deef875f6&chksm=fc4c81f5cb3b08e32274baa0d0aefa321da3690fb966ff610b58478bd910231a5f843069ba92#rd" target="_blank" rel="noopener">?如果有一天，你的Anki笔记全丢了 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484454&idx=1&sn=024c2d0dfca6b14e38d1d327f0ecb787&chksm=fc4c81e0cb3b08f6202bad173fd301bd1b3ba1996146e80f4d41aed6ce8f6203809dca65d484#rd" target="_blank" rel="noopener">安卓手机，可以这样快速添加Anki笔记 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484403&idx=1&sn=f0468f37fe24859670e77aec279cfafb&chksm=fc4c8635cb3b0f23e7b8a7b91cbd024625c47df8dd101e92411d3dac01dd9a8b18865c8d28f1#rd" target="_blank" rel="noopener">二轮复习，这样用Anki复习效果会更好 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484398&idx=1&sn=7658a4387958d7150f31bd439d9cef66&chksm=fc4c8628cb3b0f3e004d0988a85dc1118eac5933b80394748f564b57a4f184170c9ea251aea8#rd" target="_blank" rel="noopener">如何利用iOS12的捷径，在Anki里使用图床？ </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484391&idx=1&sn=cdb97be3a9f45e5fd04845dca95067c3&chksm=fc4c8621cb3b0f371df9dbc46c5269fb217d6eb2e06d7d10482c42b6735017ee581666c92591#rd" target="_blank" rel="noopener">复习过程中，如何用Anki进行查漏补缺？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484375&idx=1&sn=9b97991f0ce98ba635cb8b3e91642501&chksm=fc4c8611cb3b0f07fe6c0b8474ce38b24580ac4490fd3edf7ea70949d94a9b07b978ac5569b0#rd" target="_blank" rel="noopener">Anki for Android on Kindle</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484369&idx=1&sn=29b93a2cf3e633bc9b6eb130cac7d3f5&chksm=fc4c8617cb3b0f01c0c371ddd30c1867e2568360ca6893cb8a15c4a0ae9e19af9db59e11cf81#rd" target="_blank" rel="noopener">备考进入下半场，为什么感觉自己还不如之前？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484292&idx=1&sn=028cb4dded0d4dbeff0662aec73d04fc&chksm=fc4c8642cb3b0f54050c5f6553a73983bdee921ec18aea8fdf1c5a17136b734c5a1cf1cbf91c#rd" target="_blank" rel="noopener">记不住！怎么办？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484285&idx=1&sn=fa212e0290c6feda5975a60f1f4a6d1f&chksm=fc4c86bbcb3b0fad635285153d721a09ac66007df464b3f7e07a76aa121fc3979121c606e129#rd" target="_blank" rel="noopener">改善思考的两个方法 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484279&idx=1&sn=c6ed0b99a8fa8e277bac0937d8c75121&chksm=fc4c86b1cb3b0fa7ce62eb0b0b1f8784e99f3f637b080ec6d660ac61c5f9c889c417bfb6eded#rd" target="_blank" rel="noopener">彩云小译——沉浸式网页翻译，查外语资料的好帮手 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484273&idx=1&sn=eb449a5391d17b934feb6790b81dcf37&chksm=fc4c86b7cb3b0fa1f2d5b8b5a4af4ae92efb94d7354d3f69bb4cb93c412ebc37a5f34218fd96#rd" target="_blank" rel="noopener">从新手成长为专家的三个学习建议 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484269&idx=1&sn=4e1327ee7a7f331888d39d3ce8c81292&chksm=fc4c86abcb3b0fbdcad41b7187587735a3c867029bdd8ce2f26e186255e502db98ca892b731e#rd" target="_blank" rel="noopener">收藏的文章没时间看？或许你可以试试这个工具</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484263&idx=1&sn=32d7fb96513a1cc8a82d8097b9e7d7e4&chksm=fc4c86a1cb3b0fb71c05ba09aed6fa502ef6af498de8dab3efebcb75424de19b570e88ff36a8#rd" target="_blank" rel="noopener">这些微信里的效率工具我已经用了很多年 </a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484257&idx=1&sn=31bc08b44948b0c069375e25bede9322&chksm=fc4c86a7cb3b0fb1773b0674dbcf7131d2ef423cdc28024165ab12f35be8f7e8196891909645#rd" target="_blank" rel="noopener">1/4 给考研人的效率提升建议</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484257&idx=2&sn=5bbf827085db8643197170ec45204310&chksm=fc4c86a7cb3b0fb15db467a67a2b7adb8815228d32ff49b4be9b4fe4220e528559bf6e9a95cf#rd" target="_blank" rel="noopener">2/4 给考研人的专业课复习建议</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484257&idx=3&sn=821640763fc2c36cb2e7c11caa4b31c8&chksm=fc4c86a7cb3b0fb1fdec3d361312aa625ef28bf1dc9ac59b1836fa3cb5056f0c13670840af95#rd" target="_blank" rel="noopener">3/4 给考研人的政治复习建议</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484257&idx=4&sn=5ef295ce3967703fcb1ceb1e86a5e603&chksm=fc4c86a7cb3b0fb1aa9b506b609abb19159b7ed3baa283c42ab323c08811319488fd1bf78447#rd" target="_blank" rel="noopener">4/4 给考研人的英语复习建议</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484235&idx=1&sn=9ba1f119b2d3f74c0676d2b5028c5b9e&chksm=fc4c868dcb3b0f9b17c2c6a8d3d6642be9efaa0e5634ed5f5d9ee8746f26491efcb3e2bc06b8#rd" target="_blank" rel="noopener">Anki同步经常出错的解决办法</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484234&idx=1&sn=545317aea37d26e5c7d214e09876b8aa&chksm=fc4c868ccb3b0f9af5e45d1e7119a675eeaccbcb640d28362d5b2ab7fc5f3bb1fc6dfce3ac09#rd" target="_blank" rel="noopener">读书笔记怎么做？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484214&idx=1&sn=a978f24200be2c467a2a07cf2391a87f&chksm=fc4c86f0cb3b0fe6e2b5c2554d6a5017adcf6c8f313c26b1381afe882acb880d84f927e27fa7#rd" target="_blank" rel="noopener">用图片替代文字？这样用Anki你可能要三思</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484199&idx=1&sn=42190b9e17db846285330732a5149c6c&chksm=fc4c86e1cb3b0ff7d8d173598a0d57f84d3e3895ee9676f69ff4aa34fcf50dc426b90eac663b#rd" target="_blank" rel="noopener">Anki上的填空题，可能没你想得那么简单</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484189&idx=1&sn=83fe2854714bf427b5b63c6a1ef3f7c4&chksm=fc4c86dbcb3b0fcd388f28616c06ea77959970e0a8cc19de2d3c6d106c60d279f3e72f0dfee8#rd" target="_blank" rel="noopener">音频多，同步难，可以和Anki说再见了</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484174&idx=1&sn=3d2916b2a350cc1e018651bba1e0a756&chksm=fc4c86c8cb3b0fde374c3f96eb613449bfa546d3268e2f6b32a3625d3913ddd3469ec56ecc75#rd" target="_blank" rel="noopener">想要更愉快地做笔记，怎么离得开双拼呢？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484107&idx=1&sn=01c8a819ec04ba9da474f8e001bdaa90&chksm=fc4c870dcb3b0e1bed029f786c47ce0c3b31d5d633cc3cdfd26b78596d18e0e2f67499c63960#rd" target="_blank" rel="noopener">使用workflow随手向Anki里快速添加问答题</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484103&idx=1&sn=9e3120cc943c23cb1692818cdd90d066&chksm=fc4c8701cb3b0e1751b8be952cc49b94bf23b05478cd217b964e76a25e19247cf3352f318d2d#rd" target="_blank" rel="noopener">你总是在权衡利弊，却不肯用尽全力</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484099&idx=1&sn=7d52e77b86dfd07798fcb9a900cc641e&chksm=fc4c8705cb3b0e13595403d251121843dbf15be809fbe2724080605aa049a51c147499a16780#rd" target="_blank" rel="noopener">1000种Anki模板</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484062&idx=1&sn=bb128e26996e74d5f3ad5405d8040880&chksm=fc4c8758cb3b0e4e05002a68bf1362b8258f8cf1366838c00f6d171950afc63de0ecf39f8ec8#rd" target="_blank" rel="noopener">?小白一看就懂的Anki模板修改方法</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484058&idx=1&sn=f8e9a20423fc5471567732bb3f9c94ea&chksm=fc4c875ccb3b0e4ac294c48152c9d1769084319328b11356f3449a8817e915a4e01a4a70cba4#rd" target="_blank" rel="noopener">?批量导入Anki卡片的几种方法</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484053&idx=1&sn=79f5faae87ad57d2500cc4a9d0013d43&chksm=fc4c8753cb3b0e45e0c1de906b3fc9a7f914aa6a0849bede2a3fddc534c8d2aec8c69c70cb6a#rd" target="_blank" rel="noopener">效率工具第一篇，截图利器Snipaste</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484041&idx=1&sn=1ff7a59d3baf774482512d2fdc3e39c7&chksm=fc4c874fcb3b0e59f7877c49ee7aaae1b3500d53de65c86ef3760a1fdbf55609b371f352f893#rd" target="_blank" rel="noopener">用Anki时，能不能用别人的记忆库？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247484032&idx=1&sn=d7a92b0648270575ccc5d8cb9ff8a9c2&chksm=fc4c8746cb3b0e5096465d24d504c25ba82e31bbb34f6b7ecc01033efb54b6325ecffdb61e48#rd" target="_blank" rel="noopener">写在2017年考研结束的今天，谈谈我是怎么用Anki考上研究生的</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483960&idx=1&sn=5c648e7b6e564837e268fb193e76dfc7&chksm=fc4c87fecb3b0ee891aab3f3ef5e3c5333e12b08337049e775bd9b37cd68eb5dd3a6a7326bd7#rd" target="_blank" rel="noopener">这不是一个天道酬勤的世界</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483917&idx=1&sn=237d9ca3bce2c84472ca94775c415561&chksm=fc4c87cbcb3b0edde44668992d6c0558c7388d3808686f2a4449017bdb3983ac343fd5af78ea#rd" target="_blank" rel="noopener">你学习是为了考试还是为了提升自己？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483906&idx=1&sn=cd46b6e16c77d74ec7ebf86c6ec2385e&chksm=fc4c87c4cb3b0ed2b799dd4e9df6b6b81706c15bcd3c92166ca8b5566fd789de191c69ec8dc3#rd" target="_blank" rel="noopener">想让Anki变成无处不在的摘抄本？这个方法可以帮你实现</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483881&idx=1&sn=75cdcea73e0d3216bda04a0c137fd17c&chksm=fc4c842fcb3b0d391dd0d9726a8a1147865a508d6a0fb14ed4d34237f2bb4efcf53514c1a0e8#rd" target="_blank" rel="noopener">想把Anki里的卡片打印出来？No problem</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483871&idx=1&sn=c359675ae38f1cc8aadcf96d7f2f7966&chksm=fc4c8419cb3b0d0fa2cc6e7d23541fbf2ebeae7a1127b14c438974df9446a7e3c021d4ff64bd#rd" target="_blank" rel="noopener">SuperMemo给Anki使用者的有效学习建议</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483865&idx=1&sn=c41b2e452d85a2870aa03b6e83a4f4ef&chksm=fc4c841fcb3b0d09595c669907703377569adcacf8e1ffe00ff36c0ff2035864af948cee082a#rd" target="_blank" rel="noopener">电影《头号玩家》带给我们学习上的启示</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483856&idx=1&sn=7b136f9e613c0dc8b2708c0baa8c79bd&chksm=fc4c8416cb3b0d00ac5aff2c7fdcbea8135250a6b045ff500a8d0b056a6462eac6cc886e2f53#rd" target="_blank" rel="noopener">除了用Anki，我们还能如何管理自己的知识？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483853&idx=1&sn=3bf96e44edd166aa1a4815b1a3c9f5c4&chksm=fc4c840bcb3b0d1d587677ab166360db8efdb1cf22874e7deea6414fb5173189005b916a995a#rd" target="_blank" rel="noopener">如何在Anki手机版上开启强大的编辑功能</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483842&idx=1&sn=4d49bca936f8faed93f60df3a487d2cc&chksm=fc4c8404cb3b0d12606c589a2f667ddf3f3af2c16fe173d9057d8fa1fb38a9030c1f494cf72b#rd" target="_blank" rel="noopener">Anki是如何帮助我们做到专注的？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483837&idx=1&sn=04c93f7adf026a7a6618c6759105d16c&chksm=fc4c847bcb3b0d6d8b0cc4e3b0ed875cb6f59b81c3a75ced5c9c67e3b080110f310adcfd01a7#rd" target="_blank" rel="noopener">分享精心制作的Anki记忆库</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483826&idx=1&sn=7d24ec0114bdbab2204bd1ad5adda372&chksm=fc4c8474cb3b0d62a73bde502799edd725424db7a2dd41ef262ebcc2a5969e1b8e674071bfdb#rd" target="_blank" rel="noopener">时间管理的方法与工具</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483819&idx=1&sn=1993d8b988053dc5829ad3d3fdaec71b&chksm=fc4c846dcb3b0d7b0a8ca9a89d37d7e2db1757055a3753d6d3ca99b1f5871a85452573b05b0b#rd" target="_blank" rel="noopener">在PQ4R读书法中使用Anki</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483814&idx=1&sn=2af7e3a9cd1c90b9c39d1a05e9927929&chksm=fc4c8460cb3b0d767b3494b3b25cf657a8d66a0a47449d5ae595fa9b5b0a1efeb2f8cb57e2e7#rd" target="_blank" rel="noopener">Anki如何提升使用者的智力？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483803&idx=1&sn=ce257837c5437ec08dce5827f2376f85&chksm=fc4c845dcb3b0d4b0f034c08400bbea07f889193f962a73216bc006e9f1fc0dfcc639b923d20#rd" target="_blank" rel="noopener">Anki在数学、英语以及文科中的应用</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483777&idx=1&sn=0391598768cb71a164401f9ee9bfb47a&chksm=fc4c8447cb3b0d51a7edc81a2b1617ebaa303181971fbe7fed2e6e5888118c19cd5537da5980#rd" target="_blank" rel="noopener">大学生如何用Anki学习专业课</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483772&idx=1&sn=03a52eac118036503f56b0c8f8248cc1&chksm=fc4c84bacb3b0dacbab2700c2a845c2291e51a0242123f553fcccdfc8965f198ad4c9e763abe#rd" target="_blank" rel="noopener">上班族如何用Anki提升自己</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483764&idx=1&sn=59144426b1751559aad291875d36e3d5&chksm=fc4c84b2cb3b0da4d73ff4084f730b518a95734fe820b34494b0349a002d64479e43ac2ef04a#rd" target="_blank" rel="noopener">复习anki时，什么时候才能放过这张卡片？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483749&idx=1&sn=9845538886adacbc4f7cf15f80eda6cc&chksm=fc4c84a3cb3b0db559b5410b3358b05c2e0e657c5ad0fd6b78cbe486657505d3df88f9eb8397#rd" target="_blank" rel="noopener">提高Anki使用效率的几点建议</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483745&idx=1&sn=a33a8b9ed110a87eb3b96e10c16cc1b1&chksm=fc4c84a7cb3b0db1d5018fe94ad7b19c0985319a0209460c499e71c032373208ad6a11de1100#rd" target="_blank" rel="noopener">同样用anki，但很多细节可能导致使用效果相差巨大</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483744&idx=1&sn=b877a2f6656d8acd301ea2fb0dda9030&chksm=fc4c84a6cb3b0db0d209ead1bc4a512079c342c329f3d8b5e06288fba24b770f5d086a9d7d4a#rd" target="_blank" rel="noopener">最后一轮复习，Anki怎么用？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483734&idx=1&sn=caf37040323c57078d3840da0191aaed&chksm=fc4c8490cb3b0d86939dd936c708c41af351b7c434dbcb8f16be94d0d6a3b22be797b59cfeb8#rd" target="_blank" rel="noopener">Anki的四大块功能</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483710&idx=1&sn=56757c08de4781320ab6e79f52f2b0f8&chksm=fc4c84f8cb3b0dee951128fb9baff8e9f81630bd74619bc6a6c9cbdff82b993d96091e36c73c#rd" target="_blank" rel="noopener">为什么建议考试的你多去看看真题？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483709&idx=1&sn=0a8e4585291ae81687902f1013b9f903&chksm=fc4c84fbcb3b0ded0f627ec140b0a45f280786c79e91b871bf2663ab80cfd76beac9b9adea65#rd" target="_blank" rel="noopener">大多数人为了避免真正的思考，愿意做任何事</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483689&idx=1&sn=d697f33ef61b706084508163d1b50e49&chksm=fc4c84efcb3b0df947131788e4c9ef2dcc4a529252024b17442e57c87bc426e7fdf1d423f2c2#rd" target="_blank" rel="noopener">考研政治为什么不建议用Anki复习？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483685&idx=1&sn=27a21e45439c1bf091ec2065517f299d&chksm=fc4c84e3cb3b0df5ffb014681f0f44325b403850a521ff7214b988e2153708648b799b0e5c7b#rd" target="_blank" rel="noopener">3分钟看懂学习软件Anki是什么</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483677&idx=1&sn=9a80e89f9768e5a21fcf50562545faf4&chksm=fc4c84dbcb3b0dcd81edf9a04eeec45460312c4e0c1f7fe93bbafb2760de8f998bfebae40e07#rd" target="_blank" rel="noopener">为什么不爱学习的学生看起来更聪明？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg2NQ==&mid=2247483660&idx=1&sn=527709750d5802354b5e3189d2fdb2dc&chksm=fc4c84cacb3b0ddce85efc7f734310510fbec44407f74e884ef6e6b6cfe60d6e7dd8ca404e05#rd" target="_blank" rel="noopener">Anki逢考必过的护身符</a></li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>图床资料页</title>
+    <url>/2020/05/11/</url>
+    <content><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>包括图床的介绍，自建图床的方法，以及LEO提供的一站式图床服务。</p>
+<h4 id="1-学习骇客的图床服务"><a href="#1-学习骇客的图床服务" class="headerlink" title="1.学习骇客的图床服务"></a>1.<a href="https://item.taobao.com/item.htm?id=584615515920" target="_blank" rel="noopener">学习骇客的图床服务</a></h4><h4 id="2-关于图床的几类常见问题"><a href="#2-关于图床的几类常见问题" class="headerlink" title="2. 关于图床的几类常见问题"></a>2. <a href="https://mp.weixin.qq.com/s/TTDVcNm4uyhV59XHThwLGg" target="_blank" rel="noopener">关于图床的几类常见问题</a></h4><h4 id="3-自建图床服务的专辑文章-微信打开"><a href="#3-自建图床服务的专辑文章-微信打开" class="headerlink" title="3.自建图床服务的专辑文章(微信打开)"></a>3.<a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU2NDI1Mzg2NQ==&action=getalbum&album_id=1332468348789096451&subscene=7&scenenote=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3Fsubscene%3D19%26__biz%3DMzU2NDI1Mzg2NQ%3D%3D%26mid%3D2247484521%26idx%3D1%26sn%3D6ae075da9adad368e8d7e45a895d5c92%26chksm%3Dfc4c81afcb3b08b9fb3149f619f918f406bceedb3ee1e0486748b3f351eb57c25af70ce95f12%26scene%3D7%26clicktime%3D1589172767%26enterid%3D1589172767%26ascene%3D65%26devicetype%3DiOS13.4.1%26version%3D17000c2d%26nettype%3DWIFI%26abtest_cookie%3DAAACAA%253D%253D%26lang%3Dzh_CN%26fontScale%3D100%26exportkey%3DASy5ypuECwv1EM6DfFs7O6g%253D%26pass_ticket%3DaC5OWmRwVRB755%252Fj3%252BGL9VPsBJirURze4hoYo0p%252FAxk%253D%26wx_header%3D1#wechat_redirect" target="_blank" rel="noopener">自建图床服务的专辑文章(微信打开)</a></h4><h2 id="图床工具"><a href="#图床工具" class="headerlink" title="图床工具"></a>图床工具</h2><p>推荐的工具是用户比较多、评价比较好的，如果有不称手的地方，学有余力的同学也可以自行摸索其他工具。工具较多，难以面面俱到，因此其他工具不在帮助范围内，还请理解。</p>
+<h4 id="1-Windows版图床工具MPic体验"><a href="#1-Windows版图床工具MPic体验" class="headerlink" title="1. Windows版图床工具MPic体验"></a>1. <a href="https://www.jianguoyun.com/p/DdPNQSsQ4sjQBxjPmZED" target="_blank" rel="noopener">Windows版图床工具MPic体验</a></h4><h4 id="2-图床工具PicGo的官网-适用Win和Mac双平台"><a href="#2-图床工具PicGo的官网-适用Win和Mac双平台" class="headerlink" title="2.图床工具PicGo的官网(适用Win和Mac双平台)"></a>2.<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">图床工具PicGo的官网(适用Win和Mac双平台)</a></h4><h4 id="3-图床工具uPic的官网-适用Mac平台"><a href="#3-图床工具uPic的官网-适用Mac平台" class="headerlink" title="3.图床工具uPic的官网(适用Mac平台)"></a>3.<a href="https://github.com/gee1k/uPic/releases" target="_blank" rel="noopener">图床工具uPic的官网(适用Mac平台)</a></h4><h4 id="4-LEO提供的图床工具备份下载-坚果云网盘"><a href="#4-LEO提供的图床工具备份下载-坚果云网盘" class="headerlink" title="4.LEO提供的图床工具备份下载(坚果云网盘)"></a>4.<a href="https://www.jianguoyun.com/p/DQH1bOgQ4sjQBxjsjpYD" target="_blank" rel="noopener">LEO提供的图床工具备份下载(坚果云网盘)</a></h4><h2 id="配套工具"><a href="#配套工具" class="headerlink" title="配套工具"></a>配套工具</h2><p>推荐的工具是用户比较多、评价比较好的，如果有不称手的地方，学有余力的同学也可以自行摸索其他工具。工具较多，难以面面俱到，因此其他工具不在帮助范围内，还请理解。</p>
+<h4 id="1-截图工具Snipaste-Win和Mac双平台"><a href="#1-截图工具Snipaste-Win和Mac双平台" class="headerlink" title="1.截图工具Snipaste Win和Mac双平台"></a>1.<a href="https://zh.snipaste.com" target="_blank" rel="noopener">截图工具Snipaste Win和Mac双平台</a></h4><h4 id="2-动图录制工具LICEcap-Win和Mac双平台"><a href="#2-动图录制工具LICEcap-Win和Mac双平台" class="headerlink" title="2.动图录制工具LICEcap Win和Mac双平台"></a>2.<a href="https://www.cockos.com/licecap/" target="_blank" rel="noopener">动图录制工具LICEcap Win和Mac双平台</a></h4><h4 id="3-动图录制工具GifCam-Win平台"><a href="#3-动图录制工具GifCam-Win平台" class="headerlink" title="3.动图录制工具GifCam Win平台"></a>3.<a href="https://gifcam.en.softonic.com/download" target="_blank" rel="noopener">动图录制工具GifCam Win平台</a></h4><hr>
+<h2 id="问题补充"><a href="#问题补充" class="headerlink" title="问题补充"></a>问题补充</h2><p>大家在使用中碰到什么请反馈给LEO，之后会在这里呈现。</p>
+<hr>
+]]></content>
+  </entry>
+  <entry>
+    <title>大多数人为了避免真正的思考，愿意做任何事</title>
+    <url>/2017/11/20/</url>
+    <content><![CDATA[<p>高三的时候，听说我们年级理科班有个同学数学经常考满分，据他们班同学说：“人家三套题做一遍，他把一套题做三遍。”</p>
+<p>2014年考研复习那会，我自己把考研英语一的真题阅读部分也做了3遍，英语二的成绩最后定格在81分，其实中间还有10~12三个多月完全没碰过英语。</p>
+<p>读大学那会练听力，成天找美剧、刷美剧，但几年下来，自己的听力还是介于听不懂和跟不上之间。</p>
+<p>2015年考研之后的那个暑假，我闲来无事用aboboo电脑版练了两周的听力，居然能听懂简单的句子了。</p>
+<p>以上事例，一个间接经历、两个亲身经历，我想谈谈后两个的学习过程。</p>
+<h4 id="考研英语复习"><a href="#考研英语复习" class="headerlink" title="考研英语复习"></a>考研英语复习</h4><p>和很多人一样，我最初准备考研英语时，也想过买“同源期刊”，也试着背过“新概念英语”，更听过英语老师的讲题课，但这些一直都只能算徘徊在考研英语的外围。</p>
+<p><strong>只要没开始碰真题，一切努力都是臆想。</strong></p>
+<p>读一本同源期刊，会让人感觉成就满满，学两个月新概念，也会让人觉得很充实，但是这两件事情上，自己的深度思考都很少很少，更不要提听老师讲课了。</p>
+<p>发展心理学上有个“最近发展区”概念，可以用来解释听老师讲课的作用。</p>
+<p>假设一个人自学能达到的水平是1，如果老师点拨的话能达到1.2，那么这个0.2的差距就叫最近发展区，老师的作用就在于帮助学生在自学的水平上更上一个台阶。但是考研英语的视频讲解课，很多人听得很嗨，而自己却没有动脑，直接结果就是轮到自己做题时照错不误。这就像你跟朋友的车去一个陌生的地方，不管走了两趟还是三趟，你都不知道路，但是哪天你自己勉勉强强走了一遍之后，立马就知道路了。</p>
+<p>所以老师明白跟你自己明白这是两码事，当很多人反应过来的时候宝贵的七八九月已经结束了。</p>
+<p>考研英语的复习上，6月底背完单词，我就自己开始做真题了。刚开始的时候很痛苦，单词都认识可就是句子看着费劲，甚至一篇阅读5道题能错3、4道，但是每一篇我都认认真真地去做。</p>
+<p><strong>第一步</strong>，先做题再对答案，期间不查字典不看解析，逼着自己把不明白的地方想明白。</p>
+<p><strong>第二步</strong>，翻译正文、题目和选项，逐字逐句的直译，不给自己忽悠自己的机会。</p>
+<p><strong>第三步</strong>，寻找题干和选项，甚至是错误选项的出处，分析错误选项的错误类型（例如，以偏概全，偷梁换柱等等）。</p>
+<p>就这样，做了第三遍的时候，我就能通过直觉判断哪一句话会在题目里挖坑等我了。因为第一遍两个月，第二遍一个月，难度很大，所以不存在连续做几遍记住答案的顾虑。而且我会刻意要求自己去按图索骥找到实在证据，而不是凭对答案的记忆。</p>
+<p>期间没有碰任何模拟题，后来在讯飞工作接触到教研室的老师才知道模拟题和真题的区别在哪——通常一道题4个选项，1个正确，其余3个错误。在真题里，这3个错误选项都是命题人在精心分析做题人的知识结构后，针对可能存在的知识漏洞和推理错误给出的相对应的陷阱，可是很多模拟题的错误选项就是随便给的错误答案。所以，模拟题不仅仅是出题不严谨，还不利于训练真正的做题思维。</p>
+<p>对比大量刷模拟题、大量浅阅读英文文章，研读真题的不同在于，凡是碰到认知障碍都会跟自己死磕直到解决，而在刷题和浅阅读时这些都被我们放过去了，但恰恰是这些被放过去的地方才是我们真正值得提高的地方。所以相比刷题和浅阅读，把真题研读三遍，带给我更多收获。</p>
+<h4 id="练听力"><a href="#练听力" class="headerlink" title="练听力"></a>练听力</h4><p>用aboboo练听力，aboboo.com电脑版稍复杂，但网站有说明书，新出的iOS手机版在操作上也简单很多。</p>
+<p>以前练听力都是看电影或者做听力题，前者较轻松，后者稍显认真。看电影时，很少有人会把听不懂的地方反复听，所以几乎听得懂的还是听得懂，听不懂的仍然听不懂。练听力题的基本形式都是用个播放器播放，在不懂的地方多听几遍，大多数不懂的地方最后也都会听懂。</p>
+<p>用aboboo软件来练听力，它会自动把材料断句，会自动呈现声波，所以你在听写时不用去花大量时间快进快退，不用专门去定位没听懂的地方，直接就可以选中某个部分重新听一次。</p>
+<p>在确认自己是否真的听明白这件事上，aboboo是让用户自己用键盘打出来，而且是一个词一个空的打出来，反复听还听不出来可以按快捷键获得提示。就算你按照提示应付完了，最后还可以把不是自己独立完成的部分再听一遍。</p>
+<p>和刷三遍真题类似，这种死磕自己的方式，真正的把自己薄弱的地方补上了，<strong>而不是漫不经心听两三个小时用时间来彰显自己的努力程度</strong>。</p>
+<p>回到anki上，我常常会在教完anki学员之后叮嘱他们——先小范围试用一下，养成习惯之后再应用到学科知识中去。</p>
+<p>在做笔记时，一定要先学习、再做ANKI笔记，再当天复习，不可拖延。</p>
+<p>可以学得慢一点，甚至是少学一点，但是一定要学一点是一点。</p>
+<p>跟很多“一日千里”的学习习惯不同，一旦开始用anki，你就要跟自己死磕，把不会的知识点掌握，把已经掌握的笔记维持在长时记忆里。</p>
+<p>也正是anki这种死磕自己的态度，让学习得以扎实落地，而不是通过坐在自习室的时间判断自己的努力程度。</p>
+<p>如果读者也希望有所改变，分享刘一男老师曾经说过的话给大家——Perfect practice makes perfect. </p>
+<p>对，不是众所周知的”Practice makes perfect.”</p>
+<p>后来我才知道，这也叫“刻意练习”。</p>
+<hr>
+<p>本文由微信公众号“学习骇客”写于2017年11月02日</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>为什么不爱学习的学生看起来更聪明</title>
+    <url>/2017/10/21/</url>
+    <content><![CDATA[<h4 id="聪明的同学"><a href="#聪明的同学" class="headerlink" title="聪明的同学"></a>聪明的同学</h4><p>初中的时候，虽然我在班里成绩比较好，但其实很多成绩差、不爱学习的同学都比我聪明。而我要获得好成绩，就必须认真听课、勤做作业，而那些调皮捣蛋的同学偶尔灵光一闪也能在课堂上抢一回风头，如果他们能持之以恒，我在班里的排名起码要后退5位或10位。  </p>
+<p>后来大学期间，因为对高等数学不敏感，所以上课的时候总得非常聚精会神地听，生怕自己错过了重要信息，或者听不懂。而经常跟我坐在一起的G同学却经常在课上找身边人聊天，也不怎么听，可最后考试却能考个八九十分，而我辛辛苦苦却只能考到七十多分。</p>
+<h4 id="情感的作用"><a href="#情感的作用" class="headerlink" title="情感的作用"></a>情感的作用</h4><p>我一直在想，凭什么认真、努力却没有那些吊儿郎当的同学反应更快？</p>
+<p>最近在阅读《教育心理学》时，我隐约发现自己好像找到了答案。我的效率不高，可能恰恰是由于我的“认真、努力”。</p>
+<p>书中如是说：</p>
+<blockquote>
+<p>实验告诉我们，恐惧、焦虑、抑郁、嫉妒、敌意、冲动等负性情绪是一种破坏性的情感，一般来说会降低学习的效果。在负面情绪的背景下，学生的认知水平被压抑扭曲，原本能够进行的认知加工无法进行。适当的中性情绪的唤醒有利于提高学习效果，但是这种情绪唤醒的水平过高，也会对学习效果产生阻碍作用。</p>
+</blockquote>
+<p>以前那些“聪明”的同学，恰恰因为对学习无所谓，这种轻松的心态使得他们的认知水平偶尔也会超过我。</p>
+<p>我虽然谈不上焦虑、压抑，但相比玩的时间，我在学习时真的无法做的精神放松，甚至有时会陷入一个循环“越在意、越做不好、做容易出错，就越在意”。过于在意，反而让自己陷入负面情绪，而负面情绪让自己的努力打了折扣。</p>
+<p>相反的，曾经也有一次体验。我记得初二有一次物理考试，就在考前邻桌递给我一封信，是一封来自我小学时最好的朋友的信，当时别提有多高兴了，后来我的那场物理考试考了满分。我很诧异，因为平时考试不是这错一点就是那错一点，但从来就没考过满分。那封信却恰巧在考前激发了我的正面情绪，而正面情绪大大提升了我的认知水平。  </p>
+<p>但美好体验总是很少，“认真、努力”掩盖下的负面情感一直影响了我十多年，我也一直尝试改变。每当我学习的时候，我就先用自己的理智去控制自己的情绪，告诉自己：要开始学习了，你要认真起来，你要调动起全部精力去完成当前的任务。</p>
+<h4 id="控制情感"><a href="#控制情感" class="headerlink" title="控制情感"></a>控制情感</h4><p>一直试图控制自己的情感，好让自己更加放松、更加积极。但是在读了《象与骑象人》这本书后我发现，人无法用理智控制自己的情感。人的自我就是一个控制化的系统，用比喻来说就是一名骑在大象背上的骑象人，指的就是理智，有意识、控制后的思考；除此以外的，包括内心感觉、本能反应、情绪、直觉……等等就是大象。作者的结论是：所谓的自我就是骑象人与大象的组合体，骑象人并不能完全控制大象。</p>
+<h4 id="改变风格"><a href="#改变风格" class="headerlink" title="改变风格"></a>改变风格</h4><p>至此，我试图改变的计划证明不可行，我确实无法通过理智调动自己的情绪。要改变自己的情感风格，有三种方法，一直都是在用却忽视的方法。  </p>
+<p>第一种，药物疗法：百忧解。我在研究生阶段的心理学导师曾经告诫我，不管是自己接受心理咨询还是给来访者做咨询，都要慎用药物，所以这里暂时不考虑了。  </p>
+<p>第二种，冥想。我用了七八年的郭怀慈老师的冥想训练，她的冥想录音有4套，我主要用“全身扫描放松法”帮助自己短暂休息。还有一些，例如“生命之河冥想法”“中脉七轮冥想放松法”“大自然冥想放松法”，以后要多在清醒的时候用这些音频引导自己进行冥想，以改变自己的情感风格。  </p>
+<p>第三种，写作。我写文字的初衷一直都是刘未鹏在他的博客里说的那句话“写作是为了更好地思考”，往往停留在知识层面，没有深入到分析情感的层面。其实我更应该多表达自己的情感，然后在自己看得见的情况下去分辨哪些合理哪些不合理，以改变自己的情感风格。</p>
+<h4 id="换个方式"><a href="#换个方式" class="headerlink" title="换个方式"></a>换个方式</h4><p>改变情绪 -&gt; 改变认知。</p>
+<p>道理似乎很简单，但冰冻三尺非一日之寒，改变情感风格还要长期刻意练习。</p>
+<hr>
+<p>本文由微信公众号“学习骇客”写于2017年10月21日</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Anki手机版常用格式代码</title>
+    <url>/2017/01/09/</url>
+    <content><![CDATA[<p>本文接<a href="https://anki.wiki/2017/01/02/index.html">如何在Anki手机版开启强大的编辑功能</a></p>
+<p>通过手机输入法的快捷短语，将这些代码置于其中，就可以快速实现Anki手机版的格式编辑。</p>
+<p>背景色</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">"background:#ff0000;float:left"</span>&gt;</span> 文本放在这里 <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>无序列表</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>分割线</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">hr</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>超链接</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">“这里换成格式完整的网址”</span>&gt;</span>这里换成网站名可英文可汉字<span class="tag">&lt;/<span class="name">a</span> &gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>加粗</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">b</span>&gt;</span>这里换成需要设置格式的文本<span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>红色</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">"#ff0000"</span>&gt;</span> 这里换成需要设置格式的文本 <span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>咖啡色</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">"#d2691e"</span>&gt;</span>这里换成需要设置格式的文本<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>蓝色</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">"#0000ff"</span>&gt;</span>这里换成需要设置格式的文本<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>紫色</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">"#9400d3"</span>&gt;</span>这里换成需要设置格式的文本<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>更多颜色代码，可以在搜索引擎里搜索“色值”，替换如#9400d3 这些即可。</p>
+<p>大多数格式代码都是成对出现的，一对尖括号&lt;&gt;就表示一边，到anki里使用可以将两边分别添加到两个快捷短语里。</p>
+<p>大部分格式代码是可以组合使用的，例如在加粗代码外面再包裹一圈红色代码，这些留给大家自己尝试。</p>
+<p>填空</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&#123;&#123;c1:: 这里换成需要挖空的文本&#125;&#125;</span><br></pre></td></tr></table></figure>
+
+<p>删除线</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">strike</span>&gt;</span> 这里换成需要设置格式的文本 <span class="tag">&lt;/<span class="name">strike</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>下标</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">sub</span>&gt;</span>这里换成需要设置格式的文本<span class="tag">&lt;/<span class="name">sub</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>强制换行符</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>如何在Anki手机版开启强大的编辑功能</title>
+    <url>/2017/01/02/</url>
+    <content><![CDATA[<p>通过找出常用样式的代码，然后添加到手机输入法的快捷短语里，实现Anki手机版的格式编辑功能。</p>
+<p><img src="http://myself.anki.wiki/mpic/20190508/XiPIDxmCsQ2Y.jpg" alt="mark"></p>
+<p>1.现在电脑上编辑一种格式，例如“红色”。只编辑一种格式，是为了方便做A/B对比测试，找出某段代码的真正功能。</p>
+<p><img src="http://myself.anki.wiki/mpic/20190508/FmE7XmkryuqL.jpg" alt="mark"></p>
+<p>2.点击<strong>edit</strong> 编辑，就可以进入这个界面了。安卓版在这里就直接能看到格式代码了，iOS版还要再点击右上角 &lt;/&gt;按钮才会显示代码。<strong>iOS代码隐藏，需要再次点击&lt; &gt; ，安卓直接显示代码在编辑框</strong>。</p>
+<p><img src="http://myself.anki.wiki/mpic/20190508/oeUkgv8W9Ouq.jpg" alt="mark"></p>
+<p>3.这里就能看到红色格式的代码了，其他格式的代码用此方法也可以查看。</p>
+<p><img src="http://myself.anki.wiki/mpic/20190508/9Ds8l2FNrpXs.jpg" alt="mark"></p>
+<p>4.这里列举了一些我的快捷短语，设置如下</p>
+<p><img src="http://myself.anki.wiki/mpic/20190508/7XWJAmGT5AXo.jpg" alt="mark"></p>
+<p>5.比如，我想设置hs表示红色，然后打出来红色对应的代码。只需要在 输入法里填写“hs”，在短语里填写“<font color="#ff0000"> </font>”</p>
+<p><img src="http://myself.anki.wiki/mpic/20190508/jX2n2CuDM3Ab.jpg" alt="mark"></p>
+<p>6.下次再通过输入法打“hs”时，键盘上就会出现红色的格式代码了，点击即可上屏。</p>
+<p>以上。</p>
+<hr>
+<p>常用代码详见<a href="https://anki.wiki/2018/03/06/index.html">Anki手机版常用格式代码</a></p>
+]]></content>
   </entry>
 </search>
