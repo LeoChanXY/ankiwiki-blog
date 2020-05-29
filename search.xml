@@ -428,7 +428,7 @@
 <p>如果是下载，请使用电脑浏览器。</p>
 <h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><ol>
 <li>缓存文件的<strong>位置</strong>在哪？<ol>
-<li>Windows电脑在 C:/drmsoft 文件夹中，暂不支持迁移到其他盘。</li>
+<li>Windows电脑在 C:/myvideo 文件夹中，暂不支持迁移到其他盘。</li>
 <li>Mac电脑在 文稿 文件夹中的 myvideo 文件夹中。</li>
 </ol>
 </li>
