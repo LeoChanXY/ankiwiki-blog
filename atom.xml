@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anki.wiki/"/>
-  <updated>2020-05-25T17:54:28.000Z</updated>
+  <updated>2020-06-01T10:04:11.000Z</updated>
   <id>https://anki.wiki/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>修改字体用到的代码</title>
+    <link href="https://anki.wiki/2020/06/01/"/>
+    <id>https://anki.wiki/2020/06/01/</id>
+    <published>2020-06-01T10:04:11.000Z</published>
+    <updated>2020-06-01T10:04:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>结合<a href="xuexihaike.taobao.com">课程</a>12.04使用</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*字体,确保最后一行*/</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">@font-face</span> &#123; <span class="attribute">font-family</span>: myfont; <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">'_qingke.ttf'</span>);&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;结合&lt;a href=&quot;xuexihaike.taobao.com&quot;&gt;课程&lt;/a&gt;12.04使用&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>ShareX与ffmpeg动图录制组件</title>

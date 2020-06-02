@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://anki.wiki/shop/%25E5%25A4%258D%25E4%25B9%25A0%25E7%259A%2584%25E6%258A%2580%25E6%259C%25AF/%25E8%25AF%25BE%25E7%25A8%258B%25E8%25B5%2584%25E6%2596%2599.html</loc>
+        <lastmod>2020-06-02T10:07:01.414Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://anki.wiki/shop/</loc>
         <lastmod>2020-05-18T18:52:11.862Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,13 +24,6 @@
     <url>
         <loc>https://anki.wiki/shop/%25E5%25A4%258D%25E4%25B9%25A0%25E7%259A%2584%25E6%258A%2580%25E6%259C%25AF/%25E6%259C%25AC%25E5%2591%25A8%25E6%259B%25B4%25E6%2596%25B0.html</loc>
         <lastmod>2020-05-18T18:45:13.726Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://anki.wiki/shop/%25E5%25A4%258D%25E4%25B9%25A0%25E7%259A%2584%25E6%258A%2580%25E6%259C%25AF/%25E8%25AF%25BE%25E7%25A8%258B%25E8%25B5%2584%25E6%2596%2599.html</loc>
-        <lastmod>2020-05-18T06:40:06.102Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
