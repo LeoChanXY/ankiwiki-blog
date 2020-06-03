@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anki.wiki/"/>
-  <updated>2020-06-01T10:04:11.000Z</updated>
+  <updated>2020-06-03T02:41:44.000Z</updated>
   <id>https://anki.wiki/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RoamResearch同类工具列表</title>
+    <link href="https://anki.wiki/2020/06/03/"/>
+    <id>https://anki.wiki/2020/06/03/</id>
+    <published>2020-06-03T02:41:44.000Z</published>
+    <updated>2020-06-03T02:41:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="obsidian"><a href="#obsidian" class="headerlink" title="obsidian"></a><a href="https://obsidian.md/index.html" target="_blank" rel="noopener">obsidian</a></h4><h4 id="RoamEdit"><a href="#RoamEdit" class="headerlink" title="RoamEdit"></a><a href="https://roamedit" target="_blank" rel="noopener">RoamEdit</a></h4><h4 id="RemNote"><a href="#RemNote" class="headerlink" title="RemNote"></a><a href="https://www.remnote.io/homepage" target="_blank" rel="noopener">RemNote</a></h4><h4 id="Amplenote"><a href="#Amplenote" class="headerlink" title="Amplenote"></a><a href="https://www.amplenote.com/" target="_blank" rel="noopener">Amplenote</a></h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;obsidian&quot;&gt;&lt;a href=&quot;#obsidian&quot; class=&quot;headerlink&quot; title=&quot;obsidian&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://obsidian.md/index.html&quot; target=&quot;_blank&quot; rel=&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>修改字体用到的代码</title>
