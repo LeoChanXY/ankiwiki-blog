@@ -491,7 +491,8 @@
   <entry>
     <title>opml2anki问题汇总</title>
     <url>/2020/05/17/</url>
-    <content><![CDATA[<h2 id="提交新问题"><a href="#提交新问题" class="headerlink" title="提交新问题"></a>提交新问题</h2><p><a href="https://support.qq.com/product/155505" target="_blank" rel="noopener">点我</a>进入腾讯兔小巢提交反馈</p>
+    <content><![CDATA[<h2 id="提交新问题"><a href="#提交新问题" class="headerlink" title="提交新问题"></a>提交新问题</h2><p>使用<a href="https://share.mubu.com/doc/6NGiqTLAXEK" target="_blank" rel="noopener">样例</a>测试，如果没问题，说明是自己的笔记格式不符，如果样例也出错无法识别，请反馈到下面链接中并提醒LEO查看。</p>
+<p><a href="https://support.qq.com/product/155505" target="_blank" rel="noopener">点我</a>进入腾讯兔小巢提交反馈</p>
 <p>在微信中打开，还可以通过微信收到LEO的回复提醒哦</p>
 <h2 id="常见老问题（快速导航）"><a href="#常见老问题（快速导航）" class="headerlink" title="常见老问题（快速导航）"></a><a id="00">常见老问题（快速导航）</a></h2><ol>
 <li><a href="#01">显示 #undefined</a></li>
