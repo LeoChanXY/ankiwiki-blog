@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>在线TTS发音模板代码</title>
+    <url>/2020/06/12/</url>
+    <content><![CDATA[<p>手动发音代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;audio </span><br><span class="line">src&#x3D;&quot;音频地址&quot; controls&#x3D;&quot;controls&quot;&gt; </span><br><span class="line">&lt;&#x2F;audio&gt;</span><br></pre></td></tr></table></figure>
+
+<p>自动播放发音的代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;audio </span><br><span class="line">controls&#x3D;&quot;controls&quot; </span><br><span class="line">autoplay&#x3D;&quot;autoplay&quot;  </span><br><span class="line">src&#x3D;&quot;音频地址&quot; controls&#x3D;&quot;controls&quot;&gt;</span><br><span class="line">&lt;&#x2F;audio&gt;</span><br></pre></td></tr></table></figure>
+
+<p>手动循环播放发音的代码：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;audio </span><br><span class="line">controls&#x3D;&quot;controls&quot; </span><br><span class="line">loop&#x3D;&quot;loop&quot; </span><br><span class="line">src&#x3D;&quot;音频地址&quot; </span><br><span class="line">controls&#x3D;&quot;controls&quot;&gt;</span><br><span class="line">&lt;&#x2F;audio&gt;</span><br></pre></td></tr></table></figure>
+
+<p>隐藏播放条自动发音的代码：<br>听写发音的模板（单词不出现）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;audio </span><br><span class="line">controls&#x3D;&quot;controls&quot; </span><br><span class="line">autoplay&#x3D;&quot;autoplay&quot;  </span><br><span class="line">src&#x3D;&quot;音频地址&quot; </span><br><span class="line">controls&#x3D;&quot;controls&quot;&gt;</span><br><span class="line">&lt;&#x2F;audio&gt;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>百度翻译的发音地址-英语</p>
+<p><a href="https://fanyi.baidu.com/gettts?lan=en&amp;text=单词&amp;spd=3&amp;source=web" target="_blank" rel="noopener">https://fanyi.baidu.com/gettts?lan=en&amp;text=单词&amp;spd=3&amp;source=web</a></p>
+<p>百度翻译的发音地址-韩语</p>
+<p><a href="https://fanyi.baidu.com/gettts?lan=kor&amp;text=单词&amp;spd=3&amp;source=web" target="_blank" rel="noopener">https://fanyi.baidu.com/gettts?lan=kor&amp;text=单词&amp;spd=3&amp;source=web</a></p>
+<p>百度翻译的发音地址-日语</p>
+<p><a href="https://fanyi.baidu.com/gettts?lan=jp&amp;text=单词&amp;spd=3&amp;source=web" target="_blank" rel="noopener">https://fanyi.baidu.com/gettts?lan=jp&amp;text=单词&amp;spd=3&amp;source=web</a></p>
+<p>有道词典的发音地址-英语</p>
+<p><a href="http://dict.youdao.com/dictvoice?audio=单词&amp;type=1" target="_blank" rel="noopener">http://dict.youdao.com/dictvoice?audio=单词&amp;type=1</a></p>
+<p>如果你发现更好的资源，欢迎反馈给LEO。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>软件站点收录</title>
     <url>/2020/06/10/</url>
     <content><![CDATA[<h6 id="1-实用的小工具"><a href="#1-实用的小工具" class="headerlink" title="1. 实用的小工具"></a>1. <a href="https://www.dcmembers.com/skwire/software/" target="_blank" rel="noopener">实用的小工具</a></h6>]]></content>

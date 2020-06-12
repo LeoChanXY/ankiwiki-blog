@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anki.wiki/"/>
-  <updated>2020-06-10T02:49:36.000Z</updated>
+  <updated>2020-06-12T01:12:16.000Z</updated>
   <id>https://anki.wiki/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在线TTS发音模板代码</title>
+    <link href="https://anki.wiki/2020/06/12/"/>
+    <id>https://anki.wiki/2020/06/12/</id>
+    <published>2020-06-12T01:12:16.000Z</published>
+    <updated>2020-06-12T01:12:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>手动发音代码：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;audio </span><br><span class="line">src&#x3D;&quot;音频地址&quot; controls&#x3D;&quot;controls&quot;&gt; </span><br><span class="line">&lt;&#x2F;audio&gt;</span><br></pre></td></tr></table></figure><p>自动播放发音的代码：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;audio </span><br><span class="line">controls&#x3D;&quot;controls&quot; </span><br><span class="line">autoplay&#x3D;&quot;autoplay&quot;  </span><br><span class="line">src&#x3D;&quot;音频地址&quot; controls&#x3D;&quot;controls&quot;&gt;</span><br><span class="line">&lt;&#x2F;audio&gt;</span><br></pre></td></tr></table></figure><p>手动循环播放发音的代码：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;audio </span><br><span class="line">controls&#x3D;&quot;controls&quot; </span><br><span class="line">loop&#x3D;&quot;loop&quot; </span><br><span class="line">src&#x3D;&quot;音频地址&quot; </span><br><span class="line">controls&#x3D;&quot;controls&quot;&gt;</span><br><span class="line">&lt;&#x2F;audio&gt;</span><br></pre></td></tr></table></figure><p>隐藏播放条自动发音的代码：<br>听写发音的模板（单词不出现）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;audio </span><br><span class="line">controls&#x3D;&quot;controls&quot; </span><br><span class="line">autoplay&#x3D;&quot;autoplay&quot;  </span><br><span class="line">src&#x3D;&quot;音频地址&quot; </span><br><span class="line">controls&#x3D;&quot;controls&quot;&gt;</span><br><span class="line">&lt;&#x2F;audio&gt;</span><br></pre></td></tr></table></figure><hr><p>百度翻译的发音地址-英语</p><p><a href="https://fanyi.baidu.com/gettts?lan=en&amp;text=单词&amp;spd=3&amp;source=web" target="_blank" rel="noopener">https://fanyi.baidu.com/gettts?lan=en&amp;text=单词&amp;spd=3&amp;source=web</a></p><p>百度翻译的发音地址-韩语</p><p><a href="https://fanyi.baidu.com/gettts?lan=kor&amp;text=单词&amp;spd=3&amp;source=web" target="_blank" rel="noopener">https://fanyi.baidu.com/gettts?lan=kor&amp;text=单词&amp;spd=3&amp;source=web</a></p><p>百度翻译的发音地址-日语</p><p><a href="https://fanyi.baidu.com/gettts?lan=jp&amp;text=单词&amp;spd=3&amp;source=web" target="_blank" rel="noopener">https://fanyi.baidu.com/gettts?lan=jp&amp;text=单词&amp;spd=3&amp;source=web</a></p><p>有道词典的发音地址-英语</p><p><a href="http://dict.youdao.com/dictvoice?audio=单词&amp;type=1" target="_blank" rel="noopener">http://dict.youdao.com/dictvoice?audio=单词&amp;type=1</a></p><p>如果你发现更好的资源，欢迎反馈给LEO。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;手动发音代码：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>软件站点收录</title>
