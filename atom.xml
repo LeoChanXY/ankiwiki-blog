@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anki.wiki/"/>
-  <updated>2020-07-07T12:05:25.000Z</updated>
+  <updated>2020-07-27T09:58:02.000Z</updated>
   <id>https://anki.wiki/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>幕布笔记新增格式的配套模板代码</title>
+    <link href="https://anki.wiki/2020/07/27/"/>
+    <id>https://anki.wiki/2020/07/27/</id>
+    <published>2020-07-27T09:58:02.000Z</published>
+    <updated>2020-07-27T09:58:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">.text-color-red&#123;</span><br><span class="line"> color:red;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.text-color-yellow&#123;</span><br><span class="line"> color:yellow;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.text-color-blue&#123;</span><br><span class="line"> color:blue;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.text-color-green&#123;</span><br><span class="line"> color:green;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.text-color-red&#123;</span><br><span class="line"> color:red;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.text-color-purple&#123;</span><br><span class="line"> color:purple;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>复制 上面↑ 框中的代码，粘贴到ANKI的如 下图↓ 所示的位置中</p><p><img src="http://myself.anki.wiki/mpic/20200727/X42aXqWygeNp.png" alt="mark"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>预约电话沟通的邮件格式要求</title>
@@ -132,13 +153,13 @@
     <published>2020-06-10T02:49:36.000Z</published>
     <updated>2020-06-10T02:49:36.000Z</updated>
     
-    <content type="html"><![CDATA[<h6 id="1-实用的小工具"><a href="#1-实用的小工具" class="headerlink" title="1. 实用的小工具"></a>1. <a href="https://www.dcmembers.com/skwire/software/" target="_blank" rel="noopener">实用的小工具</a></h6>]]></content>
+    <content type="html"><![CDATA[<h2 id="收藏-推荐"><a href="#收藏-推荐" class="headerlink" title="收藏+推荐"></a>收藏+推荐</h2><h6 id="1-飞扬时空的新浪博客"><a href="#1-飞扬时空的新浪博客" class="headerlink" title="1. 飞扬时空的新浪博客"></a>1. <a href="http://blog.sina.com.cn/flyonzone" target="_blank" rel="noopener">飞扬时空的新浪博客</a></h6><h2 id="收藏"><a href="#收藏" class="headerlink" title="收藏"></a>收藏</h2><h6 id="1-实用的小工具"><a href="#1-实用的小工具" class="headerlink" title="1. 实用的小工具"></a>1. <a href="https://www.dcmembers.com/skwire/software/" target="_blank" rel="noopener">实用的小工具</a></h6>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h6 id=&quot;1-实用的小工具&quot;&gt;&lt;a href=&quot;#1-实用的小工具&quot; class=&quot;headerlink&quot; title=&quot;1. 实用的小工具&quot;&gt;&lt;/a&gt;1. &lt;a href=&quot;https://www.dcmembers.com/skwire/software/&quot; targe
+        &lt;h2 id=&quot;收藏-推荐&quot;&gt;&lt;a href=&quot;#收藏-推荐&quot; class=&quot;headerlink&quot; title=&quot;收藏+推荐&quot;&gt;&lt;/a&gt;收藏+推荐&lt;/h2&gt;&lt;h6 id=&quot;1-飞扬时空的新浪博客&quot;&gt;&lt;a href=&quot;#1-飞扬时空的新浪博客&quot; class=&quot;headerlink
       
     
     </summary>
@@ -432,28 +453,6 @@
 &lt;p&gt;最后更新于 2020年05月13日&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzU2NDI1Mzg
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>图床资料页</title>
-    <link href="https://anki.wiki/2020/05/11/"/>
-    <id>https://anki.wiki/2020/05/11/</id>
-    <published>2020-05-11T04:46:05.000Z</published>
-    <updated>2020-05-11T04:46:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>包括图床的介绍，自建图床的方法，以及LEO提供的一站式图床服务。</p><h4 id="1-学习骇客的图床服务"><a href="#1-学习骇客的图床服务" class="headerlink" title="1.学习骇客的图床服务"></a>1.<a href="https://item.taobao.com/item.htm?id=584615515920" target="_blank" rel="noopener">学习骇客的图床服务</a></h4><h4 id="2-关于图床的几类常见问题"><a href="#2-关于图床的几类常见问题" class="headerlink" title="2. 关于图床的几类常见问题"></a>2. <a href="https://mp.weixin.qq.com/s/TTDVcNm4uyhV59XHThwLGg" target="_blank" rel="noopener">关于图床的几类常见问题</a></h4><h4 id="3-自建图床服务的专辑文章-微信打开"><a href="#3-自建图床服务的专辑文章-微信打开" class="headerlink" title="3.自建图床服务的专辑文章(微信打开)"></a>3.<a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU2NDI1Mzg2NQ==&action=getalbum&album_id=1332468348789096451&subscene=7&scenenote=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3Fsubscene%3D19%26__biz%3DMzU2NDI1Mzg2NQ%3D%3D%26mid%3D2247484521%26idx%3D1%26sn%3D6ae075da9adad368e8d7e45a895d5c92%26chksm%3Dfc4c81afcb3b08b9fb3149f619f918f406bceedb3ee1e0486748b3f351eb57c25af70ce95f12%26scene%3D7%26clicktime%3D1589172767%26enterid%3D1589172767%26ascene%3D65%26devicetype%3DiOS13.4.1%26version%3D17000c2d%26nettype%3DWIFI%26abtest_cookie%3DAAACAA%253D%253D%26lang%3Dzh_CN%26fontScale%3D100%26exportkey%3DASy5ypuECwv1EM6DfFs7O6g%253D%26pass_ticket%3DaC5OWmRwVRB755%252Fj3%252BGL9VPsBJirURze4hoYo0p%252FAxk%253D%26wx_header%3D1#wechat_redirect" target="_blank" rel="noopener">自建图床服务的专辑文章(微信打开)</a></h4><h2 id="图床工具"><a href="#图床工具" class="headerlink" title="图床工具"></a>图床工具</h2><p>推荐的工具是用户比较多、评价比较好的，如果有不称手的地方，学有余力的同学也可以自行摸索其他工具。工具较多，难以面面俱到，因此其他工具不在帮助范围内，还请理解。</p><h4 id="1-Windows版图床工具MPic体验"><a href="#1-Windows版图床工具MPic体验" class="headerlink" title="1. Windows版图床工具MPic体验"></a>1. <a href="https://www.jianguoyun.com/p/DdPNQSsQ4sjQBxjPmZED" target="_blank" rel="noopener">Windows版图床工具MPic体验</a></h4><h4 id="2-图床工具PicGo的官网-适用Win和Mac双平台"><a href="#2-图床工具PicGo的官网-适用Win和Mac双平台" class="headerlink" title="2.图床工具PicGo的官网(适用Win和Mac双平台)"></a>2.<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">图床工具PicGo的官网(适用Win和Mac双平台)</a></h4><h4 id="3-图床工具uPic的官网-适用Mac平台"><a href="#3-图床工具uPic的官网-适用Mac平台" class="headerlink" title="3.图床工具uPic的官网(适用Mac平台)"></a>3.<a href="https://github.com/gee1k/uPic/releases" target="_blank" rel="noopener">图床工具uPic的官网(适用Mac平台)</a></h4><h4 id="4-LEO提供的图床工具备份下载-坚果云网盘"><a href="#4-LEO提供的图床工具备份下载-坚果云网盘" class="headerlink" title="4.LEO提供的图床工具备份下载(坚果云网盘)"></a>4.<a href="https://www.jianguoyun.com/p/DQH1bOgQ4sjQBxjsjpYD" target="_blank" rel="noopener">LEO提供的图床工具备份下载(坚果云网盘)</a></h4><h2 id="配套工具"><a href="#配套工具" class="headerlink" title="配套工具"></a>配套工具</h2><p>推荐的工具是用户比较多、评价比较好的，如果有不称手的地方，学有余力的同学也可以自行摸索其他工具。工具较多，难以面面俱到，因此其他工具不在帮助范围内，还请理解。</p><h4 id="1-截图工具Snipaste-Win和Mac双平台"><a href="#1-截图工具Snipaste-Win和Mac双平台" class="headerlink" title="1.截图工具Snipaste Win和Mac双平台"></a>1.<a href="https://zh.snipaste.com" target="_blank" rel="noopener">截图工具Snipaste Win和Mac双平台</a></h4><h4 id="2-动图录制工具LICEcap-Win和Mac双平台"><a href="#2-动图录制工具LICEcap-Win和Mac双平台" class="headerlink" title="2.动图录制工具LICEcap Win和Mac双平台"></a>2.<a href="https://www.cockos.com/licecap/" target="_blank" rel="noopener">动图录制工具LICEcap Win和Mac双平台</a></h4><h4 id="3-动图录制工具GifCam-Win平台"><a href="#3-动图录制工具GifCam-Win平台" class="headerlink" title="3.动图录制工具GifCam Win平台"></a>3.<a href="https://gifcam.en.softonic.com/download" target="_blank" rel="noopener">动图录制工具GifCam Win平台</a></h4><hr><h2 id="问题补充"><a href="#问题补充" class="headerlink" title="问题补充"></a>问题补充</h2><p>大家在使用中碰到什么请反馈给LEO，之后会在这里呈现。</p><hr>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;包括图床的介绍，自建图床的方法，以及LEO提供的一站式图床服务。&lt;/p&gt;
-&lt;h4 id=&quot;1-学习骇客的图床服务&quot;&gt;&lt;a href=&quot;#1-
       
     
     </summary>
