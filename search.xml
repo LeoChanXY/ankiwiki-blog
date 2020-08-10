@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>RoamResearch替代工具有哪些</title>
+    <url>/2020/08/10/</url>
+    <content><![CDATA[<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>目前类Roam Research笔记都还不够成熟，不建议常规使用，可以选一本书开始读，用读书笔记来尝试，即使遇到故障也无所谓，即使后续迁移也不麻烦。</p>
+<h2 id="葫芦笔记"><a href="#葫芦笔记" class="headerlink" title="葫芦笔记"></a>葫芦笔记</h2><p>当前入口：<a href="https://hulunote.com/app" target="_blank" rel="noopener">https://hulunote.com/app</a></p>
+<p>官方论坛：<a href="https://forum.hulunote.com/" target="_blank" rel="noopener">https://forum.hulunote.com/</a></p>
+<p>参与内测的方法：关注微信公众号“葫芦笔记”找到相关推送文章中的申请内容入口</p>
+<h2 id="我来"><a href="#我来" class="headerlink" title="我来"></a>我来</h2><p>当前入口：<a href="http://wolai.com" target="_blank" rel="noopener">http://wolai.com</a></p>
+<p>获取邀请码的方法：到学习骇客的微信圈子里搜 wolai ，在相关帖子下找到其他同学分享的邀请码，即可注册。</p>
+<p>微信圈子入口：微信公众号“学习骇客”菜单栏，或者从微信 搜一搜-圈子 里搜索 学习骇客 找到</p>
+<h2 id="RoamEdit"><a href="#RoamEdit" class="headerlink" title="RoamEdit"></a>RoamEdit</h2><p>当前入口：<a href="http://roamedit.com/" target="_blank" rel="noopener">http://roamedit.com/</a></p>
+<h2 id="Obsidian"><a href="#Obsidian" class="headerlink" title="Obsidian"></a>Obsidian</h2><p>当前入口：<a href="https://obsidian.md/" target="_blank" rel="noopener">https://obsidian.md/</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>幕布笔记新增格式的配套模板代码</title>
     <url>/2020/07/27/</url>
     <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">.text-color-red&#123;</span><br><span class="line"> color:red;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.text-color-yellow&#123;</span><br><span class="line"> color:yellow;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.text-color-blue&#123;</span><br><span class="line"> color:blue;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.text-color-green&#123;</span><br><span class="line"> color:green;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.text-color-red&#123;</span><br><span class="line"> color:red;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.text-color-purple&#123;</span><br><span class="line"> color:purple;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
