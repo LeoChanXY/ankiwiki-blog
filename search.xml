@@ -3,7 +3,14 @@
   <entry>
     <title>mubu2anki常见问题与解决办法</title>
     <url>/2020/09/06/</url>
-    <content><![CDATA[<p>待续</p>
+    <content><![CDATA[<h2 id="1-先判断是转换工具的问题，还是自己笔记的问题？"><a href="#1-先判断是转换工具的问题，还是自己笔记的问题？" class="headerlink" title="1. 先判断是转换工具的问题，还是自己笔记的问题？"></a>1. 先判断是转换工具的问题，还是自己笔记的问题？</h2><p>下载样例文件：<a href="https://www.jianguoyun.com/p/DcmoP3gQ89bQBxi7jLwD" target="_blank" rel="noopener">https://www.jianguoyun.com/p/DcmoP3gQ89bQBxi7jLwD</a> </p>
+<p>上传到转换页面：<a href="https://hintsnet.com/tools/mubu2anki/index.html" target="_blank" rel="noopener">https://hintsnet.com/tools/mubu2anki/index.html</a></p>
+<p>如果可以转换，说明是自己的笔记的问题，通常是层级不符合要求</p>
+<h2 id="2-关于格式的说明"><a href="#2-关于格式的说明" class="headerlink" title="2. 关于格式的说明"></a>2. 关于格式的说明</h2><p>见 <a href="https://mp.weixin.qq.com/s/7BcJbdtGTXq4BHx8mqU5sA" target="_blank" rel="noopener">将幕布笔记转入ANKI的方法</a></p>
+<h2 id="3-如何排查自己的的笔记中哪里有无关字符"><a href="#3-如何排查自己的的笔记中哪里有无关字符" class="headerlink" title="3. 如何排查自己的的笔记中哪里有无关字符"></a>3. 如何排查自己的的笔记中哪里有无关字符</h2><p>将笔记新建一个副本，然后从末尾开始删除，每次删除一半内容，再去导出转换。</p>
+<p>如果在第二次转换正常，说明问题出在第一次删除的后半内容里，逐步定位，因此类推。</p>
+<p>一般极少数用户由于使用习惯不同可能会出现这样的问题，当排查到以后，注意避免就可以了。</p>
+<h2 id="4-可以转换，但导入ANKI后格式不对"><a href="#4-可以转换，但导入ANKI后格式不对" class="headerlink" title="4. 可以转换，但导入ANKI后格式不对"></a>4. 可以转换，但导入ANKI后格式不对</h2><p>可能是转入过程的选择不对，关于转入过程的描述见 <a href="https://mp.weixin.qq.com/s/7BcJbdtGTXq4BHx8mqU5sA" target="_blank" rel="noopener">将幕布笔记转入ANKI的方法</a></p>
 ]]></content>
   </entry>
   <entry>
