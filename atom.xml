@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anki.wiki/"/>
-  <updated>2020-09-18T09:40:06.000Z</updated>
+  <updated>2020-09-25T12:16:29.000Z</updated>
   <id>https://anki.wiki/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>课程大纲</title>
+    <link href="https://anki.wiki/2020/09/25/"/>
+    <id>https://anki.wiki/2020/09/25/</id>
+    <published>2020-09-25T12:16:29.000Z</published>
+    <updated>2020-09-25T12:16:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p>电脑版（实用版）</p><ul><li><p>Part00 计划外赠：第01章 不定期总结</p></li><li><p>Part00 计划外赠：第02章 新事物尝鲜</p></li><li></li><li><p>Part01 课前准备：第01章 关于课程</p></li><li><p>Part01 课前准备：第02章 学习建议</p></li><li></li><li><p>Part02 核心板块：第03章 快速上手</p></li><li><p>Part02 核心板块：第04章 准备工作</p></li><li><p>Part02 核心板块：第05章 基本设置</p></li><li><p>Part02 核心板块：第06章 添加笔记</p></li><li><p>Part02 核心板块：第07章 学习复习</p></li><li><p>Part02 核心板块：第08章 笔记本与学习计划管理</p></li><li><p>Part02 核心板块：第09章 笔记检索与处理</p></li><li></li><li><p>Part03 热门专题：第10章 同步专题</p></li><li><p>Part03 热门专题：第11章 插件专题</p></li><li><p>Part03 热门专题：第12章 模板专题</p></li><li><p>Part03 热门专题：第13章 故障处理专题</p></li></ul></li></ul><ul><li><p>电脑版（探索版）</p><ul><li><p>含电脑版（实用版）内容Part01、Part02、Part03</p></li><li><p>Part04 探索版专属：第14章 探究不同类别笔记的处理方式</p></li><li><p>Part04 探索版专属：第15章 外围工具与学习流程的打造</p></li><li><p>Part04 探索版专属：第16章 学习科学与暗记软件的使用</p></li></ul></li></ul><ul><li><p>手机版（安卓）</p><ul><li><p>Part01 核心板块</p></li><li><p>Part02 热门专题</p></li><li><p>Part03 平台生态</p></li></ul></li></ul><ul><li><p>手机版（苹果）</p><ul><li>Part01 核心板块</li><li>Part02 热门专题</li><li>Part03 平台生态</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;电脑版（实用版）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Part00 计划外赠：第01章 不定期总结&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Part00 计划外赠：第02章 新事物尝鲜&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Part01 课前准备：第
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>听一听示例素材</title>
@@ -429,27 +458,6 @@
       
       
         &lt;h2 id=&quot;提交新问题&quot;&gt;&lt;a href=&quot;#提交新问题&quot; class=&quot;headerlink&quot; title=&quot;提交新问题&quot;&gt;&lt;/a&gt;提交新问题&lt;/h2&gt;&lt;p&gt;使用&lt;a href=&quot;https://share.mubu.com/doc/6NGiqTLAXEK&quot; target=
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>md2anki问题汇总</title>
-    <link href="https://anki.wiki/2020/05/16/"/>
-    <id>https://anki.wiki/2020/05/16/</id>
-    <published>2020-05-16T12:50:42.000Z</published>
-    <updated>2020-05-16T12:50:42.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="提交新问题"><a href="#提交新问题" class="headerlink" title="提交新问题"></a>提交新问题</h2><p><a href="https://support.qq.com/product/155505" target="_blank" rel="noopener">点我</a>进入腾讯兔小巢提交反馈</p><p>在微信中打开，还可以通过微信收到LEO的回复提醒哦。</p><h2 id="常见老问题"><a href="#常见老问题" class="headerlink" title="常见老问题"></a>常见老问题</h2><p>待补充</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;提交新问题&quot;&gt;&lt;a href=&quot;#提交新问题&quot; class=&quot;headerlink&quot; title=&quot;提交新问题&quot;&gt;&lt;/a&gt;提交新问题&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://support.qq.com/product/155505&quot; target=&quot;_b
       
     
     </summary>
