@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anki.wiki/"/>
-  <updated>2020-09-25T12:16:29.000Z</updated>
+  <updated>2020-11-02T02:11:50.000Z</updated>
   <id>https://anki.wiki/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自定义短语快捷短语</title>
+    <link href="https://anki.wiki/2020/11/02/"/>
+    <id>https://anki.wiki/2020/11/02/</id>
+    <published>2020-11-02T02:11:50.000Z</published>
+    <updated>2020-11-02T02:11:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>格式代码在ANKI里是以HTML代码呈现的。</p><ol><li>在电脑上我们在编辑时按下 <strong>Ctrl Shift X</strong>（或者从编辑工具栏处的三图标那里点开“打开HTML”）就能看到；</li><li>如果是在iOS版ANKI里，需要进入编辑，点击右上角的<strong>尖括号</strong>，才能进入HTML状态，查看到格式代码；</li><li>如果是安卓版ANKI，直接进入<strong>编辑状态</strong>就能看到格式代码和文字混在一起了。</li></ol><p>这些格式代码如果要手动输入，不太方便。尤其是从<strong>幕布</strong>和<strong>RoamResearch</strong>转入的笔记，代码很长，不过好在都是固定的，因此可以我们将这些代码添加到手机输入法的<strong>自定义短语</strong>里（有的也叫快捷短语、懒人短语、文本替换等等），主流输入法都有。</p><ol><li>场景一：<a href="https://mp.weixin.qq.com/s/7BcJbdtGTXq4BHx8mqU5sA" target="_blank" rel="noopener">幕布笔记转入ANKI复习的方法</a></li><li>场景二：<a href="https://mp.weixin.qq.com/s/xWQQI78Y_GBGxi4XyGuiYQ" target="_blank" rel="noopener">Roam Research笔记转入ANKI复习的方法</a></li></ol><p>下面 雷欧 | 在线学习辅导员 来具体谈一下各自场景下的笔记样式、格式代码，供大家参考。</p><h2 id="在幕布里"><a href="#在幕布里" class="headerlink" title="在幕布里"></a>在幕布里</h2><p>在幕布里，笔记样式主要是下图这样，不同颜色等等。</p><p><img src="http://myself.anki.wiki/mpic/20201116/hKh5K6Ix0W42.png" alt="mark"></p><p>转入ANKI里效果如下图所示。</p><p><img src="http://myself.anki.wiki/mpic/20201116/TMoo4AS3AQXQ.png" alt="mark"></p><p>查看格式代码，效果如下图所示。</p><p><img src="http://myself.anki.wiki/mpic/20201116/77pT3G7ALBwX.png" alt="mark"></p><p>如果我们要想在手机或平板上编辑这种笔记的格式，可以将它们添加到手机输入法的快捷短语里。</p><p>具体代码如下，可以复制使用：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"text-color-yellow"</span>&gt;</span>黄色<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"text-color-red"</span>&gt;</span>红色<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"text-color-green"</span>&gt;</span>绿色<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"text-color-blue"</span>&gt;</span>蓝色<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"text-color-purple"</span>&gt;</span>紫色<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span>加粗<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"italic"</span>&gt;</span>斜体<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"underline"</span>&gt;</span>下划线<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="在Roam-Research里"><a href="#在Roam-Research里" class="headerlink" title="在Roam Research里"></a>在Roam Research里</h2><p>和在幕布里的效果类似，在Roam Research里提供了几种样式，分别对应Roam的引用、高亮、加粗等效果，转入ANKI的效果如下。</p><p><img src="http://myself.anki.wiki/mpic/20201116/cdHTnbH2RahO.png" alt="mark"></p><p>具体代码如下，可以复制使用（部分与前面相同）：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"page"</span>&gt;</span>引用<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"highlight"</span>&gt;</span>高亮<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span>加粗<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="其他格式"><a href="#其他格式" class="headerlink" title="其他格式"></a>其他格式</h2><p>以上只列举了两类常用的场景，如果想要了解更多格式，可以按前面的方法进入<strong>HTML模式</strong>查看，将自己常用的格式添加到快捷短语里。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;格式代码在ANKI里是以HTML代码呈现的。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在电脑上我们在编辑时按下 &lt;strong&gt;Ctrl Shift X&lt;/strong&gt;（或者从编辑工具栏处的三图标那里点开“打开HTML”）就能看到；&lt;/li&gt;
+&lt;li&gt;如果是在iOS版ANKI里，需要进
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>课程大纲</title>
@@ -437,27 +461,6 @@
       
         &lt;p&gt;为了尽可能保护版权，保证课程的长期可持续更新，LEO选择了特殊的播放器，这可能会导致某些方面体验变差，但是这些都可以解决，谢谢您给予耐心和理解。&lt;/p&gt;
 &lt;p&gt;如果给您带来不便，可以向LEO申请&lt;strong&gt;一点红包&lt;/strong&gt;的补偿，或者要求&lt;strong&gt;赠送一
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>opml2anki问题汇总</title>
-    <link href="https://anki.wiki/2020/05/17/"/>
-    <id>https://anki.wiki/2020/05/17/</id>
-    <published>2020-05-17T12:51:04.000Z</published>
-    <updated>2020-05-17T12:51:04.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="提交新问题"><a href="#提交新问题" class="headerlink" title="提交新问题"></a>提交新问题</h2><p>使用<a href="https://share.mubu.com/doc/6NGiqTLAXEK" target="_blank" rel="noopener">样例</a>测试，如果没问题，说明是自己的笔记格式不符。</p><p>如何找到有问题的文本？笔记内容逐步减半，多试几次就知道哪里有问题啦</p><p>如果样例也出错无法识别，请反馈到下面链接中并提醒LEO查看。</p><p><a href="https://support.qq.com/product/155505" target="_blank" rel="noopener">点我</a>进入腾讯兔小巢提交反馈</p><p>在微信中打开，还可以通过微信收到LEO的回复提醒哦</p><h2 id="常见老问题（快速导航）"><a href="#常见老问题（快速导航）" class="headerlink" title="常见老问题（快速导航）"></a><a id="00">常见老问题（快速导航）</a></h2><ol><li><a href="#01">显示 #undefined</a></li><li><a href="#02">ANKI里图片裂了</a></li><li><a href="#03">粘贴时幕布网页版弹出窗口</a></li></ol><hr><p><img src="http://myself.anki.wiki/mpic/20200522/J6cm4v9OgQr1.png" alt="mark"></p><h4 id="01"><a href="#01" class="headerlink" title="01"></a><a id="01"><a href="#00">01</a></a></h4><p>第1种情况：复制过去的文本，里面带了无法识别的未知符号，测验方法：把怀疑有问题的地方手动输入一遍</p><p><strong>第2种情况</strong>：空行没有删除，导致上传opml文件到md2anki页面时显示<mark># undefined</mark></p><p><strong>第3种情况</strong>：现在幕布的单独节点导出 与 右上角的导出 都一样了，因此一篇笔记里不能再选择单独导出某个一级节点，所以请大家保持一篇笔记里只有一个一级节点，这样导出就可以了</p><h4 id="02"><a href="#02" class="headerlink" title="02"></a><a id="02"><a href="#00">02</a></a></h4><p><mark>图片导入后显示失败</mark> 05月21日新情况</p><p>原因：幕布代码做了调整</p><p>对策：opml2anki正在适配新调整后的幕布，由于这个工具不是LEO开发的，只能待开发者方便时尽快更新，大家也可以多多呼吁幕布从官方层面支持与ANKI的搭配。</p><p>暂时的办法：</p><ol><li><p>进入笔记的HTML模式查看，是否如下图所示<br> <img src="http://myself.anki.wiki/mpic/20200522/74nMUxV4thNB.png" alt="mark"></p></li><li><p>如果是，则使用ANKI 浏览 中的 替换为 功能，删除多余的符号，具体如下：</p><ol><li><p>先找到今天导入的笔记</p><p><img src="http://myself.anki.wiki/mpic/20200522/3RL1a3rssguP.png" alt="mark"></p></li><li><p>然后全选</p><p><img src="http://myself.anki.wiki/mpic/20200522/06aRDF9NzyBm.png" alt="mark"></p></li><li><p>再通过右键选择 替换为</p><p><img src="http://myself.anki.wiki/mpic/20200522/5rHokG0bTfxP.png" alt="mark"></p></li><li><p>最后把 <code>&lt;img src=&quot;&lt;/span&gt;</code> 替换为 <code>&lt;img src=&quot;</code> 从而实现删除功能，注意后面只少了一个<code>&lt;/span&gt;</code>，不要漏了引号</p><p><img src="http://myself.anki.wiki/mpic/20200522/sn5tJ8LJH0mO.png" alt="mark"></p></li><li><p>还有个细节，如何二次打开HTML代码查看，会发现<code>&lt;img src=&quot;&lt;/span&gt;</code>里的<code>&lt;/span&gt;</code>变成了如下图所示的样子</p><p><img src="http://myself.anki.wiki/mpic/20200522/DhtQ0D1BV6cV.png" alt="mark"></p></li><li><p>那就选中它，仍然使用 替换为 的功能，将它替换为 无 （就是什么都不填）</p><p><img src="http://myself.anki.wiki/mpic/20200522/2rBhOBBI2Snb.png" alt="mark"></p></li></ol></li></ol><h4 id="03"><a href="#03" class="headerlink" title="03"></a><a id="03"><a href="#00">03</a></a></h4><p><mark>使用网页版幕布粘贴图床链接时弹出上传图片窗口</mark></p><p>情况如下图所示<br><img src="http://myself.anki.wiki/mpic/20200522/mSqwLhD6vK9k.png" alt="mark"></p><p>原因分析：可能误碰了上传图片的快捷键<br>解决办法：使用Chrome浏览器（经测试正常）</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;提交新问题&quot;&gt;&lt;a href=&quot;#提交新问题&quot; class=&quot;headerlink&quot; title=&quot;提交新问题&quot;&gt;&lt;/a&gt;提交新问题&lt;/h2&gt;&lt;p&gt;使用&lt;a href=&quot;https://share.mubu.com/doc/6NGiqTLAXEK&quot; target=
       
     
     </summary>

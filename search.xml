@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>自定义短语快捷短语</title>
+    <url>/2020/11/02/</url>
+    <content><![CDATA[<p>格式代码在ANKI里是以HTML代码呈现的。</p>
+<ol>
+<li>在电脑上我们在编辑时按下 <strong>Ctrl Shift X</strong>（或者从编辑工具栏处的三图标那里点开“打开HTML”）就能看到；</li>
+<li>如果是在iOS版ANKI里，需要进入编辑，点击右上角的<strong>尖括号</strong>，才能进入HTML状态，查看到格式代码；</li>
+<li>如果是安卓版ANKI，直接进入<strong>编辑状态</strong>就能看到格式代码和文字混在一起了。</li>
+</ol>
+<p>这些格式代码如果要手动输入，不太方便。尤其是从<strong>幕布</strong>和<strong>RoamResearch</strong>转入的笔记，代码很长，不过好在都是固定的，因此可以我们将这些代码添加到手机输入法的<strong>自定义短语</strong>里（有的也叫快捷短语、懒人短语、文本替换等等），主流输入法都有。</p>
+<ol>
+<li>场景一：<a href="https://mp.weixin.qq.com/s/7BcJbdtGTXq4BHx8mqU5sA" target="_blank" rel="noopener">幕布笔记转入ANKI复习的方法</a></li>
+<li>场景二：<a href="https://mp.weixin.qq.com/s/xWQQI78Y_GBGxi4XyGuiYQ" target="_blank" rel="noopener">Roam Research笔记转入ANKI复习的方法</a></li>
+</ol>
+<p>下面 雷欧 | 在线学习辅导员 来具体谈一下各自场景下的笔记样式、格式代码，供大家参考。</p>
+<h2 id="在幕布里"><a href="#在幕布里" class="headerlink" title="在幕布里"></a>在幕布里</h2><p>在幕布里，笔记样式主要是下图这样，不同颜色等等。</p>
+<p><img src="http://myself.anki.wiki/mpic/20201116/hKh5K6Ix0W42.png" alt="mark"></p>
+<p>转入ANKI里效果如下图所示。</p>
+<p><img src="http://myself.anki.wiki/mpic/20201116/TMoo4AS3AQXQ.png" alt="mark"></p>
+<p>查看格式代码，效果如下图所示。</p>
+<p><img src="http://myself.anki.wiki/mpic/20201116/77pT3G7ALBwX.png" alt="mark"></p>
+<p>如果我们要想在手机或平板上编辑这种笔记的格式，可以将它们添加到手机输入法的快捷短语里。</p>
+<p>具体代码如下，可以复制使用：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"text-color-yellow"</span>&gt;</span>黄色<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"text-color-red"</span>&gt;</span>红色<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"text-color-green"</span>&gt;</span>绿色<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"text-color-blue"</span>&gt;</span>蓝色<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"text-color-purple"</span>&gt;</span>紫色<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span>加粗<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"italic"</span>&gt;</span>斜体<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"underline"</span>&gt;</span>下划线<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="在Roam-Research里"><a href="#在Roam-Research里" class="headerlink" title="在Roam Research里"></a>在Roam Research里</h2><p>和在幕布里的效果类似，在Roam Research里提供了几种样式，分别对应Roam的引用、高亮、加粗等效果，转入ANKI的效果如下。</p>
+<p><img src="http://myself.anki.wiki/mpic/20201116/cdHTnbH2RahO.png" alt="mark"></p>
+<p>具体代码如下，可以复制使用（部分与前面相同）：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"page"</span>&gt;</span>引用<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"highlight"</span>&gt;</span>高亮<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"bold"</span>&gt;</span>加粗<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="其他格式"><a href="#其他格式" class="headerlink" title="其他格式"></a>其他格式</h2><p>以上只列举了两类常用的场景，如果想要了解更多格式，可以按前面的方法进入<strong>HTML模式</strong>查看，将自己常用的格式添加到快捷短语里。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>课程大纲</title>
     <url>/2020/09/25/</url>
     <content><![CDATA[<ul>
