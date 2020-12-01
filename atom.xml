@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anki.wiki/"/>
-  <updated>2020-11-02T02:11:50.000Z</updated>
+  <updated>2020-12-01T03:30:42.000Z</updated>
   <id>https://anki.wiki/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>批量缓存课程的方法</title>
+    <link href="https://anki.wiki/2020/12/01/"/>
+    <id>https://anki.wiki/2020/12/01/</id>
+    <published>2020-12-01T03:30:42.000Z</published>
+    <updated>2020-12-01T03:30:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>由于课程在使用专用加密播放器时，需要一个一个缓存，过程比较麻烦，并且常常缓存出错，因此给大家提供离线版，将已更新内容集中下载，然后放到缓存目录里，之后更新的部分再继续通过在线更新缓存的方式学习。</p><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>Windows电脑 &gt;&gt; 进入C盘，找到myvideo这个文件夹，这就是缓存视频的位置。</p><p>Mac电脑 &gt;&gt; 进入 我的文稿 ，找到myvideo这个文件夹，这就是缓存视频的位置。</p><p>然后从下面下载对应版本的缓存文件，下载，并解压到上面的缓存位置。</p><blockquote><p>百度网盘用户多，但非会员下载慢，坚果云网盘（推荐）无需注册、登录、安装APP、也不限速。</p></blockquote><p><a href="https://www.jianguoyun.com/p/Dde5LQIQ89bQBxjO9NAD" target="_blank" rel="noopener">https://www.jianguoyun.com/p/Dde5LQIQ89bQBxjO9NAD</a> (访问密码 : anki)</p><p>手机版：苹果版（都是在电脑上看）</p><p><a href="https://pan.baidu.com/s/13xJ0W8LGS0EvDl27EGzqmw" target="_blank" rel="noopener">百度网盘</a> 提取码：anki</p><p><a href="https://www.jianguoyun.com/p/DRmqCZ0Q89bQBxjG9NAD" target="_blank" rel="noopener">坚果云网盘</a> 提取码：anki</p><p>手机版：安卓版（都是在电脑上看）</p><p><a href="https://pan.baidu.com/s/14ff_-_VulSg30gdzQR1ULA" target="_blank" rel="noopener">百度网盘</a> 提取码：anki</p><p><a href="https://www.jianguoyun.com/p/Dcp0e-QQ89bQBxjK9NAD" target="_blank" rel="noopener">坚果云网盘</a> 提取码：anki</p><p>电脑版：实用版（购买了探索版课程的同学也需要下载这个部分，探索版包括实用版）</p><p><a href="https://pan.baidu.com/s/1C3w42NsRGWEbvaKVrVkpxQ" target="_blank" rel="noopener">百度网盘</a> 提取码：anki</p><p><a href="https://www.jianguoyun.com/p/DT9TgLoQ89bQBxjM9NAD" target="_blank" rel="noopener">坚果云网盘</a> 提取码：anki</p><p>电脑版：探索版（购买实用版课程的同学不需要下载这个部分，这是探索版专属的内容）</p><p><a href="https://pan.baidu.com/s/1KGmGAPpL6e8o7Zt_nbCkKg" target="_blank" rel="noopener">百度网盘</a> 提取码：anki</p><p><a href="https://www.jianguoyun.com/p/Dde5LQIQ89bQBxjO9NAD" target="_blank" rel="noopener">坚果云网盘</a> 提取码：anki</p><h2 id="下载后使用方法（电脑小白同学尤其请注意哦）"><a href="#下载后使用方法（电脑小白同学尤其请注意哦）" class="headerlink" title="下载后使用方法（电脑小白同学尤其请注意哦）"></a>下载后使用方法（电脑小白同学尤其请注意哦）</h2><p>关于压缩包格式，这需要用专门的解压缩软件，Windows电脑推荐，Mac电脑推荐。</p><p>有了解压缩软件以后，在压缩包文件上点击右键，选择解压相关的选项，才能得到文件。</p><p>不要通过直接双击压缩包的形式使用压缩包文件哦。</p><p>解压出来的文件，可能外面套了一个文件夹，注意是将文件夹里面的文件放到缓存目录里，就像下图。</p><p><img src="http://myself.anki.wiki/mpic/20201201/i0T1HyCw1grR.png" alt="mark"></p><p>而如果文件夹里又套了一个文件夹，就是错的，像下图这样</p><p><img src="http://myself.anki.wiki/mpic/20201201/VcBm0UUGhDU1.png" alt="mark"></p><p><img src="http://myself.anki.wiki/mpic/20201201/SU6FCn8OLDTe.png" alt="mark"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;由于课程在使用专用加密播放器时，需要一个一个缓存，过程比较麻烦，并且常常缓存出错，因此给大家提供离线版，将已更新内容集中下载，然后放到缓存目录里，之后更新的部分再继续通过在线更新缓存的方式学习。&lt;/p&gt;
+&lt;h3 id=&quot;使用方法&quot;&gt;&lt;a href=&quot;#使用方法&quot; class
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>自定义短语快捷短语</title>
@@ -439,28 +461,6 @@
 &lt;p&gt;当前文档更新于：2020年11月02日&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;总时长&quot;&gt;&lt;a href=&quot;#
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>新版课程播放器下载</title>
-    <link href="https://anki.wiki/2020/05/18/"/>
-    <id>https://anki.wiki/2020/05/18/</id>
-    <published>2020-05-18T15:54:08.000Z</published>
-    <updated>2020-05-18T15:54:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>为了尽可能保护版权，保证课程的长期可持续更新，LEO选择了特殊的播放器，这可能会导致某些方面体验变差，但是这些都可以解决，谢谢您给予耐心和理解。</p><p>如果给您带来不便，可以向LEO申请<strong>一点红包</strong>的补偿，或者要求<strong>赠送一次一对一</strong>集中答疑机会。</p><p>感谢您支持正版，如果这笔钱对您比较大，可以通过推荐学生的形式在之后<strong>领取10%</strong>的推荐奖励，400元的课程奖励40元现金，具体可以与LEO私聊确认。</p><h2 id="坚果云网盘下载"><a href="#坚果云网盘下载" class="headerlink" title="坚果云网盘下载"></a>坚果云网盘下载</h2><p><a href="https://www.jianguoyun.com/p/DT9Me-wQ8LmgBxiOgZoD" target="_blank" rel="noopener">点击下载</a></p><p>请使用电脑浏览器下载，坚果云网盘不限速，不需要登录，无需安装APP。</p><p>如果上面的版本有使用问题，可以用这里的<strong><a href="https://www.jianguoyun.com/p/DT_IhbsQ38jQBxiNsJ8D" target="_blank" rel="noopener">绿色版</a></strong>，绿色版就是无需安装程序，下载后点击直接启用。</p><h2 id="百度网盘下载"><a href="#百度网盘下载" class="headerlink" title="百度网盘下载"></a>百度网盘下载</h2><p><a href="https://pan.baidu.com/s/1AKUsrPCazjc8clfa682Yog" target="_blank" rel="noopener">点击下载</a></p><p>提取码：3gk1</p><p>百度网盘现在强制分享都带提取码，请输入提取码保存或下载。</p><p>如果是下载，请使用电脑浏览器。</p><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><ol><li>缓存文件的<strong>位置</strong>在哪？<ol><li>Windows电脑在 C:/myvideo 文件夹中，暂不支持迁移到其他盘。</li><li>Mac电脑在 文稿 文件夹中的 myvideo 文件夹中。</li></ol></li><li>全部缓存文件有<strong>多大</strong>？<ol><li>截止2020年05月22日，全部已更新视频约1.5G，如果买了某些版的课程会比这些更小。</li></ol></li><li>视频观看一定得<strong>联网</strong>吗？<ol><li>是的。</li><li>缓存的时候，需要联网下载视频。</li><li>登陆的时候需要验证权限，仅需少量流量。</li></ol></li></ol><h2 id="常见故障"><a href="#常见故障" class="headerlink" title="常见故障"></a>常见故障</h2><ol><li>Windows Defender拦截提示木马，这属于误报，请放行或添加到信任。目前已在用户比较多的 360 和 金山 两家做了备案，可通过检测，由于WindowsDefender申请复杂且用户较少，因此暂未备案。</li><li>频繁地连续地点击播放器，可能导致<strong>卡顿</strong>，关掉重开即可。</li><li>同时进行缓存可能增加<strong>文件损坏</strong>的几率，建议一个一个地缓存，或者看哪个时再缓存该文件。</li><li>播放视频的时候<strong>卡住</strong>，怎么办？<br> 视频在缓存过程中损坏，可以按提示找到缓存文件，删除后重新缓存。<br> 如果能看到播放列表，可以在播放卡住时，在播放界面点击鼠标右键，选择<strong>清除此文件的缓存</strong>，然后从播放列表里重新选择缓存。</li><li>播放列表里出现<strong>目录重复</strong>列怎么办？遇到bug了，重开即可。</li><li>Mac电脑打开播放器提示“<strong>无法打开XX，因为无法验证开发者</strong>”，怎么办？<ol><li>这是Mac电脑上经常会遇到的问题，一些小的开发者未向苹果缴纳认证费就会出现这个提示，如果想彻底了解是怎么回事，可以<a href="[https://www.baidu.com/s?ie=UTF-8&wd=%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80XX%EF%BC%8C%E5%9B%A0%E4%B8%BA%E6%97%A0%E6%B3%95%E9%AA%8C%E8%AF%81%E5%BC%80%E5%8F%91%E8%80%85](https://www.baidu.com/s?ie=UTF-8&wd=无法打开XX，因为无法验证开发者)">点我查看百度里的解答</a>。</li><li>简单的办法：不要双击打开，而是右键选择“打开”。</li><li>另外简单的方法：一些同学发现，如果是从百度网盘下载，就不会有这样的提示。</li></ol></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;为了尽可能保护版权，保证课程的长期可持续更新，LEO选择了特殊的播放器，这可能会导致某些方面体验变差，但是这些都可以解决，谢谢您给予耐心和理解。&lt;/p&gt;
-&lt;p&gt;如果给您带来不便，可以向LEO申请&lt;strong&gt;一点红包&lt;/strong&gt;的补偿，或者要求&lt;strong&gt;赠送一
       
     
     </summary>
